@@ -12,7 +12,7 @@ All links should be visible to everyone with the link, please let me know when t
 * [Virtual function performance benchmarking](https://docs.google.com/presentation/d/1p2yPKPnERp4iJ3NklOPqwXmV3SGJubUVlEqNP_cUGiY/edit?usp=sharing)
 This presentation was prepared for the unrealized master student project for benchmarking the virtual functions. Maybe it can be reused at one point.
 * [BNG-HAL presentation](https://docs.google.com/presentation/d/1SAISxUQ-1muUMb-BiF_8YRlrCdiHN9cHHVU2SOw3UVA/edit?usp=sharing)
-* [Machine Learning overview](https://docs.google.com/presentation/d/1SAISxUQ-1muUMb-BiF_8YRlrCdiHN9cHHVU2SOw3UVA/edit?usp=sharing)
+* [Machine Learning overview](https://docs.google.com/presentation/d/16-P0cm302w0zCp0pfbmiWcf8vSKiu77dGBBwHdSQ9LI/edit?usp=sharing)
 Done in collaboration with Ameya Joshi from TUC, is an initial presentation about ML and its types. Was presented at BISDN.
 * [CASWELL platform overview](https://docs.google.com/presentation/d/1wiW-9OxizeVXvAVMcbFA6tx4mLmOBpjeutvP3Ikk9Ww/edit?usp=sharing)
 
