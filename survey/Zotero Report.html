@@ -1,0 +1,4920 @@
+<!DOCTYPE html>
+<html><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Zotero Report</title>
+		<link rel="stylesheet" type="text/css" href="data:text/css;base64,Ym9keSB7CgliYWNrZ3JvdW5kOiB3aGl0ZTsKfQoKYSB7Cgl0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTsKfQoKYm9keSB7CglwYWRkaW5nOiAwOwp9Cgp1bC5yZXBvcnQgbGkuaXRlbSB7Cglib3JkZXItdG9wOiA0cHggc29saWQgIzU1NTsKCXBhZGRpbmctdG9wOiAxZW07CglwYWRkaW5nLWxlZnQ6IDFlbTsKCXBhZGRpbmctcmlnaHQ6IDFlbTsKCW1hcmdpbi1ib3R0b206IDJlbTsKfQoKaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7Cglmb250LXdlaWdodDogbm9ybWFsOwp9CgpoMiB7CgltYXJnaW46IDAgMCAuNWVtOwp9CgpoMi5wYXJlbnRJdGVtIHsKCWZvbnQtd2VpZ2h0OiBib2xkOwoJZm9udC1zaXplOiAxZW07CglwYWRkaW5nOiAwIDAgLjVlbTsKCWJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjY2NjOwp9CgovKiBJZiBjb21iaW5pbmcgY2hpbGRyZW4sIGRpc3BsYXkgcGFyZW50IHNsaWdodGx5IGxhcmdlciAqLwp1bC5yZXBvcnQuY29tYmluZUNoaWxkSXRlbXMgaDIucGFyZW50SXRlbSB7Cglmb250LXNpemU6IDEuMWVtOwoJcGFkZGluZy1ib3R0b206IC43NWVtOwoJbWFyZ2luLWJvdHRvbTogLjRlbTsKfQoKaDIucGFyZW50SXRlbSAudGl0bGUgewoJZm9udC13ZWlnaHQ6IG5vcm1hbDsKfQoKaDMgewoJbWFyZ2luLWJvdHRvbTogLjZlbTsKCWZvbnQtd2VpZ2h0OiBib2xkICFpbXBvcnRhbnQ7Cglmb250LXNpemU6IDFlbTsKCWRpc3BsYXk6IGJsb2NrOwp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0aCB7Cgl2ZXJ0aWNhbC1hbGlnbjogdG9wOwoJdGV4dC1hbGlnbjogcmlnaHQ7Cgl3aWR0aDogMTUlOwoJd2hpdGUtc3BhY2U6IG5vd3JhcDsKfQoKdGQgewoJcGFkZGluZy1sZWZ0OiAuNWVtOwp9CgoKdWwucmVwb3J0LCB1bC5ub3RlcywgdWwudGFncyB7CglsaXN0LXN0eWxlOiBub25lOwoJbWFyZ2luLWxlZnQ6IDA7CglwYWRkaW5nLWxlZnQ6IDA7Cn0KCi8qIFRhZ3MgKi8KaDMudGFncyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC50YWdzIHsKCWxpbmUtaGVpZ2h0OiAxLjc1ZW07CglsaXN0LXN0eWxlOiBub25lOwp9Cgp1bC50YWdzIGxpIHsKCWRpc3BsYXk6IGlubGluZTsKfQoKdWwudGFncyBsaTpub3QoOmxhc3QtY2hpbGQpOmFmdGVyIHsKCWNvbnRlbnQ6ICcsICc7Cn0KCgovKiBDaGlsZCBub3RlcyAqLwpoMy5ub3RlcyB7Cglmb250LXNpemU6IDEuMWVtOwp9Cgp1bC5ub3RlcyB7CgltYXJnaW4tYm90dG9tOiAxLjJlbTsKfQoKdWwubm90ZXMgPiBsaTpmaXJzdC1jaGlsZCBwIHsKCW1hcmdpbi10b3A6IDA7Cn0KCnVsLm5vdGVzID4gbGkgewoJcGFkZGluZzogLjdlbSAwOwp9Cgp1bC5ub3RlcyA+IGxpOm5vdCg6bGFzdC1jaGlsZCkgewoJYm9yZGVyLWJvdHRvbTogMXB4ICNjY2Mgc29saWQ7Cn0KCgp1bC5ub3RlcyA+IGxpIHA6Zmlyc3QtY2hpbGQgewoJbWFyZ2luLXRvcDogMDsKfQoKdWwubm90ZXMgPiBsaSBwOmxhc3QtY2hpbGQgewoJbWFyZ2luLWJvdHRvbTogMDsKfQoKLyogQWRkIHF1b3RhdGlvbiBtYXJrcyBhcm91bmQgYmxvY2txdW90ZSAqLwp1bC5ub3RlcyA+IGxpIGJsb2NrcXVvdGUgcDpub3QoOmVtcHR5KTpiZWZvcmUsCmxpLm5vdGUgYmxvY2txdW90ZSBwOm5vdCg6ZW1wdHkpOmJlZm9yZSB7Cgljb250ZW50OiAn4oCcJzsKfQoKdWwubm90ZXMgPiBsaSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciwKbGkubm90ZSBibG9ja3F1b3RlIHA6bm90KDplbXB0eSk6bGFzdC1jaGlsZDphZnRlciB7Cgljb250ZW50OiAn4oCdJzsKfQoKLyogUHJlc2VydmUgd2hpdGVzcGFjZSBvbiBwbGFpbnRleHQgbm90ZXMgKi8KdWwubm90ZXMgbGkgcC5wbGFpbnRleHQsIGxpLm5vdGUgcC5wbGFpbnRleHQsIGRpdi5ub3RlIHAucGxhaW50ZXh0IHsKCXdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKLyogRGlzcGxheSB0YWdzIHdpdGhpbiBjaGlsZCBub3RlcyBpbmxpbmUgKi8KdWwubm90ZXMgaDMudGFncyB7CglkaXNwbGF5OiBpbmxpbmU7Cglmb250LXNpemU6IDFlbTsKfQoKdWwubm90ZXMgaDMudGFnczphZnRlciB7Cgljb250ZW50OiAnICc7Cn0KCnVsLm5vdGVzIHVsLnRhZ3MgewoJZGlzcGxheTogaW5saW5lOwp9Cgp1bC5ub3RlcyB1bC50YWdzIGxpOm5vdCg6bGFzdC1jaGlsZCk6YWZ0ZXIgewoJY29udGVudDogJywgJzsKfQoKCi8qIENoaWxkIGF0dGFjaG1lbnRzICovCmgzLmF0dGFjaG1lbnRzIHsKCWZvbnQtc2l6ZTogMS4xZW07Cn0KCnVsLmF0dGFjaG1lbnRzIGxpIHsKCXBhZGRpbmctdG9wOiAuNWVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSB7CgltYXJnaW4tbGVmdDogMmVtOwp9Cgp1bC5hdHRhY2htZW50cyBkaXYubm90ZSBwOmZpcnN0LWNoaWxkIHsKCW1hcmdpbi10b3A6IC43NWVtOwp9CgpkaXYgdGFibGUgewoJYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsKfQoKZGl2IHRhYmxlIHRkLCBkaXYgdGFibGUgdGggewoJYm9yZGVyOiAxcHggI2NjYyBzb2xpZDsKCWJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7Cgl3b3JkLWJyZWFrOiBicmVhay1hbGw7Cn0KCmRpdiB0YWJsZSB0ZCBwOmVtcHR5OjphZnRlciwgZGl2IHRhYmxlIHRoIHA6ZW1wdHk6OmFmdGVyIHsKCWNvbnRlbnQ6ICJcMDBhMCI7Cn0KCmRpdiB0YWJsZSB0ZCAqOmZpcnN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpmaXJzdC1jaGlsZCB7CgltYXJnaW4tdG9wOiAwOwp9CgpkaXYgdGFibGUgdGQgKjpsYXN0LWNoaWxkLCBkaXYgdGFibGUgdGggKjpsYXN0LWNoaWxkIHsKCW1hcmdpbi1ib3R0b206IDA7Cn0K">
+		<link rel="stylesheet" type="text/css" media="screen,projection" href="data:text/css;base64,LyogR2VuZXJpYyBzdHlsZXMgKi8KYm9keSB7Cglmb250OiA2Mi41JSBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cgl3aWR0aDogNzgwcHg7CgltYXJnaW46IDAgYXV0bzsKfQoKaDIgewoJZm9udC1zaXplOiAxLjVlbTsKCWxpbmUtaGVpZ2h0OiAxLjVlbTsKCWZvbnQtZmFtaWx5OiBHZW9yZ2lhLCBUaW1lcywgc2VyaWY7Cn0KCnAgewoJbGluZS1oZWlnaHQ6IDEuNWVtOwp9CgphOmxpbmssIGE6dmlzaXRlZCB7Cgljb2xvcjogIzkwMDsKfQoKYTpob3ZlciwgYTphY3RpdmUgewoJY29sb3I6ICM3Nzc7Cn0KCgp1bC5yZXBvcnQgewoJZm9udC1zaXplOiAxLjRlbTsKCXdpZHRoOiA2ODBweDsKCW1hcmdpbjogMCBhdXRvOwoJcGFkZGluZzogMjBweCAyMHB4Owp9CgovKiBNZXRhZGF0YSB0YWJsZSAqLwp0YWJsZSB7Cglib3JkZXI6IDFweCAjY2NjIHNvbGlkOwoJb3ZlcmZsb3c6IGF1dG87Cgl3aWR0aDogMTAwJTsKCW1hcmdpbjogLjFlbSBhdXRvIC43NWVtOwoJcGFkZGluZzogMC41ZW07Cn0K">
+		<link rel="stylesheet" type="text/css" media="print" href="data:text/css;base64,Ym9keSB7Cglmb250OiAxMnB0ICJUaW1lcyBOZXcgUm9tYW4iLCBUaW1lcywgR2VvcmdpYSwgc2VyaWY7CgltYXJnaW46IDA7Cgl3aWR0aDogYXV0bzsKCWNvbG9yOiBibGFjazsKfQoKLyogUGFnZSBCcmVha3MgKHBhZ2UtYnJlYWstaW5zaWRlIG9ubHkgcmVjb2duaXplZCBieSBPcGVyYSkgKi8KaDEsIGgyLCBoMywgaDQsIGg1LCBoNiB7CglwYWdlLWJyZWFrLWFmdGVyOiBhdm9pZDsKCXBhZ2UtYnJlYWstaW5zaWRlOiBhdm9pZDsKfQoKdWwsIG9sLCBkbCB7CglwYWdlLWJyZWFrLWluc2lkZTogYXZvaWQ7Cgljb2xvci1hZGp1c3Q6IGV4YWN0Owp9CgpoMiB7Cglmb250LXNpemU6IDEuM2VtOwoJbGluZS1oZWlnaHQ6IDEuM2VtOwp9CgphIHsKCWNvbG9yOiAjMDAwOwoJdGV4dC1kZWNvcmF0aW9uOiBub25lOwp9Cg==">
+	</head>
+	<body>
+		<ul class="report combineChildItems">
+			<li id="item_EBNPLCEM" class="item webpage">
+			<h2>traffic classes analysis - Online LaTeX Editor Overleaf</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Web Page</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.overleaf.com/project/61c2ee2c5996087befb13ef0">https://www.overleaf.com/project/61c2ee2c5996087befb13ef0</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>02/05/2022, 09:33:55</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>02/05/2022, 09:33:55</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>02/05/2022, 09:33:55</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_BSZ43SXQ">traffic classes analysis - Online LaTeX Editor Overleaf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_NPG2GHVY" class="item journalArticle">
+			<h2>Green Future Networks: Sustainability Challenges and Initiatives in Mobile Networks</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Zotero</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.ngmn.org/wp-content/uploads/210719_NGMN_GFN_Sustainability-Challenges-and-Initiatives_v1.0.pdf">https://www.ngmn.org/wp-content/uploads/210719_NGMN_GFN_Sustainability-Challenges-and-Initiatives_v1.0.pdf</a></td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>37</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>02/05/2022, 14:10:32</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>02/05/2022, 14:16:27</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_CUU7GX7A">Green Future Networks Sustainability Challenges a.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_9EKG6Y2R" class="item conferencePaper">
+			<h2>Comparing the performance of state-of-the-art software switches for NFV</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Tianzhu Zhang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Leonardo Linguaglossa</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Massimo Gallo</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Paolo Giaccone</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Luigi Iannone</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>James Roberts</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019-12-03</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3359989.3365415">https://dl.acm.org/doi/10.1145/3359989.3365415</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 11:59:09</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Orlando Florida</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-6998-5</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>68-81</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 15th International Conference on Emerging Networking Experiments And Technologies</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>CoNEXT '19: The 15th International Conference on emerging Networking EXperiments and Technologies</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3359989.3365415">10.1145/3359989.3365415</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 11:59:09</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 11:59:09</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_K3VI2B5V">
+<div><div data-schema-version="8"><p>6- Benchmarking</p>
+</div></div>
+					</li>
+					<li id="item_I7QG39TC">
+<div><div data-schema-version="8"><p>R+ measure</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_MNFE5NJ8">Zhang et al. - 2019 - Comparing the performance of state-of-the-art soft.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_2R6HRQN5" class="item journalArticle">
+			<h2>A comprehensive survey of Network Function Virtualization</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Bo Yi</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Xingwei Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Keqin Li</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Sajal k. Das</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Min Huang</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>03/2018</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S1389128618300306">https://linkinghub.elsevier.com/retrieve/pii/S1389128618300306</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>14/04/2022, 12:11:53</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>133</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>212-262</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Computer Networks</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.comnet.2018.01.021">10.1016/j.comnet.2018.01.021</a></td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Computer Networks</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>13891286</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>14/04/2022, 12:11:53</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>02/05/2022, 10:08:47</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>5.1 Virtual Functions</li>
+				</ul>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_VK6PB4G9">
+<div><div data-schema-version="8"><p>5.1 Virtual Functions</p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_4MEPNPFI" class="item journalArticle">
+			<h2>Network Temperature: A Novel Statistical Index for Networks Measurement and Management</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Changda Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Xiaowei Li</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Elisa Bertino</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Being able to monitor each packet path is critical for 
+effective measurement and management of networks. However, such detailed
+ monitoring can be very expensive especially for large-scale networks. 
+To address such problem, inspired by thermodynamics, which uses the 
+statistical characteristics of a large number of molecules’ motion but 
+not each molecule’s trajectory for analysis, we propose the new concept 
+of
+              network temperature
+              together with the notions of
+              network-specific heat
+              and
+              network temperature gradient
+              . Our approach does not only provide a statistical view of
+ the current network state consisting of all the active packet paths at 
+each time instant, but can be used to represent transitions among 
+network states. Our network temperature-based methods have a broad 
+applicability, such as to DDoS detection, dynamic node importance 
+ranking, network stability and robustness evaluation, reliable packets 
+routing, provenance compression assessment, and so on. Numerical and/or 
+the experimental results show that our methods are effective.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022-08-31</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Network Temperature</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3511093">https://dl.acm.org/doi/10.1145/3511093</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 10:26:46</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>22</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1-20</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>ACM Transactions on Internet Technology</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3511093">10.1145/3511093</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>ACM Trans. Internet Technol.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1533-5399, 1557-6051</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 10:26:46</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 10:26:46</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_VQAXHSVY">
+<div><div data-schema-version="8"><p>6 - benchmarking technologies</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_7UKPJI2W">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_DDYHAEPG" class="item conferencePaper">
+			<h2>Closed-loop Network Performance Monitoring and Diagnosis with ${$SpiderMon$}$</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Weitao Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Xinyu Crystal Wu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Praveen Tammana</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>TS Eugene Ng</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>267–285</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>19th USENIX Symposium on Networked Systems Design and Implementation (NSDI 22)</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 15:17:41</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 15:17:41</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_7GDPGIF5">
+<div><div data-schema-version="8"><p>6.2 Performance metrics</p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_KHXYWSAJ" class="item conferencePaper">
+			<h2>Elixir: A High-performance and Low-cost Approach to Managing Hardware/Software Hybrid Flow Tables Considering Flow Burstiness</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yanshu Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Dan Li</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yuanwei Lu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jianping Wu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Hua Shao</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yutian Wang</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2022-04</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.usenix.org/conference/nsdi22/presentation/wang-yanshu">https://www.usenix.org/conference/nsdi22/presentation/wang-yanshu</a></td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Renton, WA</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>USENIX Association</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-939133-27-4</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>535–550</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>19th USENIX Symposium on Networked Systems Design and Implementation (NSDI 22)</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 15:18:46</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 15:18:46</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_4G3F2A56">Wang et al. - 2022 - Elixir A High-performance and Low-cost Approach t.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_TI92DY7B" class="item conferencePaper">
+			<h2>Flightplan: Dataplane Disaggregation and Placement for P4 Programs</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nik Sultana</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>John Sonchack</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Hans Giesen</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Isaac Pedisich</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Zhaoyang Han</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nishanth Shyamkumar</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Shivani Burad</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>André DeHon</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Boon Thau Loo</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021-04</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.usenix.org/conference/nsdi21/presentation/sultana">https://www.usenix.org/conference/nsdi21/presentation/sultana</a></td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>USENIX Association</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-939133-21-2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>571–592</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>18th USENIX Symposium on Networked Systems Design and Implementation (NSDI 21)</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>20/04/2022, 16:14:33</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>20/04/2022, 16:14:33</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_MWP5JL6Z" class="item journalArticle">
+			<h2>A study on impact of wired access networks for green Internet</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yuhwa Suh</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Kiyoung Kim</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Aran Kim</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yongtae Shin</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The energy consumption of data network equipment used for the 
+Internet is generally unknown, although such equipment is known to use a
+ substantial amount of energy. In addition, there is a lack of related 
+studies with a special focus on wired networking. This paper aims at 
+analyzing the impact of wired access networks in data network for 
+greening the Internet, and encouraging further research in this field by
+ clearly presenting the significance and reasonability of this endeavor.
+ For this work, we first introduce the background and motivation of 
+green networking. Next, we survey the existing works and describe 
+reasonability of our approach, and then we estimate the overall energy 
+consumption of wired access networks by which the energy consumption of 
+data network is driven, calculate CO2 emissions and economic costs from 
+the energy consumption and explore savings potential of them. Going a 
+step, we analyze the impact of energy consumption, economy, and 
+environment from the use of wired access network equipment depending on 
+IP traffic types. Finally, we present a new viewpoint on energy 
+efficiency focusing on the quality-of-service with future works related 
+to this issue.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2015</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.sciencedirect.com/science/article/pii/S1084804515001940">https://www.sciencedirect.com/science/article/pii/S1084804515001940</a></td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>57</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>156-168</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Journal of Network and Computer Applications</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/https://doi.org/10.1016/j.jnca.2015.07.016">https://doi.org/10.1016/j.jnca.2015.07.016</a></td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1084-8045</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>02/05/2022, 11:37:52</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>02/05/2022, 11:37:52</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>CO emissions</li>
+					<li>Energy efficiency</li>
+					<li>Green networking</li>
+					<li>Wired access network</li>
+				</ul>
+			</li>
+
+
+			<li id="item_9RVAIITI" class="item conferencePaper">
+			<h2>On the performance of commodity hardware for low latency and low jitter packet processing</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Charalampos Stylianopoulos</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Magnus Almgren</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Olaf Landsiedel</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Marina Papatriantafilou</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Trevor Neish</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Linus Gillander</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Bengt Johansson</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Staffan Bonnier</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>With the introduction of Virtual Network Functions (VNF), 
+network processing is no longer done solely on special purpose hardware.
+ Instead, deploying network functions on commodity servers increases 
+flexibility and has been proven effective for many network applications.
+ However, new industrial applications and the Internet of Things (IoT) 
+call for event-based systems and midleware that can deliver ultra-low 
+and predictable latency, which present a challenge for the packet 
+processing infrastructure they are deployed on.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020-07-13</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3401025.3403591">https://dl.acm.org/doi/10.1145/3401025.3403591</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>04/05/2022, 13:51:11</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Montreal Quebec Canada</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-8028-7</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>177-182</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 14th ACM International Conference on Distributed and Event-based Systems</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>DEBS '20: The 14th ACM International Conference on Distributed and Event-based Systems</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3401025.3403591">10.1145/3401025.3403591</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>04/05/2022, 13:51:11</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>04/05/2022, 13:51:11</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_GQIS8LDC">Stylianopoulos et al. - 2020 - On the performance of commodity hardware for low l.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_B7KU3SY8" class="item conferencePaper">
+			<h2>Offloading Virtual Evolved Packet Gateway User Plane Functions to a Programmable ASIC</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Suneet Kumar Singh</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Christian Esteve Rothenberg</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Gyanesh Patra</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Gergely Pongracz</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Roll-outs of 5G Mobile Packet Core (MPC) rely on principles 
+and technologies of Software-Defined Networking (SDN) and Network 
+Function Virtualization (NFV). While the benefits of SDN and NFV in 
+terms of flexibility are well-known, how to guarantee data plane 
+performance for critical 5G services is less clear. Advances in 
+programmable switch ASICs render an opportunity to offload data plane 
+virtual network functions (VNFs) running on x86 servers to programmable 
+hardware featuring strict performance guarantees. In this work, we 
+present the design and performance evaluation of a critical element of 
+5G MPC, namely the virtual Evolved Packet Gateway (vEPG). We describe 
+the P4-based uplink and downlink pipelines and evaluate a software and 
+hardware implementation based on a Barefoot Tofino hardware switch, the 
+ONOS controller, and P4Runtime support to manage match-action tables. 
+The obtained results show that vEPG hardware implementation runs at line
+ rate with low latency (&lt;2 µs) and jitter, scaling up to 1.7 millions
+ active users.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://dl.acm.org/citation.cfm?doid=3359993.3366645">http://dl.acm.org/citation.cfm?doid=3359993.3366645</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>04/05/2022, 13:55:26</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Orlando, FL, USA</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-7000-4</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>9-14</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 1st ACM CoNEXT Workshop on Emerging in-Network Computing Paradigms - ENCP '19</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>the 1st ACM CoNEXT Workshop</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3359993.3366645">10.1145/3359993.3366645</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>04/05/2022, 13:55:26</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>04/05/2022, 13:55:26</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_DMK9SK2Q">Singh et al. - 2019 - Offloading Virtual Evolved Packet Gateway User Pla.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_LYZRNEXQ" class="item conferencePaper">
+			<h2>Revisiting heavy-hitters: don't count packets, compute flow inter-packet metrics in the data plane</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Suneet Kumar Singh</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Christian Rothenberg</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Marcelo Caggiani Luizelli</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Gianni Antichi</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Gergely Pongracz</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020-08-10</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Revisiting heavy-hitters</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3405837.3411388">https://dl.acm.org/doi/10.1145/3405837.3411388</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>04/05/2022, 13:56:39</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Virtual event</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-8048-5</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>49-51</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the SIGCOMM '20 Poster and Demo Sessions</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>SIGCOMM '20: Annual conference of the ACM Special Interest 
+Group on Data Communication on the applications, technologies, 
+architectures, and protocols for computer communication</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3405837.3411388">10.1145/3405837.3411388</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>04/05/2022, 13:56:39</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>04/05/2022, 13:56:40</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_8UGLXIUU">Singh et al. - 2020 - Revisiting heavy-hitters don't count packets, com.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_6RRR56YR" class="item conferencePaper">
+			<h2>High-Performance Match-Action Table Updates from within Programmable Software Data Planes</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Manuel Simon</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Henning Stubbe</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Dominik Scholz</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Sebastian Gallenmüller</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Georg Carle</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021-12-13</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3493425.3502759">https://dl.acm.org/doi/10.1145/3493425.3502759</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 14:35:28</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Layfette IN USA</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-9168-9</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>102-108</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the Symposium on Architectures for Networking and Communications Systems</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>ANCS '21: Symposium on Architectures for Networking and Communications Systems</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3493425.3502759">10.1145/3493425.3502759</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 14:35:28</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 14:35:28</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_G85DFHJ7">
+<div><div data-schema-version="8"><p>5.3 - Control Planes</p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_ZAAIEQFH" class="item conferencePaper">
+			<h2>A Programmable and FPGA-accelerated GTP Offloading Engine for Mobile Edge Computing in 5G Networks</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Chung-An Shen</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ding-Yuan Lee</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Chung-An Ku</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Meng-Wei Lin</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Kuo-Cheng Lu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Shao-Yu Tan</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>4/2019</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ieeexplore.ieee.org/document/8845143/">https://ieeexplore.ieee.org/document/8845143/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>19/04/2022, 13:51:03</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Paris, France</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-72811-878-9</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1021-1022</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>IEEE INFOCOM 2019 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>IEEE INFOCOM 2019 - IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/INFCOMW.2019.8845143">10.1109/INFCOMW.2019.8845143</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>19/04/2022, 13:51:03</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>02/05/2022, 10:11:50</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>4.1.2 FPGA</li>
+				</ul>
+			</li>
+
+
+			<li id="item_W9DLAKFZ" class="item journalArticle">
+			<h2>VNF-AAPC: Accelerator-aware VNF placement and chaining</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Gourav Prateek Sharma</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Wouter Tavernier</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Didier Colle</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mario Pickavet</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>08/2020</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>VNF-AAPC</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S138912862030058X">https://linkinghub.elsevier.com/retrieve/pii/S138912862030058X</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>20/04/2022, 14:58:01</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>177</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>107329</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Computer Networks</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.comnet.2020.107329">10.1016/j.comnet.2020.107329</a></td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Computer Networks</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>13891286</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>20/04/2022, 14:58:01</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>20/04/2022, 14:58:01</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_TPGH9929">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_KXPEL9WU" class="item conferencePaper">
+			<h2>ETSI standards and guides for efficient powering of telecommunication and datacom</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Wilfried Schulz</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2007</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>168–173</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>IN℡EC 07-29th International Telecommunications Energy Conference</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>02/05/2022, 13:59:59</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>02/05/2022, 13:59:59</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_2KV5DA8C" class="item conferencePaper">
+			<h2>An Accurate Packet Loss Emulation on a DPDK-based Network Emulator</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Kanon Sasaki</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Takahiro Hirofuchi</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Saneyasu Yamaguchi</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ryousei Takano</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://dl.acm.org/citation.cfm?doid=3340422.3343635">http://dl.acm.org/citation.cfm?doid=3340422.3343635</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 16:24:47</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Phuket, Thailand</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-6849-0</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1-8</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the Asian Internet Engineering Conference on   - AINTEC '19</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>the Asian Internet Engineering Conference</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3340422.3343635">10.1145/3340422.3343635</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 16:24:47</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 16:24:47</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_EZ36ITRT">
+<div><div data-schema-version="8"><p>6.2 - Performance Metrics</p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_DVXQYKWP" class="item conferencePaper">
+			<h2>Unveiling the potential of Graph Neural Networks for network modeling and optimization in SDN</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Krzysztof Rusek</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>José Suárez-Varela</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Albert Mestres</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Pere Barlet-Ros</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Albert Cabellos-Aparicio</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019-04-03</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3314148.3314357">https://dl.acm.org/doi/10.1145/3314148.3314357</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 16:24:29</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>San Jose CA USA</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-6710-3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>140-151</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 2019 ACM Symposium on SDN Research</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>SOSR '19: Symposium on SDN Research</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3314148.3314357">10.1145/3314148.3314357</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 16:24:29</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 16:24:29</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_DB377IZ4">
+<div><div data-schema-version="8"><p>6.2 - Performance metrics</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_HG6L7BWW">Submitted Version					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_4QN6YGU7" class="item conferencePaper">
+			<h2>Clara: Performance Clarity for SmartNIC Offloading</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yiming Qiu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Qiao Kang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ming Liu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ang Chen</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020-11-04</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Clara</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3422604.3425929">https://dl.acm.org/doi/10.1145/3422604.3425929</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 14:36:34</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Virtual Event USA</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-8145-1</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>16-22</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 19th ACM Workshop on Hot Topics in Networks</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>HotNets '20: The 19th ACM Workshop on Hot Topics in Networks</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3422604.3425929">10.1145/3422604.3425929</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 14:36:34</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 14:36:34</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_4SJHH23I">
+<div><div data-schema-version="8"><p>Performance prediction/ Benchmarking</p>
+</div></div>
+					</li>
+					<li id="item_5JF2NN8B">
+<div><div data-schema-version="8"><p>Reviewed</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_MRDQZQ2B">Qiu et al. - 2020 - Clara Performance Clarity for SmartNIC Offloading.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_J48AZMET" class="item conferencePaper">
+			<h2>Finding the Optimal Reconfiguration for Network Function Virtualization Orchestration with Time-varied Workload</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Satyajit Padhy</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jerry Chou</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Network Function Virtualization (NFV) replaces proprietary 
+network appliances by softwarizing them in commodity servers and they 
+are called as Virtual Network Functions(VNFs). As the network traffic 
+changes dynamically, it is challenging to find the exact number of VNFs 
+that can process the increase in demand. Moreover a VNF reconfiguration 
+solution like migration or scaling has to be carefully chosen so that 
+the increased traffic can be processed without violating the Quality of 
+Service. We call this problem as VNF reconfiguration problem and provide
+ an Integer Linear Programming formulation with implementation in CPLEX 
+solver. From our simulations, we have concluded that our optimal 
+formulation returns an efficient VNF embedding solution while reducing 
+the reconfiguration costs. Scaling up VNFs are the most preferred choice
+ but as the traffic increases significantly, scaling out VNFs are chosen
+ more than other solution. Moreover our reconfiguration method has 30% 
+less reconfiguration cost compared to other methods.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020-06-23</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3391812.3396275">https://dl.acm.org/doi/10.1145/3391812.3396275</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>04/05/2022, 13:47:33</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Stockholm Sweden</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-7980-9</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>49-52</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 3rd International Workshop on Systems and Network Telemetry and Analytics</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>HPDC '20: The 29th International Symposium on High-Performance Parallel and Distributed Computing</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3391812.3396275">10.1145/3391812.3396275</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>04/05/2022, 13:47:33</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>04/05/2022, 13:47:33</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_8TXKHTHZ">Padhy and Chou - 2020 - Finding the Optimal Reconfiguration for Network Fu.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_26DBFRAT" class="item conferencePaper">
+			<h2>Unveiling performance of NFV software dataplanes</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Zhixiong Niu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Hong Xu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Libin Liu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yongqiang Tian</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Peng Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Zhenhua Li</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The key technology of NFV is software dateplane, which has 
+attracted much attention in both academia and industry recently. Yet, in
+ practice, there is very little understanding about its performance till
+ now. We make a comprehensive measurement study of NFV software 
+dataplanes in terms of packet processing throughput and latency, the 
+most fundamental performance metrics. Specifically, we compare two 
+state-of-the-art open-source NFV dataplanes, BESS and ClickOS, using 
+commodity 10GbE NICs under various typical workloads. Our key 
+observations are that (1) both dataplanes have performance issues 
+processing small (≤128B) packets; (2) it is not always the best to 
+colocate all VMs of a service chain on one server due to NUMA effect. We
+ propose resource allocation strategies to remedy the problems, 
+including carefully adding vNIC queues and CPU cores to vNFs, and 
+distributing VNFs of a service chain to separate servers. To essentially
+ address these problems and scale their performance, software dataplanes
+ need to improve the support for NIC queues and multiple cores.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://dl.acm.org/citation.cfm?doid=3155921.3158430">http://dl.acm.org/citation.cfm?doid=3155921.3158430</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>04/05/2022, 11:23:25</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Incheon, Republic of Korea</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-5423-3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>13-18</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 2nd Workshop on Cloud-Assisted Networking - CAN '17</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>the 2nd Workshop</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3155921.3158430">10.1145/3155921.3158430</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>04/05/2022, 11:23:25</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>04/05/2022, 11:23:25</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_BXGUVVLW">Niu et al. - 2017 - Unveiling performance of NFV software dataplanes.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_F7EIZVZ2" class="item conferencePaper">
+			<h2>Contention-Aware Performance Prediction For Virtualized Network Functions</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Antonis Manousis</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Rahul Anand Sharma</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Vyas Sekar</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Justine Sherry</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020-07-30</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3387514.3405868">https://dl.acm.org/doi/10.1145/3387514.3405868</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 16:27:42</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Virtual Event USA</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-7955-7</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>270-282</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the Annual conference of the ACM Special 
+Interest Group on Data Communication on the applications, technologies, 
+architectures, and protocols for computer communication</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>SIGCOMM '20: Annual conference of the ACM Special Interest 
+Group on Data Communication on the applications, technologies, 
+architectures, and protocols for computer communication</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3387514.3405868">10.1145/3387514.3405868</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 16:27:42</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 16:27:42</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_MN6CU8GF">
+<div><div data-schema-version="8"><p>6.2</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_78RJW4IL">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_CLFV8UFW" class="item conferencePaper">
+			<h2>E3: Energy-Efficient Microservices on SmartNIC-Accelerated Servers</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ming Liu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Simon Peter</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Arvind Krishnamurthy</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Phitchaya Mangpo Phothilimthana</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>We investigate the use of SmartNIC-accelerated servers to 
+execute microservice-based applications in the data center. By 
+offloading suitable microservices to the SmartNIC's lowpower processor, 
+we can improve server energy-efficiency without latency loss. However, 
+as a heterogeneous computing substrate in the data path of the host, 
+SmartNICs bring several challenges to a microservice platform: network 
+traffic routing and load balancing, microservice placement on 
+heterogeneous hardware, and contention on shared SmartNIC resources.We 
+present E3, a microservice execution platform for SmartNIC-accelerated 
+servers. E3 follows the design philosophies of the Azure Service Fabric 
+microservice platform and extends key system components to a SmartNIC to
+ address the above-mentioned challenges. E3 employs three key 
+techniques: ECMP-based load balancing via SmartNICs to the host, network
+ topology-aware microservice placement, and a data-plane orchestrator 
+that can detect SmartNIC overload. Our E3 prototype using Cavium 
+LiquidIO SmartNICs shows that SmartNIC offload can improve cluster 
+energy-efficiency up to 3× and cost efficiency up to 1.9× at up to 4% 
+latency cost for common microservices, including real-time analytics, an
+ IoT hub, and virtual network functions.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>event-place: Renton, WA, USA</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>USA</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>USENIX Association</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-939133-03-8</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>363–378</td>
+					</tr>
+					<tr>
+					<th>Series</th>
+						<td>USENIX ATC '19</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 2019 USENIX Conference on Usenix Annual Technical Conference</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>13/04/2022, 18:50:41</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>13/04/2022, 18:50:41</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_ZV9MYALP">
+<div><div data-schema-version="8"><p>SmartNIC</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_C3D6L89F">Liu et al. - 2019 - E3 Energy-Efficient Microservices on SmartNIC-Acc.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_GU5F8EDJ" class="item journalArticle">
+			<h2>Survey of Performance Acceleration Techniques for Network Function Virtualization</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Leonardo Linguaglossa</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Stanislav Lange</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Salvatore Pontarelli</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Gabor Retvari</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Dario Rossi</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Thomas Zinner</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Roberto Bifulco</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Michael Jarschel</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Giuseppe Bianchi</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>4/2019</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ieeexplore.ieee.org/document/8666751/">https://ieeexplore.ieee.org/document/8666751/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>04/05/2022, 11:02:00</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>107</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>746-764</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Proceedings of the IEEE</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/JPROC.2019.2896848">10.1109/JPROC.2019.2896848</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Proc. IEEE</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0018-9219, 1558-2256</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>04/05/2022, 11:02:00</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>04/05/2022, 11:02:00</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_WRLLYRGZ">Submitted Version					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_FFQU2M7J" class="item conferencePaper">
+			<h2>UNO: uniflying host and smart NIC offload for flexible packet processing</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yanfang Le</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Hyunseok Chang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Sarit Mukherjee</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Limin Wang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Aditya Akella</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Michael M. Swift</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>T. V. Lakshman</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2017-09-24</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>UNO</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3127479.3132252">https://dl.acm.org/doi/10.1145/3127479.3132252</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>11/04/2022, 21:00:10</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Santa Clara California</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-5028-0</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>506-519</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 2017 Symposium on Cloud Computing</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>SoCC '17: ACM Symposium on Cloud Computing</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3127479.3132252">10.1145/3127479.3132252</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>11/04/2022, 21:00:10</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>11/04/2022, 21:00:10</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_5REHDU27">
+<div><div data-schema-version="8"><p>4.1.3 - SmartNIC</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_F24L262L">Le et al. - 2017 - UNO uniflying host and smart NIC offload for flex.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_EZLTSGFF" class="item conferencePaper">
+			<h2>P4STA: High Performance Packet Timestamping with Programmable Packet Processors</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ralf Kundel</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Fridolin Siegmund</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jeremias Blendin</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Amr Rizk</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Boris Koldehofe</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>4/2020</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>P4STA</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ieeexplore.ieee.org/document/9110290/">https://ieeexplore.ieee.org/document/9110290/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>19/04/2022, 18:22:48</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Budapest, Hungary</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-72814-973-8</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1-9</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>NOMS 2020 - 2020 IEEE/IFIP Network Operations and Management Symposium</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>NOMS 2020-2020 IEEE/IFIP Network Operations and Management Symposium</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/NOMS47738.2020.9110290">10.1109/NOMS47738.2020.9110290</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>19/04/2022, 18:22:48</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>19/04/2022, 18:22:48</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_QQAT5YDV">
+<div><div data-schema-version="8"><p>6 - Benchmarking Technologies</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_A529YN6N">Submitted Version					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_94SPQLEZ" class="item journalArticle">
+			<h2>OpenBNG: Central office network functions on programmable data plane hardware</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ralf Kundel</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Leonhard Nobach</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jeremias Blendin</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Wilfried Maas</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Andreas Zimber</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Hans-Joerg Kolbe</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Georg Schyguda</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Vladimir Gurevich</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Rhaban Hark</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Boris Koldehofe</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>others</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: Wiley Online Library</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>31</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>e2134</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>International Journal of Network Management</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>1</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>02/05/2022, 10:58:27</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>02/05/2022, 10:58:27</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_V5RWKKUD">Kundel et al. - 2021 - OpenBNG Central office network functions on progr.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_RKQPUK3Z" class="item conferencePaper">
+			<h2>Determination of Throughput Guarantees for Processor-Based SmartNICs</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Johannes Krude</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jan Rüth</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Daniel Schemmel</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Felix Rath</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Iohannes-Heorh Folbort</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Klaus Wehrle</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Programmable network devices are on the rise with many 
+applications ranging from improved network management to accelerating 
+and offloading parts of distributed systems. Processor-based SmartNICs, 
+match-action-based switches, and FPGA devices offer on-path 
+programmability. Whereas processor-based SmartNICs are much easier and 
+more versatile to program, they have the huge disadvantage that the 
+resulting throughput may vary strongly and is not easily predictable 
+even to the programmer. We want to close this gap by presenting a 
+methodology which, given a SmartNIC program, determines the achievable 
+throughput of this SmartNIC program in terms of achievable packet rate 
+and bit rate. Our approach combines incremental longest path search with
+ SMT checks to establish a lower bound for the slowest satisfiable 
+program path. By analyzing only the slowest program paths, our approach 
+estimates throughput bounds within a few seconds. The evaluation with 
+our prototype on real programs shows that the estimated throughput 
+guarantees are correct with an error of at most 1.7% and provide a tight
+ lower bound for processor- and memory-bottlenecked programs with only 
+8.5% and 18.2% underestimation.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1145/3485983.3494842">https://doi.org/10.1145/3485983.3494842</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>event-place: Virtual Event, Germany</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>New York, NY, USA</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Association for Computing Machinery</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-9098-9</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>267–281</td>
+					</tr>
+					<tr>
+					<th>Series</th>
+						<td>CoNEXT '21</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 17th International Conference on Emerging Networking EXperiments and Technologies</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3485983.3494842">10.1145/3485983.3494842</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>08/04/2022, 09:34:35</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>08/04/2022, 09:34:35</td>
+					</tr>
+				</tbody></table>
+				<h3 class="tags">Tags:</h3>
+				<ul class="tags">
+					<li>bit rate</li>
+					<li>BPF/XDP</li>
+					<li>longest path search</li>
+					<li>packet rate</li>
+					<li>SmartNIC</li>
+				</ul>
+			</li>
+
+
+			<li id="item_4PUEK68P" class="item conferencePaper">
+			<h2>A VNF Placement Method based on VNF Characteristics</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Sang Il Kim</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Hwa Sung Kim</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021-1-13</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ieeexplore.ieee.org/document/9334022/">https://ieeexplore.ieee.org/document/9334022/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>20/04/2022, 14:25:05</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Jeju Island, Korea (South)</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-72819-101-0</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>864-869</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>2021 International Conference on Information Networking (ICOIN)</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>2021 International Conference on Information Networking (ICOIN)</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/ICOIN50884.2021.9334022">10.1109/ICOIN50884.2021.9334022</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>20/04/2022, 14:25:05</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>20/04/2022, 14:25:05</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_PLKMYVYX">
+<div><div data-schema-version="8"><p>VNF Chaining and placement </p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_QIGXXNEJ" class="item journalArticle">
+			<h2>Performance Interfaces for Network Functions</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Rishabh Iyer</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Katerina Argyraki</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>George Candea</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Modern programmers routinely use third-party code, and 
+infrastructure operators deploy software they did not write. This would 
+not be possible without semantic interfaces—documentation, header files,
+ specifications—that succinctly describe what that third-party code 
+does. We propose performance interfaces as a way to describe a system’s 
+performance, akin to how a semantic interface describes its 
+functionality. We concretize this idea in the domain of network 
+functions (NFs) and present a tool (PIX) that automatically extracts 
+performance interfaces from NF implementations. We evaluate PIX on 12 
+NFs, including several used in production. The resulting performance 
+interfaces are accurate yet orders of magnitude simpler than the code 
+itself and take minutes to extract. We show how developers and operators
+ can use performance interfaces to identify performance regressions, 
+diagnose and fix performance bugs and identify the latency impact of NIC
+ offloads. PIX is available at https://github.com/dslab-epfl/pix.</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>Zotero</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>19</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>05/05/2022, 14:13:42</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>05/05/2022, 14:13:42</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_9W45DMVM">
+<div><div data-schema-version="8"><p>Performance analysis</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_VFVAHT9H">Iyer et al. - Performance Interfaces for Network Functions.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_P9GKHXS6" class="item journalArticle">
+			<h2>Dynamic VNF Forwarding Graph Extension Algorithms</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Omar Houidi</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Oussama Soualah</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Wajdi Louati</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Djamal Zeghlache</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>9/2020</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ieeexplore.ieee.org/document/9079891/">https://ieeexplore.ieee.org/document/9079891/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>20/04/2022, 14:33:01</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>17</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1389-1402</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>IEEE Transactions on Network and Service Management</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/TNSM.2020.2990815">10.1109/TNSM.2020.2990815</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>IEEE Trans. Netw. Serv. Manage.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1932-4537, 2373-7379</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>20/04/2022, 14:33:01</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>20/04/2022, 14:33:01</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_B4DPPQCI">
+<div><div data-schema-version="8"><p>VNF Chaining and placement </p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_5HUK7Y32" class="item journalArticle">
+			<h2>A Traffic Load Balancing Framework for Software-Defined Radio Access Networks Powered by Hybrid Energy Sources</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Tao Han</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nirwan Ansari</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Dramatic mobile data trafﬁc growth has spurred a dense 
+deployment of small cell base stations (SCBSs). Small cells enhance the 
+spectrum efﬁciency and thus enlarge the capacity of mobile networks. 
+Although SCBSs consume much less power than macro BSs (MBSs) do, the 
+overall power consumption of a large number of SCBSs is phenomenal. As 
+the energy harvesting technology advances, base stations (BSs) can be 
+powered by green energy to alleviate the on-grid power consumption. For 
+mobile networks with high BS density, trafﬁc load balancing is critical 
+in order to exploit the capacity of SCBSs. To fully utilize harvested 
+energy, it is desirable to incorporate the green energy utilization as a
+ performance metric in trafﬁc load balancing strategies. In this paper, 
+we have proposed a trafﬁc load balancing framework that strives a 
+balance between network utilities, e.g., the average trafﬁc delivery 
+latency, and the green energy utilization. Various properties of the 
+proposed framework have been derived. Leveraging the software-deﬁned 
+radio access network architecture, the proposed scheme is implemented as
+ a virtually distributed algorithm, which signiﬁcantly reduces the 
+communication overheads between users and BSs. The simulation results 
+show that the proposed trafﬁc load balancing framework enables an 
+adjustable trade-off between the on-grid power consumption and the 
+average trafﬁc delivery latency, and saves a considerable amount of 
+on-grid power, e.g., 30%, at a cost of only a small increase, e.g., 8%, 
+of the average trafﬁc delivery latency.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>4/2016</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://ieeexplore.ieee.org/document/7063976/">http://ieeexplore.ieee.org/document/7063976/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>04/05/2022, 14:57:20</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>24</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1038-1051</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>IEEE/ACM Transactions on Networking</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/TNET.2015.2404576">10.1109/TNET.2015.2404576</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>IEEE/ACM Trans. Networking</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1063-6692, 1558-2566</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>04/05/2022, 14:57:20</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>04/05/2022, 14:57:21</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_BCFBUUNT">Han and Ansari - 2016 - A Traffic Load Balancing Framework for Software-De.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_PF5VT4UJ" class="item conferencePaper">
+			<h2>Microscope: Queue-based Performance Diagnosis for Network Functions</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Junzhi Gong</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yuliang Li</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Bilal Anwer</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Aman Shaikh</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Minlan Yu</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020-07-30</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Microscope</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3387514.3405876">https://dl.acm.org/doi/10.1145/3387514.3405876</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 11:53:16</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Virtual Event USA</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-7955-7</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>390-403</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the Annual conference of the ACM Special 
+Interest Group on Data Communication on the applications, technologies, 
+architectures, and protocols for computer communication</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>SIGCOMM '20: Annual conference of the ACM Special Interest 
+Group on Data Communication on the applications, technologies, 
+architectures, and protocols for computer communication</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3387514.3405876">10.1145/3387514.3405876</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 11:53:16</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 11:53:16</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_AWUFNVRR">
+<div><div data-schema-version="8"><p>6 - Benchmarking Techonlogies</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_38VWVDRH">Gong et al. - 2020 - Microscope Queue-based Performance Diagnosis for .pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_GCK3TSAG" class="item journalArticle">
+			<h2>One Step Greener: Reducing 5G and Beyond Networks’ Carbon Footprint by 2-Tiering Energy Efficiency with CO2 Offsetting</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Luís Carlos Gonçalves</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Pedro Sebastião</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nuno Souto</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Américo Correia</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Fifth generation (5G) and Beyond-5G (B5G) will be 
+characterized by highly dense deployments, both on network plane and 
+user plane. Internet of Things, massive sensor deployments and base 
+stations will drive even more energy consumption. User behavior towards 
+mobile service usage is witnessing a paradigm shift with heavy capacity,
+ demanding services resulting in an increase of both screen time and 
+data transfers, which leads to additional power consumption. Mobile 
+network operators will face additional energetic challenges, mainly 
+related to power consumption and network sustainability, starting right 
+in the planning phase with concepts like energy efficiency and greenness
+ by design coming into play. The main contribution of this work is a 
+two-tier method to address such challenges leading to positively-offset 
+carbon dioxide emissions related to mobile networks using a novel 
+approach. The first tier contributes to overall power reduction and 
+optimization based on energy efficient methods applied to 5G and B5G 
+networks. The second tier aims to offset the remaining operational power
+ usage by completely offsetting its carbon footprint through 
+geosequestration. This way, we show that the objective of minimizing 
+overall networks’ carbon footprint is achievable. Conclusions are drawn 
+and it is shown that carbon sequestration initiatives or program 
+adherence represent a negligible cost impact on overall network cost, 
+with the added value of greener and more environmentally friendly 
+network operation. This can also relieve the pressure on mobile network 
+operators in order to maximize compliance with environmentally neutral 
+activity.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2020-03-10</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>One Step Greener</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.mdpi.com/2079-9292/9/3/464">https://www.mdpi.com/2079-9292/9/3/464</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>02/05/2022, 12:54:24</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>9</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>464</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Electronics</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.3390/electronics9030464">10.3390/electronics9030464</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Electronics</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>2079-9292</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>02/05/2022, 12:54:24</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>02/05/2022, 12:54:24</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_3Y4QJJL2">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_4TPMXIYK" class="item conferencePaper">
+			<h2>Insomnia in the access: or how to curb access network related energy consumption</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Eduard Goma</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Marco Canini</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Alberto Lopez Toledo</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nikolaos Laoutaris</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Dejan Kostić</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Pablo Rodriguez</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Rade Stanojević</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Pablo Yagüe Valentin</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2011</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Insomnia in the access</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://dl.acm.org/citation.cfm?doid=2018436.2018475">http://dl.acm.org/citation.cfm?doid=2018436.2018475</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>02/05/2022, 11:48:13</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Toronto, Ontario, Canada</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM Press</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-0797-0</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>338</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the ACM SIGCOMM 2011 conference on SIGCOMM - SIGCOMM '11</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>the ACM SIGCOMM 2011 conference</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/2018436.2018475">10.1145/2018436.2018475</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>02/05/2022, 11:48:13</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>02/05/2022, 11:48:13</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_ZMG6VGRC">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_9B87A3CU" class="item conferencePaper">
+			<h2>NFV-Inspector: A Systematic Approach to Profile and Analyze Virtual Network Functions</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Michel Gokan Khan</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Saeed Bastani</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Javid Taheri</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Andreas Kassler</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Shuiguang Deng</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>10/2018</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>NFV-Inspector</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ieeexplore.ieee.org/document/8549333/">https://ieeexplore.ieee.org/document/8549333/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>02/05/2022, 10:55:33</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Tokyo</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-5386-6831-3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1-7</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>2018 IEEE 7th International Conference on Cloud Networking (CloudNet)</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>2018 IEEE 7th International Conference on Cloud Networking (CloudNet)</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/CloudNet.2018.8549333">10.1109/CloudNet.2018.8549333</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>02/05/2022, 10:55:33</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>02/05/2022, 10:55:33</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_C7X8I5UQ" class="item journalArticle">
+			<h2>Discrete-Time Modeling of NFV Accelerators that Exploit Batched Processing</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Stefan Geissler</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Stanislav Lange</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Leonardo Linguaglossa</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Dario Rossi</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Thomas Zinner</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Tobias Hossfeld</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021</td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Publisher: ACM New York, NY</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>6</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1–27</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>ACM Transactions on Modeling and Performance Evaluation of Computing Systems</td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 11:10:52</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 11:10:52</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_LWRD5ZMM">
+<div><div data-schema-version="8"><p>4.2 - Software Acceleration</p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_ASMAVD3V" class="item conferencePaper">
+			<h2>The pos framework: a methodology and toolchain for reproducible network experiments</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Sebastian Gallenmüller</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Dominik Scholz</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Henning Stubbe</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Georg Carle</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021-12-02</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>The pos framework</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3485983.3494841">https://dl.acm.org/doi/10.1145/3485983.3494841</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>08/04/2022, 12:18:31</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Virtual Event Germany</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-9098-9</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>259-266</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 17th International Conference on emerging Networking EXperiments and Technologies</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>CoNEXT '21: The 17th International Conference on emerging Networking EXperiments and Technologies</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3485983.3494841">10.1145/3485983.3494841</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>08/04/2022, 12:18:31</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>08/04/2022, 12:18:31</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_FR8XD8XF">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_23HHRE2L" class="item conferencePaper">
+			<h2>Don't repeat yourself: seamless execution and analysis of extensive network experiments</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Alexander Frömmgen</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Denny Stohr</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Boris Koldehofe</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Amr Rizk</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2018-12-04</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>Don't repeat yourself</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3281411.3281420">https://dl.acm.org/doi/10.1145/3281411.3281420</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 14:56:09</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Heraklion Greece</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-6080-7</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>20-26</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 14th International Conference on emerging Networking EXperiments and Technologies</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>CoNEXT '18: The 14th International Conference on emerging Networking EXperiments and Technologies</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3281411.3281420">10.1145/3281411.3281420</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 14:56:09</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 14:56:09</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_IPJ84AIQ">
+<div><div data-schema-version="8"><p>Benchmark / Methodologies</p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_MSYLLEKY" class="item conferencePaper">
+			<h2>MoonGen: A Scriptable High-Speed Packet Generator</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Paul Emmerich</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Sebastian Gallenmüller</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Daniel Raumer</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Florian Wohlfart</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Georg Carle</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2015-10-28</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>MoonGen</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/2815675.2815692">https://dl.acm.org/doi/10.1145/2815675.2815692</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 11:00:16</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Tokyo Japan</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-3848-6</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>275-287</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 2015 Internet Measurement Conference</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>IMC '15: Internet Measurement Conference</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/2815675.2815692">10.1145/2815675.2815692</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 11:00:16</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 11:00:16</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_5K7AWV9L">
+<div><div data-schema-version="8"><p>6 - Benchmarking Technologies</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_6LGIIINH">Submitted Version					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_HA57MXIB" class="item conferencePaper">
+			<h2>Optimal Placement of Virtual Security Functions to Minimize Energy Consumption</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Sedef Demirci</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mehmet Demirci</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Seref Sagiroglu</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>6/2018</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ieeexplore.ieee.org/document/8530989/">https://ieeexplore.ieee.org/document/8530989/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>11/04/2022, 21:14:07</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Rome</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-5386-3779-1</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>1-6</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>2018 International Symposium on Networks, Computers and Communications (ISNCC)</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>2018 International Symposium on Networks, Computers and Communications (ISNCC)</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/ISNCC.2018.8530989">10.1109/ISNCC.2018.8530989</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>11/04/2022, 21:14:07</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>11/04/2022, 21:14:07</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_FH8D6ANP">
+<div><div data-schema-version="8"><p>6.3 - Energy Consumption</p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_NKWHLBYW" class="item conferencePaper">
+			<h2>Offloading load balancers onto SmartNICs</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Tianyi Cui</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Wei Zhang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Kaiyuan Zhang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Arvind Krishnamurthy</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021-08-24</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3476886.3477505">https://dl.acm.org/doi/10.1145/3476886.3477505</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 14:31:40</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Hong Kong China</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-8698-2</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>56-62</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 12th ACM SIGOPS Asia-Pacific Workshop on Systems</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>APSys '21: 12th ACM SIGOPS Asia-Pacific Workshop on Systems</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3476886.3477505">10.1145/3476886.3477505</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 14:31:40</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 14:31:40</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_JPTKEJJC">
+<div><div data-schema-version="8"><p>4.1.2 - SmartNIC</p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_2S7AJTR3" class="item conferencePaper">
+			<h2>NFPA: Network function performance analyzer</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Levente Csikor</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mark Szalay</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Balazs Sonkoly</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Laszlo Toka</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>11/2015</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>NFPA</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://ieeexplore.ieee.org/document/7387395/">http://ieeexplore.ieee.org/document/7387395/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 15:00:59</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>San Francisco, CA</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4673-6884-1</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>15-17</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>2015 IEEE Conference on Network Function Virtualization and Software Defined Network (NFV-SDN)</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>2015 IEEE Conference on Network Function Virtualization and Software-Defined Networks (NFV-SDN)</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/NFV-SDN.2015.7387395">10.1109/NFV-SDN.2015.7387395</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 15:00:59</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 15:00:59</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_JLCCZTMI" class="item journalArticle">
+			<h2>NFV-Bench: A Dependability Benchmark for Network Function Virtualization Systems</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Domenico Cotroneo</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Luigi De Simone</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Roberto Natella</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>12/2017</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>NFV-Bench</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://ieeexplore.ieee.org/document/7995070/">http://ieeexplore.ieee.org/document/7995070/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>08/04/2022, 17:01:33</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>14</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>934-948</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>IEEE Transactions on Network and Service Management</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/TNSM.2017.2733042">10.1109/TNSM.2017.2733042</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>IEEE Trans. Netw. Serv. Manage.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1932-4537</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>08/04/2022, 17:01:33</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>08/04/2022, 17:01:33</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_JK27BWRS">
+<div><div data-schema-version="8"><p>6 - VF Benchmarking techonologies</p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_X7SD9PGF" class="item conferencePaper">
+			<h2>CeUPF: Offloading 5G User Plane Function to Programmable Hardware Base on Co-existence Architecture</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Zhou Cong</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Zhao Baokang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Wang Baosheng</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yuan Yulei</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021-12-28</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Short Title</th>
+						<td>CeUPF</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3491396.3506526">https://dl.acm.org/doi/10.1145/3491396.3506526</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>14/04/2022, 13:18:56</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Jinan China</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-9160-3</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>34-39</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 2021 ACM International Conference on Intelligent Computing and its Emerging Applications</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>ACM ICEA '21: 2021 ACM International Conference on Intelligent Computing and its Emerging Applications</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3491396.3506526">10.1145/3491396.3506526</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>14/04/2022, 13:18:56</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>14/04/2022, 13:18:56</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_FQMBLCJZ">
+<div><div data-schema-version="8"><p>4 - HWA Platforms</p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_CTWQNG9N" class="item journalArticle">
+			<h2>Is OpenCL Driven Reconfigurable Hardware Suitable for Virtualising 5G Infrastructure?</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Federico Civerchia</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Maxime Pelcat</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Luca Maggiani</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Koteswararao Kondepu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Piero Castoldi</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Luca Valcarenghi</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>6/2020</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ieeexplore.ieee.org/document/8951251/">https://ieeexplore.ieee.org/document/8951251/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>19/04/2022, 14:01:21</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>17</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>849-863</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>IEEE Transactions on Network and Service Management</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/TNSM.2020.2964392">10.1109/TNSM.2020.2964392</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>2</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>IEEE Trans. Netw. Serv. Manage.</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1932-4537, 2373-7379</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>19/04/2022, 14:01:21</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>19/04/2022, 14:01:21</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_K3VL4AA3">
+<div><div data-schema-version="8"><p>4.1.4 - Programmable Hardware</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_8HCTW42B">Accepted Version					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_MKWFCAM3" class="item conferencePaper">
+			<h2>Fine-grained queue measurement in the data plane</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Xiaoqi Chen</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Shir Landau Feibish</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yaron Koral</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jennifer Rexford</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ori Rottenstreich</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Steven A Monetti</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Tzuu-Yi Wang</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2019-12-03</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3359989.3365408">https://dl.acm.org/doi/10.1145/3359989.3365408</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 16:27:13</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Orlando Florida</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-6998-5</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>15-29</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the 15th International Conference on Emerging Networking Experiments And Technologies</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>CoNEXT '19: The 15th International Conference on emerging Networking EXperiments and Technologies</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3359989.3365408">10.1145/3359989.3365408</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 16:27:13</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 16:27:13</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_NBU6BETD">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_ZJCS526N" class="item journalArticle">
+			<h2>Uniform handling and abstraction of NFV hardware accelerators</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Zvika Bronstein</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Evelyne Roch</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jinwei Xia</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Adi Molkho</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>5/2015</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://ieeexplore.ieee.org/document/7113221/">http://ieeexplore.ieee.org/document/7113221/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>20/04/2022, 15:25:14</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>29</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>22-29</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>IEEE Network</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/MNET.2015.7113221">10.1109/MNET.2015.7113221</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>3</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>IEEE Network</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>0890-8044</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>20/04/2022, 15:25:14</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>20/04/2022, 15:25:14</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_3P4YXINS">
+<div><div data-schema-version="8"><p>5.1 - Virtual Functions</p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_QRIQVS2E">Bronstein et al. - 2015 - Uniform handling and abstraction of NFV hardware a.pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_FVXMY8S7" class="item bookSection">
+			<h2>Leveraging Programmable Dataplanes for a High Performance 5G User Plane Function</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Book Section</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Abhik Bose</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Diptyaroop Maji</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Prateek Agarwal</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Nilesh Unhale</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Rinku Shah</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mythili Vutukuru</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Emerging 5G applications require a dataplane that has a high 
+forwarding throughput and low processing latency, in addition to low 
+cost and power consumption. To meet these requirements, the 
+state-of-the-art 5G User Plane Functions (UPFs) are built over high 
+performance packet I/O mechanisms like the Data Plane Development Kit 
+(DPDK), and further offload some functionality to programmable dataplane
+ hardware. In this paper, we design and implement several 
+standards-compliant UPF prototypes, beginning with a software-only 
+DPDK-based UPF, progressing to designs which offload different functions
+ to programmable hardware. We evaluate and compare the performance of 
+these designs, to highlight the costs and benefits of these offloads. 
+Our results show that offload techniques employed in prior work help 
+improve performance in certain scenarios, but also have their 
+limitations. Overcoming these limitations and fully realizing the power 
+of programmable hardware requires offloading more complex functionality 
+than is done today. Our work presents a preliminary implementation 
+towards a comprehensive programmable dataplane-accelerated 5G UPF.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://doi.org/10.1145/3469393.3469400">https://doi.org/10.1145/3469393.3469400</a></td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>New York, NY, USA</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>Association for Computing Machinery</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-8587-9</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>57–64</td>
+					</tr>
+					<tr>
+					<th>Book Title</th>
+						<td>5th Asia-Pacific Workshop on Networking (APNet 2021)</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>19/04/2022, 14:13:59</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>19/04/2022, 14:13:59</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_2ECKJK6S">
+<div><div data-schema-version="8"><p>5.1.1 - Mobile access networks</p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_6UP5SQ5A" class="item conferencePaper">
+			<h2>Large scale outage visibility on the control plane</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Leonard Becker</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Oliver Hohlfeld</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Georgios Smaragdakis</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2021-12-07</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://dl.acm.org/doi/10.1145/3488658.3493788">https://dl.acm.org/doi/10.1145/3488658.3493788</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>29/04/2022, 14:34:43</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Virtual Event Germany</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>ACM</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-4503-9133-7</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>13-14</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>Proceedings of the CoNEXT Student Workshop</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>CoNEXT '21: The 17th International Conference on emerging Networking EXperiments and Technologies</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1145/3488658.3493788">10.1145/3488658.3493788</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>29/04/2022, 14:34:43</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>29/04/2022, 14:34:43</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_GELG6FKE">
+<div><div data-schema-version="8"><p>5.3 - Control Planes</p>
+<p></p>
+</div></div>
+					</li>
+				</ul>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_ESTN3GD5">Full Text					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_DB7MIVU9" class="item journalArticle">
+			<h2>Service-based Analytics for 5G open experimentation platforms</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Erik Aumayr</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Giuseppe Caso</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Anne-Marie Bosneag</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Almudena Diaz Zayas</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Özgü Alay</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Bruno Garcia</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Konstantinos Kousias</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Anna Brünstrom</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Pedro Merino Gomez</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Harilaos Koumaras</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>03/2022</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://linkinghub.elsevier.com/retrieve/pii/S1389128621005892">https://linkinghub.elsevier.com/retrieve/pii/S1389128621005892</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>14/04/2022, 11:30:56</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>205</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>108740</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>Computer Networks</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1016/j.comnet.2021.108740">10.1016/j.comnet.2021.108740</a></td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>Computer Networks</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>13891286</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>14/04/2022, 11:30:56</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>14/04/2022, 11:30:56</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_WAWPEEAY">
+<div><div data-schema-version="8"><p>6.2 - Performance Metrics</p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_HD3D46JN" class="item document">
+			<h2>Framework for IP Performance Metrics</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Document</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Dr Guy T. Almes</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jamshid Mahdavi</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Matt Mathis</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Dr Vern Paxson</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>The purpose of this memo is to define a general framework for 
+particular metrics to be developed by the IETF's IP Performance Metrics 
+effort. This memo provides information for the Internet community. It 
+does not specify an Internet standard of any kind.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>1998-05</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://www.rfc-editor.org/info/rfc2330">https://www.rfc-editor.org/info/rfc2330</a></td>
+					</tr>
+					<tr>
+					<th>Extra</th>
+						<td>Issue: 2330
+Num Pages: 40
+Series: Request for Comments
+Published: RFC 2330
+DOI: 10.17487/RFC2330</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>RFC Editor</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>14/04/2022, 12:19:29</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>14/04/2022, 12:19:29</td>
+					</tr>
+				</tbody></table>
+			</li>
+
+
+			<li id="item_62DEWIN5" class="item journalArticle">
+			<h2>Energy Consumption and Environmental Implications of Wired Access Networks</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Journal Article</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Al-Ghathian</td>
+					</tr>
+					<tr>
+					<th>Abstract</th>
+						<td>Problem statement: Wired broadband Internet access can be 
+realized using various technologies, configurations and protocols. It is
+ widely deployed and able to provide both high data rates and high 
+reliability. These features are of strong importance for many advanced 
+applications. Since the number of broadband subscribers worldwide grows 
+exponentially, the power efficiency of access networks becomes 
+increasingly important.</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>2011-04-01</td>
+					</tr>
+					<tr>
+					<th>Language</th>
+						<td>en</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="http://thescipub.com/abstract/10.3844/ajeassp.2011.531.539">http://thescipub.com/abstract/10.3844/ajeassp.2011.531.539</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>02/05/2022, 13:06:58</td>
+					</tr>
+					<tr>
+					<th>Volume</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>531-539</td>
+					</tr>
+					<tr>
+					<th>Publication</th>
+						<td>American Journal of Engineering and Applied Sciences</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.3844/ajeassp.2011.531.539">10.3844/ajeassp.2011.531.539</a></td>
+					</tr>
+					<tr>
+					<th>Issue</th>
+						<td>4</td>
+					</tr>
+					<tr>
+					<th>Journal Abbr</th>
+						<td>American Journal of Engineering and Applied Sciences</td>
+					</tr>
+					<tr>
+					<th>ISSN</th>
+						<td>1941-7020</td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>02/05/2022, 13:06:58</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>02/05/2022, 13:07:01</td>
+					</tr>
+				</tbody></table>
+				<h3 class="attachments">Attachments</h3>
+				<ul class="attachments">
+					<li id="item_AIH9MG9B">Al-Ghathian - 2011 - Energy Consumption and Environmental Implications .pdf					</li>
+				</ul>
+			</li>
+
+
+			<li id="item_QMBKUHTK" class="item conferencePaper">
+			<h2>Transparent Edge Gateway for Mobile Networks</h2>
+				<table>
+					<tbody><tr>
+						<th>Type</th>
+						<td>Conference Paper</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Ashkan Aghdai</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Mark Huang</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>David Dai</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Yang Xu</td>
+					</tr>
+					<tr>
+						<th class="author">Author</th>
+						<td>Jonathan Chao</td>
+					</tr>
+					<tr>
+					<th>Date</th>
+						<td>9/2018</td>
+					</tr>
+					<tr>
+					<th>Library Catalog</th>
+						<td>DOI.org (Crossref)</td>
+					</tr>
+					<tr>
+					<th>URL</th>
+						<td><a href="https://ieeexplore.ieee.org/document/8526845/">https://ieeexplore.ieee.org/document/8526845/</a></td>
+					</tr>
+					<tr>
+					<th>Accessed</th>
+						<td>19/04/2022, 13:44:09</td>
+					</tr>
+					<tr>
+					<th>Place</th>
+						<td>Cambridge</td>
+					</tr>
+					<tr>
+					<th>Publisher</th>
+						<td>IEEE</td>
+					</tr>
+					<tr>
+					<th>ISBN</th>
+						<td>978-1-5386-6043-0</td>
+					</tr>
+					<tr>
+					<th>Pages</th>
+						<td>412-417</td>
+					</tr>
+					<tr>
+					<th>Proceedings Title</th>
+						<td>2018 IEEE 26th International Conference on Network Protocols (ICNP)</td>
+					</tr>
+					<tr>
+					<th>Conference Name</th>
+						<td>2018 IEEE 26th International Conference on Network Protocols (ICNP)</td>
+					</tr>
+					<tr>
+					<th>DOI</th>
+						<td><a href="http://doi.org/10.1109/ICNP.2018.00057">10.1109/ICNP.2018.00057</a></td>
+					</tr>
+					<tr>
+					<th>Date Added</th>
+						<td>19/04/2022, 13:44:09</td>
+					</tr>
+					<tr>
+					<th>Modified</th>
+						<td>19/04/2022, 13:44:09</td>
+					</tr>
+				</tbody></table>
+				<h3 class="notes">Notes:</h3>
+				<ul class="notes">
+					<li id="item_PWIP7355">
+<div><div data-schema-version="8"><p>section 5.1.1 - Virtual Functions/ Mobile access networks</p>
+</div></div>
+					</li>
+				</ul>
+			</li>
+
+		</ul>
+	
+</body></html>
