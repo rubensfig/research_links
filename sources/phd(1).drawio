@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-01T11:45:06.989Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="4JUBHztKKUF4vFZlVL0C" version="21.3.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-06-01T15:05:48.620Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="rvXpgSXZTXdkm5Sep9kf" version="21.3.6" type="github" pages="5">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2074" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2526,7 +2526,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Ez3vf7F4tpTY00tqS5-c" name="measurements">
-    <mxGraphModel dx="-476" dy="61" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-1116" dy="-299" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2716,10 +2716,10 @@
         <mxCell id="anR9WRJK9hxZ4Wruajiu-2" value="Programmable ASIC" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=open sans;fontStyle=1;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="5510" y="1670" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="anR9WRJK9hxZ4Wruajiu-3" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=open sans;fontStyle=1;fontSize=25;" parent="1" vertex="1">
-          <mxGeometry x="5310" y="1670" width="90" height="40" as="geometry" />
+        <mxCell id="anR9WRJK9hxZ4Wruajiu-3" value="Software" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=open sans;fontStyle=1;fontSize=25;" parent="1" vertex="1">
+          <mxGeometry x="5310" y="1670" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="anR9WRJK9hxZ4Wruajiu-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=open sans;fontStyle=0;fontSize=25;align=left;" parent="1" vertex="1">
+        <mxCell id="anR9WRJK9hxZ4Wruajiu-4" value="&lt;div&gt;- CPU metrics&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- cache misses&lt;/div&gt;&lt;div&gt;- PCIe utilization&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=open sans;fontStyle=0;fontSize=25;align=left;" parent="1" vertex="1">
           <mxGeometry x="5320" y="1720" width="140" height="110" as="geometry" />
         </mxCell>
         <mxCell id="anR9WRJK9hxZ4Wruajiu-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=open sans;fontStyle=1;fontSize=25;align=left;" parent="1" vertex="1">
