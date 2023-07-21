@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T13:00:55.191Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="-aNfhuUL43vn3x9hP6bf" version="21.3.8" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-07-21T10:04:20.881Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="tK7jMuOtlOah2n7hHXJm" version="21.5.0" type="github" pages="5">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
-    <mxGraphModel dx="2074" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1226,7 +1226,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="H1Ppr806cTapjGeCiwO5" name="survey">
-    <mxGraphModel dx="4148" dy="3491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1147" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1874,6 +1874,81 @@
           <mxGeometry x="-0.0438" y="-1" relative="1" as="geometry">
             <mxPoint x="-2" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-1" value="Key Performance Indicators" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3940" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-5" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3990.41" y="402.72" width="20" height="638.19" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;strokeWidth=2;fontStyle=1" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3689" y="841.7800000000001" as="targetPoint" />
+            <mxPoint x="3689" y="841.7800000000001" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-8" value="Derived" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="4260" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-9" value="Black-box" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3420" y="810" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-10" value="&lt;div&gt;White-box&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3818" y="810.09" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-11" value="&lt;div&gt;Data throughput&lt;br&gt;&lt;/div&gt;&lt;div&gt;Packet Throughtput&lt;br&gt;&lt;/div&gt;&lt;div&gt;Delay&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3420" y="943.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-12" value="&lt;div&gt;Resource utilization:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;BRAM, LUT, &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;CLB, FF, &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Register, Slices&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3638" y="943.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-16" value="FPGA" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3630" y="875.09" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-17" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3758" y="875.09" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-18" value="ASIC" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3885.5" y="875.09" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-20" value="Common" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="4018" y="875.09" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-21" value="&lt;div&gt;Resource utilization:&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;SRAM, TCAM, &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;PHV, Hashes, ..." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="3898" y="943.5" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-22" value="&lt;div&gt;PCIe delay&lt;/div&gt;&lt;div&gt;Table entry modification time&lt;/div&gt;&lt;div&gt;Max. number of flows&lt;/div&gt;&lt;div&gt;Offload speedup&lt;/div&gt;&lt;div&gt;CPU utlilization&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="4028" y="943.5" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-24" value="Black-box" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="4148" y="810.0899999999999" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-25" value="&lt;div&gt;White-box&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="4380" y="810.0899999999999" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-26" value="&lt;div&gt;Jitter&lt;/div&gt;&lt;div&gt;Power consumption&lt;/div&gt;&lt;div&gt;Performance-cost ratio&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="4168" y="954.2099999999999" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-27" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="4330" y="880.1999999999999" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-28" value="&lt;div&gt;Throughput per GPU core&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="4340" y="953.4999999999999" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-30" value="Common" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="4470" y="879.29" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-31" value="&lt;div&gt;Throughput per unit of energy spent&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="4480" y="953.4999999999999" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-34" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3670.26" y="598.81" width="22.9" height="401.45" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-7" value="Fundamental" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="3621.71" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5HqrrlBtDtpo020CbwJO-35" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="4310" y="676.8" width="20" height="245.47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
