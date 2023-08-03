@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T14:59:10.709Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="blwzj_Yttzx2HeBsqvt_" version="21.6.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-08-03T15:02:28.998Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="RZIqttFbrgtReLom_SE4" version="21.6.6" type="github" pages="5">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2074" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1903,25 +1903,25 @@
           <mxGeometry x="3819.23" y="780.6600000000001" width="120" height="29.91" as="geometry" />
         </mxCell>
         <mxCell id="5HqrrlBtDtpo020CbwJO-11" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Data throughput&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Packet throughput&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Packet delay&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Power consumption&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="3411.23" y="818" width="150" height="76.5" as="geometry" />
+          <mxGeometry x="3411.23" y="818" width="150" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="5HqrrlBtDtpo020CbwJO-12" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Resource utilization&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;BRAM&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;LUT&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;CLB&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;FF&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;Register&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Slices&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="3604.94" y="855.06" width="132" height="134.94" as="geometry" />
+        <mxCell id="5HqrrlBtDtpo020CbwJO-12" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Resource utilization&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;BRAM&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;LUT&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;CLB&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;FF&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;Register&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;Slices&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="3604.94" y="855.06" width="132" height="124.94" as="geometry" />
         </mxCell>
-        <mxCell id="5HqrrlBtDtpo020CbwJO-16" value="FPGA" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=open sans;fontSize=16;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="5HqrrlBtDtpo020CbwJO-16" value="FPGA" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="3610.94" y="823.22" width="120" height="26.11" as="geometry" />
         </mxCell>
-        <mxCell id="5HqrrlBtDtpo020CbwJO-17" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=open sans;fontSize=16;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="5HqrrlBtDtpo020CbwJO-17" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="3747.23" y="823.22" width="120" height="26.11" as="geometry" />
         </mxCell>
-        <mxCell id="5HqrrlBtDtpo020CbwJO-18" value="ASIC" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=open sans;fontSize=16;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="5HqrrlBtDtpo020CbwJO-18" value="ASIC" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="3892.84" y="823.22" width="120" height="26.11" as="geometry" />
         </mxCell>
-        <mxCell id="5HqrrlBtDtpo020CbwJO-20" value="Common" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=open sans;fontSize=16;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="5HqrrlBtDtpo020CbwJO-20" value="Common" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="4034" y="823.22" width="120" height="26.11" as="geometry" />
         </mxCell>
-        <mxCell id="5HqrrlBtDtpo020CbwJO-21" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Resource utilization&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;SRAM&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;TCAM&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;PHV&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Hashes&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="3884.45" y="855.06" width="136.79" height="104.94" as="geometry" />
+        <mxCell id="5HqrrlBtDtpo020CbwJO-21" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Resource utilization&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;SRAM&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;TCAM&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;PHV&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;Hashes&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="3884.45" y="855.06" width="136.79" height="94.94" as="geometry" />
         </mxCell>
         <mxCell id="5HqrrlBtDtpo020CbwJO-22" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;PCIe delay&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Table entry modification time&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Max. number of flows&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;CPU utlilization&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="4028" y="855.06" width="132" height="114.94" as="geometry" />
@@ -1935,17 +1935,17 @@
         <mxCell id="5HqrrlBtDtpo020CbwJO-26" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Packet Delay Variation&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Energy efficiency&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Performance-cost ratio&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="4170" y="804.17" width="160" height="65.83" as="geometry" />
         </mxCell>
-        <mxCell id="5HqrrlBtDtpo020CbwJO-27" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=open sans;fontSize=16;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="5HqrrlBtDtpo020CbwJO-27" value="GPU" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="4340" y="818" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5HqrrlBtDtpo020CbwJO-28" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Throughput per GPU core&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="4340" y="858" width="120" height="40" as="geometry" />
+          <mxGeometry x="4340" y="858" width="120" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="5HqrrlBtDtpo020CbwJO-30" value="Common" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=open sans;fontSize=16;verticalAlign=top;" parent="1" vertex="1">
+        <mxCell id="5HqrrlBtDtpo020CbwJO-30" value="Common" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="4480" y="818" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5HqrrlBtDtpo020CbwJO-31" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Throughput per unit of energy spent&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;Offload speedup&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="4480" y="858" width="150" height="60" as="geometry" />
+          <mxGeometry x="4480" y="858" width="150" height="62" as="geometry" />
         </mxCell>
         <mxCell id="5HqrrlBtDtpo020CbwJO-34" value="&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;fontStyle=1;fontFamily=open sans;fontSize=16;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="3671.4900000000002" y="569.38" width="22.9" height="401.45" as="geometry" />
@@ -2027,8 +2027,8 @@
         <mxCell id="QG0zBpA5f3BfMR8il1JD-22" value="Probe" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=open sans;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="2329.34" y="1910" width="128.79" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iH7g0jdXwEIUuVVwZ9s9-1" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Resource utilization&lt;/div&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;Memory, &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Threads,&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;SM" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="3741.71" y="855.06" width="135.06" height="84.94" as="geometry" />
+        <mxCell id="iH7g0jdXwEIUuVVwZ9s9-1" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Resource utilization&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;Memory&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;Threads&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;white-space: pre; font-size: 14px;&quot;&gt;&#x9;&lt;/span&gt;SM" style="rounded=0;whiteSpace=wrap;html=1;align=left;fontFamily=open sans;fontSize=14;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="3741.71" y="855.06" width="135.06" height="74.94" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
