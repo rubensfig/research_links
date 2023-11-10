@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-10T14:04:31.980Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="6UmwXNz2hTQV9qQopX5-" version="22.1.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-11-10T14:04:41.124Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="VOU5eJDznJMDN_NpZaIE" version="22.1.0" type="github" pages="7">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4069,7 +4069,7 @@
             <mxPoint x="9590" y="850" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="x0otdx9_RQz7utifyBrK-30" value="&lt;div align=&quot;left&quot; style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Failure model&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot; style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;- On RX: Polling thread becomes overloaded due to Rx &lt;b&gt;rate&lt;/b&gt; =&amp;gt; Effect in RX misses&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot; style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;- On TX: HQoS thread becomes overloaded due to &lt;b&gt;number of sessions &lt;/b&gt;=&amp;gt; Effect in Vector rate&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="x0otdx9_RQz7utifyBrK-30" value="&lt;div align=&quot;left&quot; style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;Failure model&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot; style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;- On PP: Polling thread becomes overloaded due to Rx &lt;b&gt;rate&lt;/b&gt; =&amp;gt; Effect in RX misses&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot; style=&quot;font-size: 19px;&quot;&gt;&lt;font style=&quot;font-size: 19px;&quot;&gt;- On HQoS: HQoS thread becomes overloaded due to &lt;b&gt;number of sessions &lt;/b&gt;=&amp;gt; Effect in Vector rate&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="8885" y="650" width="770" height="280" as="geometry" />
         </mxCell>
         <mxCell id="j8_P2SRVbfexHzGen0O--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="j8_P2SRVbfexHzGen0O--2" target="x0otdx9_RQz7utifyBrK-18" edge="1">
