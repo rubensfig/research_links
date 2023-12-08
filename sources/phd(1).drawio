@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-08T13:56:50.296Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="zIzW8RheK-oJ31b6Ig0_" version="22.1.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-08T15:17:38.045Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="FPq6ymc1xzt6NVPHiRKu" version="22.1.7" type="github" pages="7">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4233,7 +4233,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XTwuE4bt3KBwp6Txufv8-26" value="&lt;div&gt;CPU 0&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="XTwuE4bt3KBwp6Txufv8-26" value="&lt;div&gt;CPU Thread 0&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="2606" y="580" width="234" height="180" as="geometry" />
         </mxCell>
         <mxCell id="bgbBFbGXFtvqEGnlBRhZ-90" value="VPP HQoS worker" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
@@ -4911,7 +4911,7 @@
         <mxCell id="XTwuE4bt3KBwp6Txufv8-16" value="$$\text{root}$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2793" y="680" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="XTwuE4bt3KBwp6Txufv8-27" value="CPU 1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+        <mxCell id="XTwuE4bt3KBwp6Txufv8-27" value="CPU Thread 1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="2606" y="760" width="234" height="180" as="geometry" />
         </mxCell>
         <mxCell id="XTwuE4bt3KBwp6Txufv8-28" value="VOQ 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
