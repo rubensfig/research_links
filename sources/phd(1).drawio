@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T12:59:16.569Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="MsGIdsOlVQegmD-9huSU" version="22.1.7" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-12T16:29:11.359Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="CoxdWTOpPuEuoDFWevVR" version="22.1.7" type="github" pages="7">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2074" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4638,7 +4638,7 @@
           <mxGeometry x="2340" y="1330" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tPcyHOc_vM--IxRuW8be-52" value="&lt;div&gt;&lt;b&gt;How to maintain the same QoS tree in multithreaded environment?&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div align=&quot;left&quot;&gt;- Decoupling Enqueue and Dequeue&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Offloading HTB to the NIC&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;- Limited resources&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Load balance the software queues&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Asynchronous thread&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1840.92" y="1280.5" width="240" height="240" as="geometry" />
+          <mxGeometry x="1840" y="1224.62" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="tPcyHOc_vM--IxRuW8be-53" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -4864,7 +4864,7 @@
           <mxGeometry x="2715.9500000000003" y="1309.2" width="11.6" height="11.6" as="geometry" />
         </mxCell>
         <mxCell id="5WvZIvLiOmxZXRwECzdC-1" value="&lt;div&gt;&lt;b&gt;How to improve QOS performance?&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div align=&quot;left&quot;&gt;- Increase degree of parallelism&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Fan out scheduler&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Increase CPU freq p core&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Are two packets conflicting? yes, or no?&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1833" y="1477.04" width="240" height="240" as="geometry" />
+          <mxGeometry x="1822.9399999999998" y="1336" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="XTwuE4bt3KBwp6Txufv8-2" value="VOQ 0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2493" y="590" width="50" height="40" as="geometry" />
