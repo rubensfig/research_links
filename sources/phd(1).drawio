@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T15:09:08.589Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="MHzSDcjeMaHRCa9tFT3C" version="22.1.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-12T15:13:58.560Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="4M4LrMiS6yqIwBRH6cEd" version="22.1.18" type="github" pages="7">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -5514,7 +5514,7 @@
           <mxGeometry x="4470" y="475" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="UX2qp_culIJedmWy08jU-116" value="Classify" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="4480" y="503.27" width="60" height="60" as="geometry" />
+          <mxGeometry x="4470" y="510" width="46.73" height="46.73" as="geometry" />
         </mxCell>
         <mxCell id="UX2qp_culIJedmWy08jU-117" value="&lt;div&gt;P/ CPU Meter&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="4560" y="503.27" width="60" height="60" as="geometry" />
@@ -5608,6 +5608,29 @@
           <mxGeometry x="5100.003098118646" y="390.0021172757006" as="geometry">
             <mxPoint x="-3" y="3" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UX2qp_culIJedmWy08jU-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UX2qp_culIJedmWy08jU-149" target="UX2qp_culIJedmWy08jU-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UX2qp_culIJedmWy08jU-149" value="Hierarchical meter?" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="4560" y="380" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UX2qp_culIJedmWy08jU-152" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UX2qp_culIJedmWy08jU-151" target="UX2qp_culIJedmWy08jU-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UX2qp_culIJedmWy08jU-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UX2qp_culIJedmWy08jU-151" target="UX2qp_culIJedmWy08jU-155">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UX2qp_culIJedmWy08jU-154" value="&lt;div&gt;Feedback borrow data into &lt;/div&gt;?" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="UX2qp_culIJedmWy08jU-153">
+          <mxGeometry x="-0.1802" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UX2qp_culIJedmWy08jU-151" value="Keep track of borrow state" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="5130" y="701.56" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UX2qp_culIJedmWy08jU-155" value="?" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="4516.7300000000005" y="509.9" width="46.73" height="46.73" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
