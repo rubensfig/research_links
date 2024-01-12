@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T11:30:22.941Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="9AwHa0yWOAZPcIIJU8uN" version="22.1.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-12T14:53:53.191Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="81YRHz7QZO6nr62GOdT5" version="22.1.18" type="github" pages="7">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4411,7 +4411,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jf49u9fylR3eIylupGyS" name="x86_hqos">
-    <mxGraphModel dx="2440" dy="1332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="957" dy="510" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5591,7 +5591,7 @@
           <mxGeometry x="4870" y="669.37" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UX2qp_culIJedmWy08jU-144" value="&lt;div&gt;$$dr(i,j) = \frac{\text{# packets}}{\text{Token Update Period}}$$&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="4605" y="283.27" width="90" height="90" as="geometry" />
+          <mxGeometry x="4545" y="280" width="90" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UX2qp_culIJedmWy08jU-145" value="&lt;div&gt;$$sr(i,j) = \frac{dr(i,j)}{\sum_{j=0}^n dr(i,j)}CIR(j)$$&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="4923.46" y="290" width="76.54" height="76.54" as="geometry" />
