@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T09:26:58.207Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="yfxLubIuMKqKUbHvaCC8" version="22.1.18" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-01-12T11:30:22.941Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="9AwHa0yWOAZPcIIJU8uN" version="22.1.18" type="github" pages="7">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2074" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4411,7 +4411,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jf49u9fylR3eIylupGyS" name="x86_hqos">
-    <mxGraphModel dx="1152" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2440" dy="1332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5291,10 +5291,10 @@
         <mxCell id="UX2qp_culIJedmWy08jU-12" value="CPU core 1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="3520" y="510" width="410" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="UX2qp_culIJedmWy08jU-10" value="&lt;div&gt;PKT&lt;/div&gt;&lt;div&gt;RX&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="UX2qp_culIJedmWy08jU-10" value="&lt;div&gt;PKT&lt;/div&gt;&lt;div&gt;RX&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="3530" y="410" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UX2qp_culIJedmWy08jU-16" value="Classify" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="UX2qp_culIJedmWy08jU-16" value="Classify" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="3600" y="410" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UX2qp_culIJedmWy08jU-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.164;entryY=1.009;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="UX2qp_culIJedmWy08jU-23" target="UX2qp_culIJedmWy08jU-55">
@@ -5351,16 +5351,16 @@
         <mxCell id="UX2qp_culIJedmWy08jU-36" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;$$ \text{VOQ 12}, dr(1,2), sr(1,2) $$&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3730" y="575" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UX2qp_culIJedmWy08jU-37" value="&lt;div&gt;PKT&lt;/div&gt;&lt;div&gt;RX&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="UX2qp_culIJedmWy08jU-37" value="&lt;div&gt;PKT&lt;/div&gt;&lt;div&gt;RX&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="3530" y="535" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UX2qp_culIJedmWy08jU-38" value="Classify" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="UX2qp_culIJedmWy08jU-38" value="Classify" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="3600" y="535" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UX2qp_culIJedmWy08jU-41" value="&lt;div&gt;PKT&lt;/div&gt;&lt;div&gt;RX&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="UX2qp_culIJedmWy08jU-41" value="&lt;div&gt;PKT&lt;/div&gt;&lt;div&gt;RX&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="3530" y="659.37" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UX2qp_culIJedmWy08jU-42" value="Classify" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="UX2qp_culIJedmWy08jU-42" value="Classify" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="3600" y="659.37" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UX2qp_culIJedmWy08jU-50" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot;&gt;$$ \text{VOQ m0}, dr(m,0), sr(m,0) $$&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -5513,7 +5513,7 @@
         <mxCell id="UX2qp_culIJedmWy08jU-113" value="SmartNIC ingress pipeline" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="4470" y="475" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="UX2qp_culIJedmWy08jU-116" value="Classify" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="UX2qp_culIJedmWy08jU-116" value="Classify" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="4480" y="503.27" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UX2qp_culIJedmWy08jU-117" value="&lt;div&gt;P/ CPU Meter&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
