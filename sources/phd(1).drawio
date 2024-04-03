@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T11:16:59.349Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="5ab1aLB2IgjkIl5UmfIG" version="24.2.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-04-03T11:17:30.016Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="EhuT7UZLyRTp92o1j6pB" version="24.2.1" type="github" pages="8">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="1861" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4853,6 +4853,18 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nsxaxFcDCztqd-XxA5U8-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="6475" y="842.25" width="220" height="84.6" as="geometry" />
+        </mxCell>
+        <mxCell id="nsxaxFcDCztqd-XxA5U8-13" value="Host" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=top;" vertex="1" parent="nsxaxFcDCztqd-XxA5U8-27">
+          <mxGeometry x="-120" y="-20.120000000000005" width="340" height="104.72" as="geometry" />
+        </mxCell>
+        <mxCell id="nsxaxFcDCztqd-XxA5U8-28" value="CPU core 1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="nsxaxFcDCztqd-XxA5U8-27">
+          <mxGeometry width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nsxaxFcDCztqd-XxA5U8-29" value="DPDK QoS Application" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="nsxaxFcDCztqd-XxA5U8-27">
+          <mxGeometry x="3.4482758620689653" y="5.861666666666667" width="93.10344827586205" height="52.755" as="geometry" />
+        </mxCell>
         <mxCell id="nsxaxFcDCztqd-XxA5U8-8" value="smartNIC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="6330" y="983.28" width="390" height="100" as="geometry" />
         </mxCell>
@@ -7073,7 +7085,8 @@
             <Array as="points">
               <mxPoint x="6580" y="970" />
               <mxPoint x="6335" y="970" />
-              <mxPoint x="6335" y="892" />
+              <mxPoint x="6335" y="874" />
+              <mxPoint x="6355" y="874" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -7098,18 +7111,6 @@
         </mxCell>
         <mxCell id="nsxaxFcDCztqd-XxA5U8-22" value="DPDK QoS Application" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="nsxaxFcDCztqd-XxA5U8-23">
           <mxGeometry x="3.4482758620689653" y="5.861666666666667" width="93.10344827586205" height="52.755" as="geometry" />
-        </mxCell>
-        <mxCell id="nsxaxFcDCztqd-XxA5U8-27" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6475" y="842.25" width="220" height="84.6" as="geometry" />
-        </mxCell>
-        <mxCell id="nsxaxFcDCztqd-XxA5U8-28" value="CPU core 1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="nsxaxFcDCztqd-XxA5U8-27">
-          <mxGeometry width="100" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="nsxaxFcDCztqd-XxA5U8-29" value="DPDK QoS Application" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="nsxaxFcDCztqd-XxA5U8-27">
-          <mxGeometry x="3.4482758620689653" y="5.861666666666667" width="93.10344827586205" height="52.755" as="geometry" />
-        </mxCell>
-        <mxCell id="nsxaxFcDCztqd-XxA5U8-13" value="Host" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=bottom;" vertex="1" parent="nsxaxFcDCztqd-XxA5U8-27">
-          <mxGeometry x="-120" y="-20.120000000000005" width="340" height="104.72" as="geometry" />
         </mxCell>
         <mxCell id="nsxaxFcDCztqd-XxA5U8-30" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="6585" y="842" width="100" height="80" as="geometry" />
