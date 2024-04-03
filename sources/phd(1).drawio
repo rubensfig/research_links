@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T10:57:59.656Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="1-66EOv7vI-PB9PdjipF" version="24.2.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-04-03T11:16:59.349Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="5ab1aLB2IgjkIl5UmfIG" version="24.2.1" type="github" pages="8">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="1861" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4849,7 +4849,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jf49u9fylR3eIylupGyS" name="x86_hqos">
-    <mxGraphModel dx="620" dy="341" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="744" dy="409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7090,9 +7090,6 @@
         <mxCell id="nsxaxFcDCztqd-XxA5U8-9" value="Tc?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="6540" y="987.2299999999999" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="nsxaxFcDCztqd-XxA5U8-13" value="Host" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="6355" y="840" width="340" height="104.72" as="geometry" />
-        </mxCell>
         <mxCell id="nsxaxFcDCztqd-XxA5U8-23" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="6364" y="842.25" width="100" height="80" as="geometry" />
         </mxCell>
@@ -7103,13 +7100,16 @@
           <mxGeometry x="3.4482758620689653" y="5.861666666666667" width="93.10344827586205" height="52.755" as="geometry" />
         </mxCell>
         <mxCell id="nsxaxFcDCztqd-XxA5U8-27" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="6475" y="842.25" width="100" height="80" as="geometry" />
+          <mxGeometry x="6475" y="842.25" width="220" height="84.6" as="geometry" />
         </mxCell>
         <mxCell id="nsxaxFcDCztqd-XxA5U8-28" value="CPU core 1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="nsxaxFcDCztqd-XxA5U8-27">
           <mxGeometry width="100" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nsxaxFcDCztqd-XxA5U8-29" value="DPDK QoS Application" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="nsxaxFcDCztqd-XxA5U8-27">
           <mxGeometry x="3.4482758620689653" y="5.861666666666667" width="93.10344827586205" height="52.755" as="geometry" />
+        </mxCell>
+        <mxCell id="nsxaxFcDCztqd-XxA5U8-13" value="Host" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;verticalAlign=bottom;" vertex="1" parent="nsxaxFcDCztqd-XxA5U8-27">
+          <mxGeometry x="-120" y="-20.120000000000005" width="340" height="104.72" as="geometry" />
         </mxCell>
         <mxCell id="nsxaxFcDCztqd-XxA5U8-30" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="6585" y="842" width="100" height="80" as="geometry" />
