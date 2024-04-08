@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T15:33:48.549Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="U-YxiafHS862THC9gYb9" version="24.2.1" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-04-08T15:36:10.420Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="o5KLzMrXABzB2UCHFLFH" version="24.2.1" type="github" pages="8">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2074" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6890,7 +6890,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vj-Xve4CYOf0n5Orkj6_" name="paper3">
-    <mxGraphModel dx="922" dy="506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="638" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7824,7 +7824,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="u7anXvdGBqmty48R7bCI-178" value="smartNIC" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;container=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="5360" y="710.5500000000001" width="100" height="43.28" as="geometry" />
+          <mxGeometry x="5360" y="699.47" width="100" height="64.73" as="geometry" />
         </mxCell>
         <mxCell id="u7anXvdGBqmty48R7bCI-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="u7anXvdGBqmty48R7bCI-179" target="u7anXvdGBqmty48R7bCI-169">
           <mxGeometry relative="1" as="geometry" />
@@ -7835,8 +7835,8 @@
         <mxCell id="u7anXvdGBqmty48R7bCI-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="u7anXvdGBqmty48R7bCI-179" target="u7anXvdGBqmty48R7bCI-172">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="u7anXvdGBqmty48R7bCI-179" value="Counter" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;spacing=0;" vertex="1" parent="1">
-          <mxGeometry x="5363.45" y="715.44" width="93.1" height="17.28" as="geometry" />
+        <mxCell id="u7anXvdGBqmty48R7bCI-179" value="Counter p/ core" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="5363.45" y="710" width="93.1" height="34.56" as="geometry" />
         </mxCell>
         <mxCell id="u7anXvdGBqmty48R7bCI-181" value="&lt;div&gt;NIC&lt;/div&gt;&lt;div&gt;Rx&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;spacing=0;" vertex="1" parent="1">
           <mxGeometry x="5480" y="716.0000000000001" width="32.38" height="32.38" as="geometry" />
