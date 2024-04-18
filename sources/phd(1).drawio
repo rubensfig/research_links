@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-18T10:52:33.456Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="DVQ5obXl4swPVt5yBfds" version="24.2.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-04-18T10:58:43.213Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="vti9LpWFCHsZRLLJbni8" version="24.2.5" type="github" pages="9">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2074" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8747,7 +8747,7 @@
         <mxCell id="kvUatsgZ7tDTekaxdbic-179" value="PP" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=19;verticalAlign=middle;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;horizontal=0;rotation=90;direction=west;" parent="1" vertex="1">
           <mxGeometry x="2730" y="2155.29" width="30" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="kvUatsgZ7tDTekaxdbic-180" value="QoS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=15;verticalAlign=bottom;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;horizontal=0;strokeWidth=3;rotation=90;" parent="1" vertex="1">
+        <mxCell id="kvUatsgZ7tDTekaxdbic-180" value="QoS CPU 0" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=15;verticalAlign=bottom;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;horizontal=0;strokeWidth=3;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="2829.35" y="2150" width="79.27" height="100.18" as="geometry" />
         </mxCell>
         <mxCell id="kvUatsgZ7tDTekaxdbic-181" value="TxQ pool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;verticalAlign=bottom;fontStyle=1" parent="1" vertex="1">
@@ -8869,7 +8869,7 @@
         <mxCell id="kvUatsgZ7tDTekaxdbic-211" value="" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2822" y="2349.9700000000003" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kvUatsgZ7tDTekaxdbic-212" value="QoS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=15;verticalAlign=bottom;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;horizontal=0;strokeWidth=3;rotation=90;" parent="1" vertex="1">
+        <mxCell id="kvUatsgZ7tDTekaxdbic-212" value="QoS CPU 1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=15;verticalAlign=bottom;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;horizontal=0;strokeWidth=3;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="2829.5099999999998" y="2234.98" width="79.27" height="100.18" as="geometry" />
         </mxCell>
         <mxCell id="kvUatsgZ7tDTekaxdbic-213" value="VoQ 01" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
@@ -8937,7 +8937,7 @@
         <mxCell id="kvUatsgZ7tDTekaxdbic-227" value="VoQ 1m" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="2829.5099999999998" y="2287" width="40" height="8.68" as="geometry" />
         </mxCell>
-        <mxCell id="kvUatsgZ7tDTekaxdbic-228" value="QoS" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=15;verticalAlign=bottom;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;horizontal=0;strokeWidth=3;rotation=90;" parent="1" vertex="1">
+        <mxCell id="kvUatsgZ7tDTekaxdbic-228" value="QoS CPU 2" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=15;verticalAlign=bottom;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;horizontal=0;strokeWidth=3;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="2844.14" y="2305.5" width="50.33" height="100.18" as="geometry" />
         </mxCell>
         <mxCell id="kvUatsgZ7tDTekaxdbic-229" value="VoQ n1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
