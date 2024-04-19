@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T13:27:05.916Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="xlrahcDcQmO55EuP11lv" version="24.2.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-04-19T13:30:02.189Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="8v-W_UDN_YoCyGOZlkyb" version="24.2.5" type="github" pages="9">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2074" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6890,7 +6890,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vj-Xve4CYOf0n5Orkj6_" name="paper3">
-    <mxGraphModel dx="775" dy="421" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="683" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9111,8 +9111,29 @@
         <mxCell id="HMTKj2_XFxpeZp2VC0s_-91" value="&lt;div&gt;$$ \theta_{root} = \frac{\text{# Tokens}_{root}}{\Delta T}$$&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="4340" y="2416.48" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HMTKj2_XFxpeZp2VC0s_-94" value="&lt;div&gt;$$ \theta_{rest} = \theta_{root} - \theta_0 $$&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="4185" y="2484.52" width="40" height="40" as="geometry" />
+        <mxCell id="HMTKj2_XFxpeZp2VC0s_-94" value="&lt;div&gt;$$ \theta_{rest} = \theta_{root} - \theta_0 $$&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;fontColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="4126" y="2550.5" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HMTKj2_XFxpeZp2VC0s_-95" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.165;entryY=0.939;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="HMTKj2_XFxpeZp2VC0s_-30" target="HMTKj2_XFxpeZp2VC0s_-69">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4210" y="2560" as="sourcePoint" />
+            <mxPoint x="4230" y="2430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4205" y="2560" />
+              <mxPoint x="4070" y="2560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HMTKj2_XFxpeZp2VC0s_-96" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="HMTKj2_XFxpeZp2VC0s_-30" target="HMTKj2_XFxpeZp2VC0s_-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4206.5" y="2490" as="sourcePoint" />
+            <mxPoint x="4071.5" y="2512" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4205" y="2560" />
+              <mxPoint x="4100" y="2560" />
+              <mxPoint x="4087" y="2560" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
