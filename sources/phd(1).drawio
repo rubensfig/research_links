@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-19T15:24:43.564Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="sbKGY78RhHyfxeT_7EaB" version="24.2.5" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-04-19T15:27:21.691Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="lKPGmeas0G4xKJXn4zQJ" version="24.2.5" type="github" pages="9">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2074" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6890,12 +6890,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vj-Xve4CYOf0n5Orkj6_" name="paper3">
-    <mxGraphModel dx="717" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="797" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="HMTKj2_XFxpeZp2VC0s_-103" value="smartNIC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="4116.58" y="2386.63" width="176.84" height="113.25" as="geometry" />
+          <mxGeometry x="4113.16" y="2379.86" width="176.84" height="113.25" as="geometry" />
         </mxCell>
         <mxCell id="HMTKj2_XFxpeZp2VC0s_-100" value="CPU 1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="3917.16" y="2445.25" width="196" height="104.52" as="geometry" />
@@ -9034,17 +9034,17 @@
         <mxCell id="HMTKj2_XFxpeZp2VC0s_-28" value="&lt;div&gt;&amp;nbsp;$$\text{TC }0$$&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacingBottom=12;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="4185" y="2404.52" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HMTKj2_XFxpeZp2VC0s_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HMTKj2_XFxpeZp2VC0s_-30" target="HMTKj2_XFxpeZp2VC0s_-32" edge="1">
+        <mxCell id="HMTKj2_XFxpeZp2VC0s_-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HMTKj2_XFxpeZp2VC0s_-30" target="HMTKj2_XFxpeZp2VC0s_-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HMTKj2_XFxpeZp2VC0s_-30" value="&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;$$\text{TC }1..7$$&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacingBottom=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="HMTKj2_XFxpeZp2VC0s_-30" value="&lt;div&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;$$\text{TC }1$$&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacingBottom=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="4185" y="2444.52" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HMTKj2_XFxpeZp2VC0s_-31" value="$$ \text{OQ}0$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4125" y="2412.5099999999998" width="40" height="24.02" as="geometry" />
         </mxCell>
         <mxCell id="HMTKj2_XFxpeZp2VC0s_-32" value="$$ \text{OQ}1$$" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="4126" y="2452.2599999999998" width="38" height="24.52" as="geometry" />
+          <mxGeometry x="4126" y="2442.5099999999998" width="38" height="24.52" as="geometry" />
         </mxCell>
         <mxCell id="HMTKj2_XFxpeZp2VC0s_-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="HMTKj2_XFxpeZp2VC0s_-62" target="HMTKj2_XFxpeZp2VC0s_-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -9113,8 +9113,8 @@
         <mxCell id="HMTKj2_XFxpeZp2VC0s_-91" value="&lt;div&gt;$$ \theta_{root} = \frac{\text{# Tokens}_{root}}{\Delta T}$$&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="4340" y="2416.48" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="HMTKj2_XFxpeZp2VC0s_-94" value="&lt;div&gt;$$ \theta_{rest} = \theta_{root} - \theta_0 $$&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;fontColor=#6C8EBF;" parent="1" vertex="1">
-          <mxGeometry x="4126" y="2550.5" width="40" height="40" as="geometry" />
+        <mxCell id="HMTKj2_XFxpeZp2VC0s_-94" value="&lt;div&gt;$$ \theta_0, \theta_{rest} = \theta_{root} - \theta_0 $$&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;fontColor=#6C8EBF;" parent="1" vertex="1">
+          <mxGeometry x="4125.79" y="2560.5" width="49.5" height="49.5" as="geometry" />
         </mxCell>
         <mxCell id="HMTKj2_XFxpeZp2VC0s_-95" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="HMTKj2_XFxpeZp2VC0s_-30" target="HMTKj2_XFxpeZp2VC0s_-69" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -9145,6 +9145,9 @@
         </mxCell>
         <mxCell id="HMTKj2_XFxpeZp2VC0s_-102" value="&lt;div&gt;$$ \theta: \text{Token rate}$$&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="4320" y="2486.16" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2pJOnob39cTOVH0IudTu-3" value="Feedback:" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;fontColor=#6C8EBF;" vertex="1" parent="1">
+          <mxGeometry x="4100" y="2549.77" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
