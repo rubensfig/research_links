@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-03T12:07:13.967Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="5Igj8izH6mLhrRxga5Xt" version="24.3.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-05-03T12:12:31.594Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="HjpZIlGexypcCYdkD0JB" version="24.3.1" type="github" pages="9">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2049" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9548,11 +9548,20 @@
         <mxCell id="rFAw-fvxNoQHD4pYagti-63" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4584.83" y="2727" width="250.17" height="130.11" as="geometry" />
         </mxCell>
+        <mxCell id="rFAw-fvxNoQHD4pYagti-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rFAw-fvxNoQHD4pYagti-64" target="rFAw-fvxNoQHD4pYagti-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rFAw-fvxNoQHD4pYagti-64" value="HQoS 1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="4605" y="2780.11" width="60" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="rFAw-fvxNoQHD4pYagti-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rFAw-fvxNoQHD4pYagti-66" target="rFAw-fvxNoQHD4pYagti-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rFAw-fvxNoQHD4pYagti-66" value="HQoS 2" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="4684.91" y="2780.11" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rFAw-fvxNoQHD4pYagti-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rFAw-fvxNoQHD4pYagti-67" target="rFAw-fvxNoQHD4pYagti-62">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rFAw-fvxNoQHD4pYagti-67" value="HQoS ..." style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="4760" y="2780.11" width="60" height="60" as="geometry" />
@@ -9599,8 +9608,11 @@
         <mxCell id="rFAw-fvxNoQHD4pYagti-78" value="&lt;div&gt;2. Feed User &lt;br&gt;&lt;/div&gt;&lt;div&gt;level counters&lt;/div&gt;&amp;nbsp;to HQoS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="4835" y="2740" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rFAw-fvxNoQHD4pYagti-79" value="3. Port-rate meter" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="4840" y="2895" width="120" height="30" as="geometry" />
+        <mxCell id="rFAw-fvxNoQHD4pYagti-79" value="&lt;div&gt;4. Port TC meter&lt;/div&gt;&lt;div&gt;(DCB like functionality)&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4837" y="2890" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rFAw-fvxNoQHD4pYagti-83" value="&lt;div&gt;4. Map VF to TC&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4852" y="2845.11" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
