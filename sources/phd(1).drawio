@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-03T11:51:10.753Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="KXCypNC3K-dvSY_czFcx" version="24.3.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-05-03T11:54:09.847Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="4dkxgJCggNublvUJb48F" version="24.3.1" type="github" pages="9">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2049" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10082,12 +10082,12 @@
         <mxCell id="-QK8e7VhvtNKugS2Wd2f-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="RWA1p5TIK36egvQdSGpe-1" target="-QK8e7VhvtNKugS2Wd2f-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="630" y="230" />
+              <mxPoint x="606" y="230" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RWA1p5TIK36egvQdSGpe-1" value="Quality of Service in Virtualized Access Networks" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="335.5" y="200" width="314.5" height="30" as="geometry" />
+          <mxGeometry x="335.5" y="200" width="294.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RWA1p5TIK36egvQdSGpe-6" value="&lt;div&gt;VNF Performance&lt;/div&gt;Benchmarking" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="310" y="250" width="101" height="50" as="geometry" />
@@ -10103,9 +10103,6 @@
               <mxPoint x="510" y="290" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="rYQBIOWb84V6mgTl9ZxG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="RWA1p5TIK36egvQdSGpe-19" target="rYQBIOWb84V6mgTl9ZxG-4">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RWA1p5TIK36egvQdSGpe-19" value="VNF execution of QoS functions " style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="425" y="250" width="125" height="40" as="geometry" />
@@ -10145,10 +10142,10 @@
           <mxGeometry x="335.5" y="285" width="50" height="15" as="geometry" />
         </mxCell>
         <mxCell id="-QK8e7VhvtNKugS2Wd2f-30" value="Management and orchestration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="590" y="250" width="80" height="65.75" as="geometry" />
+          <mxGeometry x="566" y="250" width="80" height="65.75" as="geometry" />
         </mxCell>
-        <mxCell id="-QK8e7VhvtNKugS2Wd2f-31" value="Paper 6" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="605" y="298.5" width="50" height="15.25" as="geometry" />
+        <mxCell id="-QK8e7VhvtNKugS2Wd2f-31" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Paper 5/6&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="581" y="298.5" width="50" height="15.25" as="geometry" />
         </mxCell>
         <mxCell id="-QK8e7VhvtNKugS2Wd2f-45" value="Papers" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="1030.5" y="240.5" width="50" height="39.5" as="geometry" />
@@ -10232,12 +10229,6 @@
         </mxCell>
         <mxCell id="rYQBIOWb84V6mgTl9ZxG-3" value="&lt;b&gt;RQ3 &lt;/b&gt;What network-level policies that leverage the tradeoffs to improve energy efficiency can be implemented?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="680" y="300" width="200" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="rYQBIOWb84V6mgTl9ZxG-4" value="Chaining" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="520" y="304.5" width="68" height="33.75" as="geometry" />
-        </mxCell>
-        <mxCell id="rYQBIOWb84V6mgTl9ZxG-5" value="Paper 5" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="529" y="326.75" width="50" height="11.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
