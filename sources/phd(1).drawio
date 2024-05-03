@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-03T12:47:23.591Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="_kwy9BjgYMhEN39Y1k3P" version="24.3.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-05-03T12:58:12.516Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="N6sxKTvvRjpEe9SXU3c0" version="24.3.1" type="github" pages="9">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2049" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10135,7 +10135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vbf_zAyEChC6xrgX4uS5" name="half_time">
-    <mxGraphModel dx="700" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="735" dy="399" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10297,13 +10297,19 @@
           <mxGeometry x="1360" y="280.5" width="39.5" height="39.5" as="geometry" />
         </mxCell>
         <mxCell id="rYQBIOWb84V6mgTl9ZxG-1" value="&lt;b&gt;RQ1&lt;/b&gt; How to measure the performance of the hardware accelerated VNF?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="680" y="180" width="200" height="55" as="geometry" />
+          <mxGeometry x="680" y="320" width="200" height="55" as="geometry" />
         </mxCell>
         <mxCell id="rYQBIOWb84V6mgTl9ZxG-2" value="&lt;b&gt;RQ2 &lt;/b&gt;What are the impacts of executing core network functionality in software and how to improve it?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="680" y="241.5" width="200" height="50" as="geometry" />
+          <mxGeometry x="680" y="381.5" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rYQBIOWb84V6mgTl9ZxG-3" value="&lt;b&gt;RQ3 &lt;/b&gt;What network-level policies that leverage the tradeoffs to improve energy efficiency can be implemented?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;align=left;" vertex="1" parent="1">
-          <mxGeometry x="680" y="300" width="200" height="70" as="geometry" />
+          <mxGeometry x="680" y="440" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RNWc14uRe7OhepZ_Qs60-1" value="&lt;b&gt;THESIS&lt;/b&gt; NFV performance is improved with multi-threading, but synchronization mechanisms between the multiple threads are needed. " style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;verticalAlign=top;align=left;" vertex="1" parent="1">
+          <mxGeometry x="680" y="173.75" width="200" height="136.25" as="geometry" />
+        </mxCell>
+        <mxCell id="RNWc14uRe7OhepZ_Qs60-2" value="NIC offloading is a path for synchronization" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="244.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
