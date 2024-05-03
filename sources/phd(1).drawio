@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-03T14:27:49.861Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="PR4OJ-tPpPhX4IObkyoZ" version="24.3.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-05-03T14:29:56.370Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="wGM3Ah1SncwXMJ3bAcht" version="24.3.1" type="github" pages="9">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2049" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9629,6 +9629,9 @@
         </mxCell>
         <mxCell id="ncQbFfZEwg6CoAEqo6N3-3" value="&lt;div&gt;Periodically fetch user&lt;/div&gt;&lt;div&gt;Calculate final shaper rates&lt;/div&gt;&lt;div&gt;update hqos shapers&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="4905" y="2570.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ncQbFfZEwg6CoAEqo6N3-7" value="&lt;div&gt;T = TB rate / credits&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4360" y="2655.36" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
