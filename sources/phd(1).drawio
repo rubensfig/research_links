@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-13T09:30:11.421Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="sP_4e-J7l2UPe2ieSF2d" version="24.3.1" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-05-13T09:32:22.901Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="KIqzXYXy5pc0aJiDaucw" version="24.3.1" type="github" pages="9">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2049" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6950,6 +6950,42 @@
         </mxCell>
         <mxCell id="3Zam545sj6--bfvv0Qv4-9" value="Dequeue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1520.92" y="1500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Zam545sj6--bfvv0Qv4-10" value="" style="group;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;opacity=30;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1390" y="1720.24" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Zam545sj6--bfvv0Qv4-11" value="Eth" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3Zam545sj6--bfvv0Qv4-10">
+          <mxGeometry x="120" y="0.00999833361105573" width="39.9933344442593" height="39.9933344442593" as="geometry" />
+        </mxCell>
+        <mxCell id="3Zam545sj6--bfvv0Qv4-12" value="VLAN" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3Zam545sj6--bfvv0Qv4-10">
+          <mxGeometry x="80" y="0.00999833361105573" width="39.9933344442593" height="39.9933344442593" as="geometry" />
+        </mxCell>
+        <mxCell id="3Zam545sj6--bfvv0Qv4-13" value="IP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3Zam545sj6--bfvv0Qv4-10">
+          <mxGeometry x="40" y="0.00999833361105573" width="39.9933344442593" height="39.9933344442593" as="geometry" />
+        </mxCell>
+        <mxCell id="3Zam545sj6--bfvv0Qv4-14" value="Packet 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;opacity=50;" vertex="1" parent="3Zam545sj6--bfvv0Qv4-10">
+          <mxGeometry y="40.00333277787035" width="160" height="19.99666722212965" as="geometry" />
+        </mxCell>
+        <mxCell id="3Zam545sj6--bfvv0Qv4-15" value=".." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3Zam545sj6--bfvv0Qv4-10">
+          <mxGeometry width="39.9933344442593" height="39.9933344442593" as="geometry" />
+        </mxCell>
+        <mxCell id="3Zam545sj6--bfvv0Qv4-22" value="" style="group;fillColor=#ffff88;strokeColor=#FFFF66;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1220" y="1720" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3Zam545sj6--bfvv0Qv4-23" value="Eth" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3Zam545sj6--bfvv0Qv4-22">
+          <mxGeometry x="120" y="0.00999833361105573" width="39.9933344442593" height="39.9933344442593" as="geometry" />
+        </mxCell>
+        <mxCell id="3Zam545sj6--bfvv0Qv4-24" value="VLAN" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3Zam545sj6--bfvv0Qv4-22">
+          <mxGeometry x="80" y="0.00999833361105573" width="39.9933344442593" height="39.9933344442593" as="geometry" />
+        </mxCell>
+        <mxCell id="3Zam545sj6--bfvv0Qv4-25" value="IP" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3Zam545sj6--bfvv0Qv4-22">
+          <mxGeometry x="40" y="0.00999833361105573" width="39.9933344442593" height="39.9933344442593" as="geometry" />
+        </mxCell>
+        <mxCell id="3Zam545sj6--bfvv0Qv4-26" value="Packet 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;opacity=50;" vertex="1" parent="3Zam545sj6--bfvv0Qv4-22">
+          <mxGeometry y="40.00333277787035" width="160" height="19.99666722212965" as="geometry" />
+        </mxCell>
+        <mxCell id="3Zam545sj6--bfvv0Qv4-27" value=".." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="3Zam545sj6--bfvv0Qv4-22">
+          <mxGeometry width="39.9933344442593" height="39.9933344442593" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
