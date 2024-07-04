@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T11:01:50.929Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="1O389yo3wIeYv3BunAet" version="24.6.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-07-04T11:15:53.168Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="UmAaPX2gb1rk1EEfnRtc" version="24.6.4" type="github" pages="12">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2049" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11583,13 +11583,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="naLl8R0SRFPWACoFELms-42" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;$$ HQoS_i(S, Dr, Pr, Max) $$&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="790" y="228.25" width="150" height="30.5" as="geometry" />
+          <mxGeometry x="760" y="80" width="150" height="30.5" as="geometry" />
         </mxCell>
         <mxCell id="naLl8R0SRFPWACoFELms-43" value="&lt;div&gt;S: Number of Sessions&lt;/div&gt;&lt;div&gt;Dr: Current Demand&lt;/div&gt;&lt;div&gt;Pr: Peak Rate Shaper&lt;br&gt;&lt;/div&gt;&lt;div&gt;Max: Non drop Rate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="790" y="265.36" width="150" height="60" as="geometry" />
+          <mxGeometry x="760" y="117.11000000000001" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="naLl8R0SRFPWACoFELms-48" value="$$ \left\{ \begin{aligned} Dr_i &amp;gt; Pr_i, i=0,1 \\ Dr_i &amp;lt; Pr_i, i =2,3 \end{aligned}\right.$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="900" y="414.61" width="86.54" height="51.75" as="geometry" />
+        <mxCell id="naLl8R0SRFPWACoFELms-48" value="$$ \left\{ \begin{aligned} Dr_i &amp;gt; Pr_i, i=0,1 \\ Dr_i &amp;lt; Pr_i, i =2,3 \\ Pr_i &amp;lt; NDR_i, i=1,2,3,4\end{aligned}\right.$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="823.46" y="198.25" width="86.54" height="51.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
