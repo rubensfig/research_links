@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T12:00:44.282Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="0HJV6oM1qT23Tj3aridQ" version="24.6.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-07-04T12:15:33.570Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="p7Z5DofwhcbGN5WrXkew" version="24.6.4" type="github" pages="12">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2049" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11609,8 +11609,11 @@
         <mxCell id="naLl8R0SRFPWACoFELms-55" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="730" y="620" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="naLl8R0SRFPWACoFELms-56" value="&lt;div&gt;1. Calculate credits&lt;/div&gt;&lt;div&gt;Pr = max(NDR, PR_c + &#39;available&#39;)&lt;/div&gt;&lt;div&gt;2. Calculate schedulability&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="649.5" width="170" height="60" as="geometry" />
+        <mxCell id="naLl8R0SRFPWACoFELms-56" value="&lt;div&gt;1. Calculate credits&lt;/div&gt;&lt;div&gt;Pr = max(NDR, PR_configured + &#39;available&#39;)&lt;/div&gt;&lt;div&gt;2. Calculate schedulability&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="649.5" width="290" height="60.5" as="geometry" />
+        </mxCell>
+        <mxCell id="bboA-MarmpqxA1lzsdmF-2" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="460" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
