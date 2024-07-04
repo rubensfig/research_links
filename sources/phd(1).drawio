@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T13:09:55.863Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="P42dV8LfJ5GQGgHlmDWR" version="24.6.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-07-04T13:13:07.709Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="X6dhu_oc-Qr3GS55VaYI" version="24.6.4" type="github" pages="12">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2049" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11214,7 +11214,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="T13A4TvImwRU7ScohaSn" name="smartnic">
-    <mxGraphModel dx="468" dy="215" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="722" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11582,7 +11582,7 @@
             <mxPoint x="22" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="naLl8R0SRFPWACoFELms-42" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;$$ HQoS_i(S, Pr, NDR) $$&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="naLl8R0SRFPWACoFELms-42" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;$$ HQoS_i(Pr, NDR) $$&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="840" y="80" width="150" height="30.5" as="geometry" />
         </mxCell>
         <mxCell id="naLl8R0SRFPWACoFELms-43" value="&lt;div&gt;S: Number of Sessions&lt;/div&gt;&lt;div&gt;Dr: Current Demand&lt;/div&gt;&lt;div&gt;Pr: Peak Rate Shaper&lt;br&gt;&lt;/div&gt;&lt;div&gt;NDR: Non drop Rate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
