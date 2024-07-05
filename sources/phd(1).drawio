@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T11:29:12.140Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="csRfOb2hiI1_sHOtv7s4" version="24.6.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-07-05T11:30:36.278Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="rnDCrubO9H2Rxs-mkawt" version="24.6.4" type="github" pages="12">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2049" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11214,7 +11214,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="T13A4TvImwRU7ScohaSn" name="smartnic">
-    <mxGraphModel dx="792" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1373" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12181,8 +12181,8 @@
         </mxCell>
         <mxCell id="eN_KV7Gh3U7hLQp3oHWU-136" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="1183" as="sourcePoint" />
-            <mxPoint x="190" y="1182.81" as="targetPoint" />
+            <mxPoint x="110" y="1183" as="sourcePoint" />
+            <mxPoint x="140" y="1182.81" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eN_KV7Gh3U7hLQp3oHWU-137" value="&lt;div&gt;`L_{max} = 100\text{ Gbps}`&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="eN_KV7Gh3U7hLQp3oHWU-136">
@@ -12192,20 +12192,20 @@
         </mxCell>
         <mxCell id="eN_KV7Gh3U7hLQp3oHWU-138" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="772.18" y="1182.96" as="sourcePoint" />
-            <mxPoint x="800" y="1183" as="targetPoint" />
+            <mxPoint x="822" y="1182.81" as="sourcePoint" />
+            <mxPoint x="849.82" y="1182.85" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eN_KV7Gh3U7hLQp3oHWU-139" value="&lt;div&gt;`L_{max} = 25 \text{ Gbps}`&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="eN_KV7Gh3U7hLQp3oHWU-138">
+        <mxCell id="eN_KV7Gh3U7hLQp3oHWU-139" value="&lt;div&gt;`B = 25 \text{ Gbps}`&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="eN_KV7Gh3U7hLQp3oHWU-138">
           <mxGeometry x="-0.1872" y="3" relative="1" as="geometry">
-            <mxPoint x="6" y="-27" as="offset" />
+            <mxPoint x="69" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eN_KV7Gh3U7hLQp3oHWU-142" value="&lt;div&gt;To avoid artifically limiting the maximum output rate of each HQOS, it is necessary that&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="790" y="1025" width="146.73" height="105" as="geometry" />
+          <mxGeometry x="617.28" y="1018.36" width="146.73" height="105" as="geometry" />
         </mxCell>
         <mxCell id="eN_KV7Gh3U7hLQp3oHWU-141" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="780" y="1010" width="30" height="30" as="geometry" />
+          <mxGeometry x="607.28" y="1003.36" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eN_KV7Gh3U7hLQp3oHWU-143" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;$$ \text{HQoS}_i(S, Pr, NDR) $$&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="434.83000000000004" y="962.39" width="165.1" height="30.5" as="geometry" />
@@ -12214,13 +12214,19 @@
           <mxGeometry x="607.2800000000001" y="920" width="165.1" height="72.89" as="geometry" />
         </mxCell>
         <mxCell id="eN_KV7Gh3U7hLQp3oHWU-145" value="&lt;div&gt;Uplink port&lt;/div&gt;B: uplink port capacity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="757.28" y="1381.25" width="70" height="57.5" as="geometry" />
+          <mxGeometry x="750" y="1376.25" width="152.72" height="57.5" as="geometry" />
         </mxCell>
         <mxCell id="eN_KV7Gh3U7hLQp3oHWU-146" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="660" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eN_KV7Gh3U7hLQp3oHWU-147" value="`Pr = min(NDR, B)`" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="829.72" y="1100" width="67.28" height="33.64" as="geometry" />
+          <mxGeometry x="657" y="1093.36" width="67.28" height="33.64" as="geometry" />
+        </mxCell>
+        <mxCell id="eN_KV7Gh3U7hLQp3oHWU-149" value="NIC Rx" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1155" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eN_KV7Gh3U7hLQp3oHWU-150" value="NIC Tx" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1158" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
