@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T11:27:13.137Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="2t6J5AMCOxegZAZgR0Dv" version="24.6.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-07-05T11:29:12.140Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="csRfOb2hiI1_sHOtv7s4" version="24.6.4" type="github" pages="12">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2049" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12201,7 +12201,7 @@
             <mxPoint x="6" y="-27" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eN_KV7Gh3U7hLQp3oHWU-142" value="To avoid artifically limiting the maximum output rate of each HQOS, it is necessary that Pr = uplink port rate. " style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="eN_KV7Gh3U7hLQp3oHWU-142" value="&lt;div&gt;To avoid artifically limiting the maximum output rate of each HQOS, it is necessary that&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="790" y="1025" width="146.73" height="105" as="geometry" />
         </mxCell>
         <mxCell id="eN_KV7Gh3U7hLQp3oHWU-141" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -12213,11 +12213,14 @@
         <mxCell id="eN_KV7Gh3U7hLQp3oHWU-144" value="&lt;div&gt;S: Max Number of Sessions&lt;/div&gt;&lt;div&gt;Pr: Port Peak Rate Shaper&lt;br&gt;&lt;/div&gt;&lt;div&gt;NDR: Non drop Rate&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="607.2800000000001" y="920" width="165.1" height="72.89" as="geometry" />
         </mxCell>
-        <mxCell id="eN_KV7Gh3U7hLQp3oHWU-145" value="Uplink port" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="1392.5" width="70" height="35" as="geometry" />
+        <mxCell id="eN_KV7Gh3U7hLQp3oHWU-145" value="&lt;div&gt;Uplink port&lt;/div&gt;B: uplink port capacity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="757.28" y="1381.25" width="70" height="57.5" as="geometry" />
         </mxCell>
         <mxCell id="eN_KV7Gh3U7hLQp3oHWU-146" value="&amp;nbsp;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="660" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eN_KV7Gh3U7hLQp3oHWU-147" value="`Pr = min(NDR, B)`" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="829.72" y="1100" width="67.28" height="33.64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
