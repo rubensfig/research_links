@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-07T10:10:46.280Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="SNajcMZc9uvdUAPBKqHj" version="24.6.4" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2024-07-07T14:47:37.211Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" etag="OR2K0Lq7Tz7pJ796H4l3" version="24.6.4" type="github" pages="12">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2049" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4873,7 +4873,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jf49u9fylR3eIylupGyS" name="x86_hqos">
-    <mxGraphModel dx="1644" dy="875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2840" dy="1528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5164,20 +5164,11 @@
         <mxCell id="3DIVCRJUuyhLURZfiUk2-82" value="Level 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1700" y="545" width="40" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="3DIVCRJUuyhLURZfiUk2-85" value="$$R_{assured}: CIR, \text{flow}_n$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="1903" y="960" width="170" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="3DIVCRJUuyhLURZfiUk2-86" value="$$R_{ceiling}: PIR, \text{flow}_n$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="1905" y="980" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="3DIVCRJUuyhLURZfiUk2-87" value="$$R_{assured}: CIR, \text{inner}_m$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="1996" y="1020" width="170" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="3DIVCRJUuyhLURZfiUk2-88" value="$$R_{ceiling}: PIR, \text{inner}_m$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="1994" y="1040" width="170" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="3DIVCRJUuyhLURZfiUk2-89" value="$$R_{assured}: CIR, \text{root}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="2105" y="1090" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3DIVCRJUuyhLURZfiUk2-90" value="$$R_{ceiling}: PIR, \text{root}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="2107" y="1110" width="150" height="20" as="geometry" />
