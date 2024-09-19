@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" version="24.7.10" pages="12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/111.0" version="24.7.14" pages="12">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="2049" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10624,7 +10624,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vbf_zAyEChC6xrgX4uS5" name="half_time">
-    <mxGraphModel dx="2373" dy="1291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2060" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10672,35 +10672,37 @@
           <mxGeometry x="425" y="250" width="125" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RWA1p5TIK36egvQdSGpe-21" value="Performance bottlenecks" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="400" y="304.5" width="80" height="52.5" as="geometry" />
+          <mxGeometry x="400" y="304.5" width="80" height="85.5" as="geometry" />
         </mxCell>
         <mxCell id="RWA1p5TIK36egvQdSGpe-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="RWA1p5TIK36egvQdSGpe-23" target="RWA1p5TIK36egvQdSGpe-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="482" y="406" />
+              <mxPoint x="496" y="435" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RWA1p5TIK36egvQdSGpe-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" source="RWA1p5TIK36egvQdSGpe-23" target="RWA1p5TIK36egvQdSGpe-27" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="546" y="486.75" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="RWA1p5TIK36egvQdSGpe-23" value="NIC-based acceleration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="472" y="361" width="80" height="32.75" as="geometry" />
+          <mxGeometry x="486" y="390" width="80" height="32.75" as="geometry" />
         </mxCell>
         <mxCell id="RWA1p5TIK36egvQdSGpe-25" value="Commodity NIC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="442" y="405.25" width="80" height="50" as="geometry" />
+          <mxGeometry x="456" y="434.25" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RWA1p5TIK36egvQdSGpe-27" value="smartNIC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="498" y="457.75" width="68" height="33.75" as="geometry" />
+          <mxGeometry x="512" y="491.25" width="68" height="33.75" as="geometry" />
         </mxCell>
-        <mxCell id="RWA1p5TIK36egvQdSGpe-34" value="Paper 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="415" y="339.75" width="50" height="15" as="geometry" />
+        <mxCell id="RWA1p5TIK36egvQdSGpe-34" value="Paper 2, 2.5" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="415" y="350" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RWA1p5TIK36egvQdSGpe-36" value="Paper 3" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="457" y="438.25" width="50" height="15" as="geometry" />
+          <mxGeometry x="471" y="467.25" width="50" height="15" as="geometry" />
         </mxCell>
         <mxCell id="RWA1p5TIK36egvQdSGpe-38" value="Paper 4" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="507" y="480" width="50" height="11.5" as="geometry" />
+          <mxGeometry x="521" y="514.5" width="50" height="10.5" as="geometry" />
         </mxCell>
         <mxCell id="-QK8e7VhvtNKugS2Wd2f-11" value="Paper 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="335.5" y="285" width="50" height="15" as="geometry" />
