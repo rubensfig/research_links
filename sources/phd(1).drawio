@@ -10806,19 +10806,19 @@
           <mxGeometry x="335" y="664" width="225" height="203" as="geometry" />
         </mxCell>
         <mxCell id="mgoO3KjzAoAGrSkEhDm0-4" value="FPGA smartNIC" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="432.5" y="890" width="227" height="170" as="geometry" />
+          <mxGeometry x="390" y="888.3" width="227" height="170" as="geometry" />
         </mxCell>
         <mxCell id="mgoO3KjzAoAGrSkEhDm0-5" value="NIC" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="180" y="888.3" width="197.12" height="130" as="geometry" />
+          <mxGeometry x="180" y="888.3" width="197.12" height="121.7" as="geometry" />
         </mxCell>
         <mxCell id="mgoO3KjzAoAGrSkEhDm0-18" value="Queue Network" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="600" y="733" width="70" height="32" as="geometry" />
+          <mxGeometry x="200.56" y="723" width="70" height="32" as="geometry" />
         </mxCell>
         <mxCell id="mgoO3KjzAoAGrSkEhDm0-19" value="Enqueue" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="590" y="707" width="90" height="20" as="geometry" />
+          <mxGeometry x="190.56" y="697" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="mgoO3KjzAoAGrSkEhDm0-20" value="Dequeue" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=bottom;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="590" y="771" width="90" height="25" as="geometry" />
+          <mxGeometry x="190.56" y="761" width="90" height="25" as="geometry" />
         </mxCell>
         <mxCell id="mgoO3KjzAoAGrSkEhDm0-28" value="&lt;div&gt;Li et al. [10]; &lt;br&gt;&lt;/div&gt;&lt;div&gt;Eiffel [12]&lt;/div&gt;" style="shape=parallelogram;perimeter=rectanglePerimeter;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="680" width="180" height="40" as="geometry" />
@@ -10833,16 +10833,28 @@
           <mxGeometry x="205.56" y="898.3" width="154.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="QMEtprIgSVOnqI-PAbal-6" value="&lt;div&gt;Kuperman et al [16];&lt;/div&gt;&lt;div&gt;Loom [17];&lt;/div&gt;&lt;div&gt;FlowValve+ [18]&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=bottom;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="190.56" y="938.3" width="176" height="51" as="geometry" />
+          <mxGeometry x="190.56" y="927.8" width="176" height="51" as="geometry" />
         </mxCell>
         <mxCell id="QMEtprIgSVOnqI-PAbal-7" value="&lt;div&gt;Li et al. [10]; &lt;br&gt;&lt;/div&gt;&lt;div&gt;Eiffel [12]&lt;/div&gt;" style="shape=parallelogram;perimeter=rectanglePerimeter;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="457.5" y="895.8" width="180" height="40" as="geometry" />
+          <mxGeometry x="415" y="894.0999999999999" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QMEtprIgSVOnqI-PAbal-8" value="&lt;div&gt;Carousel [11]; &lt;br&gt;&lt;/div&gt;&lt;div&gt;Eiffel [12]&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="471.5" y="941.3" width="154.5" height="32" as="geometry" />
+          <mxGeometry x="429" y="939.5999999999999" width="154.5" height="32" as="geometry" />
         </mxCell>
         <mxCell id="QMEtprIgSVOnqI-PAbal-9" value="&lt;div&gt;HLS [9]; &lt;br&gt;&lt;/div&gt;&lt;div&gt;Li et al. [10]; &lt;br&gt;&lt;/div&gt;&lt;div&gt;Eiffel [12]&lt;/div&gt;" style="shape=parallelogram;perimeter=rectanglePerimeter;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=bottom;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;shadow=0;" vertex="1" parent="1">
-          <mxGeometry x="456" y="980.8" width="176" height="51" as="geometry" />
+          <mxGeometry x="413.5" y="979.0999999999999" width="176" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="QMEtprIgSVOnqI-PAbal-10" value="ASIC" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="653" y="664" width="227" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="QMEtprIgSVOnqI-PAbal-11" value="" style="shape=parallelogram;perimeter=rectanglePerimeter;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=bottom;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="678" y="669.8" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QMEtprIgSVOnqI-PAbal-12" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="692" y="715.3" width="154.5" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="QMEtprIgSVOnqI-PAbal-13" value="&lt;div&gt;AHAB [13]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=rectanglePerimeter;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=bottom;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="676.5" y="754.8" width="176" height="51" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
