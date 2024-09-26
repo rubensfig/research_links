@@ -12918,7 +12918,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lIHFXo4gelx7zuCwtjXz" name="queueing_theory">
-    <mxGraphModel dx="981" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="229" dy="125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12961,6 +12961,30 @@
         </mxCell>
         <mxCell id="XaZEED3tzGfZSVzRgsQn-1" value="$$\text{Sched}$$" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;direction=south;" vertex="1" parent="1">
           <mxGeometry x="430" y="399" width="40" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="XaZEED3tzGfZSVzRgsQn-8" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="390" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XaZEED3tzGfZSVzRgsQn-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="XaZEED3tzGfZSVzRgsQn-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="10" as="sourcePoint" />
+            <mxPoint x="40" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaZEED3tzGfZSVzRgsQn-6" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="XaZEED3tzGfZSVzRgsQn-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="15" as="sourcePoint" />
+            <mxPoint y="5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaZEED3tzGfZSVzRgsQn-7" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="XaZEED3tzGfZSVzRgsQn-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="15" as="sourcePoint" />
+            <mxPoint x="40" y="5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="15" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
