@@ -11587,12 +11587,12 @@
           <mxGeometry x="6570" y="2520.1" width="90" height="30.5" as="geometry" />
         </mxCell>
         <mxCell id="BrjraSpTORaVkWdZMz7S-60" value="$$\text{CPU }0$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="6310" y="2495.11" width="90" height="24.89" as="geometry" />
+          <mxGeometry x="6287.13" y="2510.2200000000003" width="90" height="24.89" as="geometry" />
         </mxCell>
-        <mxCell id="BrjraSpTORaVkWdZMz7S-61" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="BrjraSpTORaVkWdZMz7S-61" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="6320" y="2540.1000000000004" as="sourcePoint" />
-            <mxPoint x="6320" y="2480.1000000000004" as="targetPoint" />
+            <mxPoint x="6297.13" y="2555.2100000000005" as="sourcePoint" />
+            <mxPoint x="6297.13" y="2495.2100000000005" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BrjraSpTORaVkWdZMz7S-63" value="&lt;div&gt;$$\text{T}_{Low}$$&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="BrjraSpTORaVkWdZMz7S-61">
@@ -11600,15 +11600,26 @@
             <mxPoint x="3" y="58" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BrjraSpTORaVkWdZMz7S-62" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="BrjraSpTORaVkWdZMz7S-62" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="6390" y="2540" as="sourcePoint" />
-            <mxPoint x="6390" y="2480" as="targetPoint" />
+            <mxPoint x="6367.13" y="2555.11" as="sourcePoint" />
+            <mxPoint x="6367.13" y="2495.11" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BrjraSpTORaVkWdZMz7S-66" value="&lt;div&gt;$$\text{T}_{High}$$&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=default;labelBackgroundColor=none;" vertex="1" connectable="0" parent="BrjraSpTORaVkWdZMz7S-62">
           <mxGeometry x="-0.6832" relative="1" as="geometry">
             <mxPoint x="5" y="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BrjraSpTORaVkWdZMz7S-67" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="6272.13" y="2545.4500000000003" as="sourcePoint" />
+            <mxPoint x="6392.13" y="2545.4500000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BrjraSpTORaVkWdZMz7S-68" value="$$\text{Load}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="BrjraSpTORaVkWdZMz7S-67">
+          <mxGeometry x="-0.0747" relative="1" as="geometry">
+            <mxPoint x="78" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
