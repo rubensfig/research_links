@@ -11553,12 +11553,6 @@
         <mxCell id="BrjraSpTORaVkWdZMz7S-46" value="$$\text{CPU }0$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="6440" y="2487.7" width="48.5" height="30.5" as="geometry" />
         </mxCell>
-        <mxCell id="BrjraSpTORaVkWdZMz7S-47" value="$$\text{CPU}_i$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;spacing=5;" vertex="1" parent="1">
-          <mxGeometry x="6297" y="2671.53" width="190" height="44.22" as="geometry" />
-        </mxCell>
-        <mxCell id="BrjraSpTORaVkWdZMz7S-48" value="$$\text{CPU }7$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-10;" vertex="1" parent="1">
-          <mxGeometry x="6297" y="2719.34" width="190" height="132.81" as="geometry" />
-        </mxCell>
         <mxCell id="BrjraSpTORaVkWdZMz7S-49" value="$$\text{CPU }1$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="6500" y="2487.7" width="50" height="30.5" as="geometry" />
         </mxCell>
@@ -11690,6 +11684,33 @@
         </mxCell>
         <mxCell id="BrjraSpTORaVkWdZMz7S-100" value="$$\text{balancing}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="6840" y="2630.5" width="59.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrjraSpTORaVkWdZMz7S-110" value="$$\text{CPU }0$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="6500" y="2812.2" width="48.5" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BrjraSpTORaVkWdZMz7S-111" value="$$\text{CPU }1$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6560" y="2812.2" width="50" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BrjraSpTORaVkWdZMz7S-112" value="$$\text{CPU }2$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6500" y="2850.3900000000003" width="48.5" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BrjraSpTORaVkWdZMz7S-113" value="$$\text{CPU }3$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6560" y="2850.3900000000003" width="50" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BrjraSpTORaVkWdZMz7S-114" value="$$\text{CPU }4$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6500" y="2887.45" width="48.5" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BrjraSpTORaVkWdZMz7S-115" value="$$\text{CPU }5$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6560" y="2887.45" width="50" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BrjraSpTORaVkWdZMz7S-116" value="$$\text{CPU }5$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6500" y="2924.5" width="48.5" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BrjraSpTORaVkWdZMz7S-117" value="$$\text{CPU }7$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="6560" y="2924.5" width="50" height="30.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BrjraSpTORaVkWdZMz7S-118" value="&lt;div&gt;$$\text{DPDK }_{main}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;" vertex="1" parent="1">
+          <mxGeometry x="6500" y="2749.51" width="111.5" height="30.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
