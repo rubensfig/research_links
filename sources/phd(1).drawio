@@ -12930,19 +12930,19 @@
         <mxCell id="RGISiVDxA2l5p-LIjTa--20" value="&lt;div&gt;$$\text{CPU}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacing=-7;" vertex="1" parent="1">
           <mxGeometry x="940" y="1490" width="230" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="RGISiVDxA2l5p-LIjTa--21" value="$$\text{VNF}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacing=-7;" vertex="1" parent="1">
+        <mxCell id="RGISiVDxA2l5p-LIjTa--21" value="$$\text{VNF}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacing=-7;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="965" y="1508" width="160" height="125" as="geometry" />
         </mxCell>
         <mxCell id="RGISiVDxA2l5p-LIjTa--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGISiVDxA2l5p-LIjTa--23" target="RGISiVDxA2l5p-LIjTa--25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RGISiVDxA2l5p-LIjTa--23" value="$$\text{NIC}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacing=-7;" vertex="1" parent="1">
+        <mxCell id="RGISiVDxA2l5p-LIjTa--23" value="$$\text{NIC}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacing=-7;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="960" y="1730" width="200" height="120" as="geometry" />
         </mxCell>
         <mxCell id="RGISiVDxA2l5p-LIjTa--24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGISiVDxA2l5p-LIjTa--25" target="RGISiVDxA2l5p-LIjTa--23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RGISiVDxA2l5p-LIjTa--25" value="$$\text{Loadgen}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacing=-7;" vertex="1" parent="1">
+        <mxCell id="RGISiVDxA2l5p-LIjTa--25" value="$$\text{Loadgen}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacing=-7;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="840" y="1760" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RGISiVDxA2l5p-LIjTa--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.304;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RGISiVDxA2l5p-LIjTa--23" target="RGISiVDxA2l5p-LIjTa--20">
@@ -12951,11 +12951,14 @@
         <mxCell id="RGISiVDxA2l5p-LIjTa--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.775;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="RGISiVDxA2l5p-LIjTa--20" target="RGISiVDxA2l5p-LIjTa--23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RGISiVDxA2l5p-LIjTa--29" value="$$\text{VNF}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacing=-7;" vertex="1" parent="1">
+        <mxCell id="RGISiVDxA2l5p-LIjTa--29" value="$$\text{VNF}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacing=-7;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="975" y="1515.5" width="160" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="RGISiVDxA2l5p-LIjTa--30" value="$$\text{VNF}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacing=-7;" vertex="1" parent="1">
+        <mxCell id="RGISiVDxA2l5p-LIjTa--30" value="$$\text{VNF}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacing=-7;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="985" y="1525.5" width="160" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="RGISiVDxA2l5p-LIjTa--32" value="$$\text{Contribution 1}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1610.5" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
