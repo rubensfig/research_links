@@ -11848,8 +11848,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jknlsIOOq7nowDLZw6Pj-40" value="$$\text{QoS}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1115" width="350" height="270" as="geometry" />
+        <mxCell id="jknlsIOOq7nowDLZw6Pj-40" value="$$\text{BNG QoS}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1115" width="370" height="270" as="geometry" />
         </mxCell>
         <mxCell id="LsEZO-i8_QXETYmYICcv-35" value="RQ3.1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=30;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="2103" y="1860" width="410" height="410" as="geometry" />
@@ -12585,7 +12585,7 @@
         <mxCell id="jknlsIOOq7nowDLZw6Pj-13" value="VOQ 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="503.5" y="1280.38" width="51" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jknlsIOOq7nowDLZw6Pj-14" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="jknlsIOOq7nowDLZw6Pj-14" value="..." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;spacingBottom=8;" vertex="1" parent="1">
           <mxGeometry x="503.5" y="1303.93" width="51" height="13.22" as="geometry" />
         </mxCell>
         <mxCell id="jknlsIOOq7nowDLZw6Pj-15" value="VOQ n" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontStyle=1;verticalAlign=middle;" vertex="1" parent="1">
@@ -12653,7 +12653,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jknlsIOOq7nowDLZw6Pj-31" value="&lt;div&gt;Scheduling&lt;/div&gt;&lt;div&gt;Algorithm&lt;br&gt;&lt;/div&gt;" style="triangle;whiteSpace=wrap;html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;" vertex="1" parent="1">
+        <mxCell id="jknlsIOOq7nowDLZw6Pj-31" value="$$\text{Scheduling}&lt;br&gt;$$" style="triangle;whiteSpace=wrap;html=1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-17;" vertex="1" parent="1">
           <mxGeometry x="626.6599999999999" y="1266.88" width="60" height="47" as="geometry" />
         </mxCell>
         <mxCell id="jknlsIOOq7nowDLZw6Pj-32" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/VOIP_IP_phone.svg;" vertex="1" parent="1">
@@ -12679,6 +12679,9 @@
         </mxCell>
         <mxCell id="jknlsIOOq7nowDLZw6Pj-41" value="&lt;font face=&quot;monospace&quot;&gt;http://&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.44;base=5;" vertex="1" parent="1">
           <mxGeometry x="221.62" y="1248.37" width="58.38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jknlsIOOq7nowDLZw6Pj-42" value="&lt;div&gt;$$\text{Algorithm}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="597.5" y="1304.93" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
