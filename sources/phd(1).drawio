@@ -12702,7 +12702,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vbf_zAyEChC6xrgX4uS5" name="half_time">
-    <mxGraphModel dx="2357" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1270" dy="259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13564,17 +13564,20 @@
         <mxCell id="5OZUmYE4ygLg9bii-Hi8-35" value="$$\text{- Programmable&amp;nbsp; datapaths}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1184.5" y="2407.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5OZUmYE4ygLg9bii-Hi8-36" value="$$\textbf{VNF 1 }$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1175.5" y="2280" width="59.5" height="59.5" as="geometry" />
-        </mxCell>
         <mxCell id="5OZUmYE4ygLg9bii-Hi8-37" value="$$\text{NFV Infrastructure}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1093.01" y="2220" width="296.99" height="19.5" as="geometry" />
         </mxCell>
         <mxCell id="5OZUmYE4ygLg9bii-Hi8-40" value="$$\text{- smartNIC, P4,FPGA, ...}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1180" y="2422.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5OZUmYE4ygLg9bii-Hi8-41" value="" style="shape=or;whiteSpace=wrap;html=1;direction=north;" vertex="1" parent="1">
-          <mxGeometry x="1055" y="2530" width="80" height="60" as="geometry" />
+        <mxCell id="5OZUmYE4ygLg9bii-Hi8-41" value="$$\textbf{HQoS}$$" style="shape=or;whiteSpace=wrap;html=1;direction=north;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5OZUmYE4ygLg9bii-Hi8-42" value="$$\textbf{HQoS}$$" style="shape=or;whiteSpace=wrap;html=1;direction=south;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5OZUmYE4ygLg9bii-Hi8-45" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="2590" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
