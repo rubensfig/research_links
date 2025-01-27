@@ -11844,7 +11844,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qhfhACG65ECjbVV_bZ-_" name="colloquium/paper2">
-    <mxGraphModel dx="873" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="3015" dy="1860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12862,10 +12862,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vbf_zAyEChC6xrgX4uS5" name="half_time">
-    <mxGraphModel dx="4166" dy="2046" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1967" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="zT01hDYGkVhXVH4WOi0e-16" value="$$\text{Our Goal for the BNG}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1441.68" y="2609" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="FDoEz_NEnPH9q4w5XRec-21" value="$$\text{Load Gen}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
           <mxGeometry x="2397.5" y="2109.38" width="97.5" height="130.25" as="geometry" />
         </mxCell>
@@ -13853,6 +13856,45 @@
         </mxCell>
         <mxCell id="FDoEz_NEnPH9q4w5XRec-25" value="&lt;div&gt;$$\text{HQoS...}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-10;" vertex="1" parent="1">
           <mxGeometry x="2590.85" y="2250.37" width="170.15" height="19.63" as="geometry" />
+        </mxCell>
+        <mxCell id="zT01hDYGkVhXVH4WOi0e-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="2850" as="sourcePoint" />
+            <mxPoint x="1300" y="2610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zT01hDYGkVhXVH4WOi0e-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1300" y="2850" as="sourcePoint" />
+            <mxPoint x="1580" y="2850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zT01hDYGkVhXVH4WOi0e-3" value="$$\text{Performance}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="2570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zT01hDYGkVhXVH4WOi0e-4" value="$$\text{Flexibility}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1489.25" y="2830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zT01hDYGkVhXVH4WOi0e-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1330" y="2680" as="sourcePoint" />
+            <mxPoint x="1500" y="2820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zT01hDYGkVhXVH4WOi0e-6" value="$$\text{ASIC}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="2640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zT01hDYGkVhXVH4WOi0e-7" value="$$\text{FPGA}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1341" y="2680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zT01hDYGkVhXVH4WOi0e-8" value="DPU" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1398" y="2730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zT01hDYGkVhXVH4WOi0e-10" value="$$\text{CPU}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1448" y="2770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zT01hDYGkVhXVH4WOi0e-15" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1496.68" y="2649" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
