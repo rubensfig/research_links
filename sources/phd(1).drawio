@@ -13085,7 +13085,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vbf_zAyEChC6xrgX4uS5" name="half_time">
-    <mxGraphModel dx="2246" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1520" dy="409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14319,6 +14319,51 @@
         </mxCell>
         <mxCell id="btFa71v-6OhItbbL1NxD-24" value="$$\text{BNG }7$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;" vertex="1" parent="1">
           <mxGeometry x="-450" y="1256.7" width="60" height="33.3" as="geometry" />
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-25" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-425" y="1340" as="sourcePoint" />
+            <mxPoint x="-190" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-27" value="$$\text{TxQ}0$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="1076.6100000000004" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-28" value="$$\text{TxQ}_i$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="1128.8600000000008" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-29" value="$$\text{TxQ }7$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="1180.5200000000002" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="btFa71v-6OhItbbL1NxD-30" target="btFa71v-6OhItbbL1NxD-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-31" value="$$\text{BNG }7$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="1179.23" width="60" height="33.3" as="geometry" />
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-38" value="$$\text{RxQ}0$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="1076.7900000000004" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-39" value="$$\text{RxQ}_i$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="1129.0400000000009" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-40" value="&lt;div&gt;$$\text{RxQ }7$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="1180.7000000000003" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-41" value="$$\text{Coordination Thread}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-685" y="1019.7" width="130" height="33.3" as="geometry" />
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.62;entryY=0.958;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="btFa71v-6OhItbbL1NxD-26" target="btFa71v-6OhItbbL1NxD-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.386;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="btFa71v-6OhItbbL1NxD-31" target="btFa71v-6OhItbbL1NxD-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-30" value="$$\text{BNG}_i$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="1127.21" width="60" height="33.3" as="geometry" />
+        </mxCell>
+        <mxCell id="btFa71v-6OhItbbL1NxD-26" value="$$\text{BNG }0$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-5;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="1074.96" width="60" height="33.3" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
