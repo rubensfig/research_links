@@ -15118,7 +15118,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lnzTbGuY--3rn4mGNI-Y" name="paper4-eval_nic_performance">
-    <mxGraphModel dx="-2610" dy="-1713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="-2610" dy="-1735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15383,7 +15383,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8XpmbllxePv2yhuPQVJp-12" value="$$\text{Host}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4050" y="2660" width="40" height="60" as="geometry" />
+          <mxGeometry x="4050" y="2688" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8XpmbllxePv2yhuPQVJp-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -15409,10 +15409,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8XpmbllxePv2yhuPQVJp-17" value="$$\text{ Scheduler}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingBottom=-12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="4140" y="2775" width="60" height="100" as="geometry" />
+          <mxGeometry x="4135" y="2775" width="70" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8XpmbllxePv2yhuPQVJp-20" value="" style="group;spacingTop=-7;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="4208" y="2776" width="90" height="102.52212389380531" as="geometry" />
+          <mxGeometry x="4211" y="2776" width="90" height="102.52212389380531" as="geometry" />
         </mxCell>
         <mxCell id="8XpmbllxePv2yhuPQVJp-18" value="$$\text{Segmentation}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingTop=-7;" vertex="1" parent="8XpmbllxePv2yhuPQVJp-20">
           <mxGeometry y="-1" width="90" height="57.52212389380531" as="geometry" />
@@ -15433,18 +15433,7 @@
           <mxGeometry x="4408" y="2775" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8XpmbllxePv2yhuPQVJp-26" value="$$\text{Tx}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="4131" y="2767" width="80" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="8XpmbllxePv2yhuPQVJp-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="3930" y="2740" as="sourcePoint" />
-            <mxPoint x="4470" y="2740" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8XpmbllxePv2yhuPQVJp-28" value="$$\text{PCIe}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="8XpmbllxePv2yhuPQVJp-27">
-          <mxGeometry x="0.9594" y="1" relative="1" as="geometry">
-            <mxPoint y="-9" as="offset" />
-          </mxGeometry>
+          <mxGeometry x="4129" y="2767" width="80" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
