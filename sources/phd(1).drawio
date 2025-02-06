@@ -15385,8 +15385,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8XpmbllxePv2yhuPQVJp-12" value="$$\text{DPDK}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=-7;" parent="1" vertex="1">
-          <mxGeometry x="4034" y="2642" width="92" height="72" as="geometry" />
+        <mxCell id="8XpmbllxePv2yhuPQVJp-12" value="$$\text{DPDK}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=-14;" parent="1" vertex="1">
+          <mxGeometry x="4030" y="2642" width="92" height="72" as="geometry" />
         </mxCell>
         <mxCell id="8XpmbllxePv2yhuPQVJp-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -15402,12 +15402,12 @@
         <mxCell id="8XpmbllxePv2yhuPQVJp-15" value="$$\text{Tx Pipeline}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingBottom=0;fillColor=#fff2cc;strokeColor=#d6b656;spacingTop=-14;" parent="1" vertex="1">
           <mxGeometry x="4130" y="2750" width="370" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="8XpmbllxePv2yhuPQVJp-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;edgeStyle=elbowEdgeStyle;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="8XpmbllxePv2yhuPQVJp-12" target="8XpmbllxePv2yhuPQVJp-15" edge="1">
+        <mxCell id="8XpmbllxePv2yhuPQVJp-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;edgeStyle=elbowEdgeStyle;entryX=0.089;entryY=-0.013;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="8XpmbllxePv2yhuPQVJp-12" target="8XpmbllxePv2yhuPQVJp-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="4093" y="2750" as="sourcePoint" />
             <mxPoint x="4133" y="2826" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="4223" y="2710" />
+              <mxPoint x="4163" y="2720" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -15436,7 +15436,7 @@
           <mxGeometry x="4442" y="2775" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8XpmbllxePv2yhuPQVJp-26" value="$$\text{Tx}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="4163" y="2767" width="80" height="100" as="geometry" />
+          <mxGeometry x="4172.5" y="2772.5" width="63" height="100" as="geometry" />
         </mxCell>
         <mxCell id="XbdS231F2IzqSh2Z4J84-1" value="&lt;div&gt;$$\text{L}_{max}$$&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="4365" y="3039.28" width="50" height="50" as="geometry" />
@@ -15646,6 +15646,18 @@
         </mxCell>
         <mxCell id="XbdS231F2IzqSh2Z4J84-70" value="$$\text{CPU}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="4493" y="2714" as="geometry" />
+        </mxCell>
+        <mxCell id="c07CLICMksMSc3XM4JUe-2" value="$$\text{PMD}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="4056.5" y="2668" width="42" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c07CLICMksMSc3XM4JUe-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" parent="1" source="c07CLICMksMSc3XM4JUe-2" target="8XpmbllxePv2yhuPQVJp-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4110" y="2780" as="sourcePoint" />
+            <mxPoint x="4090" y="2820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c07CLICMksMSc3XM4JUe-4" value="$$\textbf{PMDlink}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="4007.5" y="2820" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
