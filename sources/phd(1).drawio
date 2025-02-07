@@ -15118,7 +15118,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lnzTbGuY--3rn4mGNI-Y" name="paper4-eval_nic_performance">
-    <mxGraphModel dx="-1449" dy="104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="-2018" dy="-247" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15583,25 +15583,8 @@
         <mxCell id="8XpmbllxePv2yhuPQVJp-26" value="$$\text{Tx}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="FRqKTVgHeG2OHagSr6vK-11" vertex="1">
           <mxGeometry x="3.5" y="3.5" width="63" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FRqKTVgHeG2OHagSr6vK-13" value="$$\text{Linux}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=-14;" vertex="1" parent="1">
-          <mxGeometry x="4161" y="2567" width="120" height="143" as="geometry" />
-        </mxCell>
-        <mxCell id="FRqKTVgHeG2OHagSr6vK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="FRqKTVgHeG2OHagSr6vK-14" target="FRqKTVgHeG2OHagSr6vK-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FRqKTVgHeG2OHagSr6vK-14" value="$$\text{devlink}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4179" y="2600" width="82" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="FRqKTVgHeG2OHagSr6vK-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FRqKTVgHeG2OHagSr6vK-24" target="8XpmbllxePv2yhuPQVJp-17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="4225" y="2780" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FRqKTVgHeG2OHagSr6vK-24" value="$$\text{ice.ko}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4179" y="2680" width="82" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="IK1xrIuzFMcGTu8vlLui-10" value="$$\texttt{virtchnl}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="4181.5" y="2736" width="62.5" height="18" as="geometry" />
+          <mxGeometry x="4168" y="2732" width="62.5" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
