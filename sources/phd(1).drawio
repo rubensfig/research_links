@@ -7502,7 +7502,7 @@
         <mxCell id="2L34RuQiXSVP0nFBleoX-60" value="$$\text{Software level scheduling}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="1920" y="534.96" width="341" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2L34RuQiXSVP0nFBleoX-62" value="$$\text{root}_0$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="2L34RuQiXSVP0nFBleoX-62" value="$$\text{sroot}_0$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2500.52" y="289.41" width="34.96" height="34.96" as="geometry" />
         </mxCell>
         <mxCell id="2L34RuQiXSVP0nFBleoX-63" value="&lt;div&gt;&amp;nbsp;$$\text{VF }0$$&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacingBottom=12;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
@@ -7511,7 +7511,7 @@
         <mxCell id="2L34RuQiXSVP0nFBleoX-64" value="$$\text{TxQ }0$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2548.75" y="298.45" width="50" height="16.89" as="geometry" />
         </mxCell>
-        <mxCell id="2L34RuQiXSVP0nFBleoX-65" value="$$\text{root}_1$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
+        <mxCell id="2L34RuQiXSVP0nFBleoX-65" value="$$\text{sroot}_1$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="2500.52" y="342.52000000000004" width="34.96" height="34.96" as="geometry" />
         </mxCell>
         <mxCell id="2L34RuQiXSVP0nFBleoX-66" value="&lt;div&gt;&amp;nbsp;$$\text{VF }1$$&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacingBottom=12;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="1">
@@ -7568,6 +7568,15 @@
         </mxCell>
         <mxCell id="2L34RuQiXSVP0nFBleoX-84" value="$$\text{EIR = 12.5 Gbps}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="2689.63" y="215.79000000000013" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2L34RuQiXSVP0nFBleoX-88" value="$$\text{PIR}_{sroot}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="2463" y="380.00000000000017" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2L34RuQiXSVP0nFBleoX-89" value="$$\text{PIR}_{VF}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="377.4800000000002" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2L34RuQiXSVP0nFBleoX-90" value="$$\text{EIR}_{VF}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="2580.75" y="390.00000000000017" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
