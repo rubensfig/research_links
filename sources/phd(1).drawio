@@ -5010,7 +5010,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jf49u9fylR3eIylupGyS" name="x86_hqos">
-    <mxGraphModel dx="989" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="691" dy="426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7548,16 +7548,16 @@
         <mxCell id="2L34RuQiXSVP0nFBleoX-79" value="&lt;div&gt;Goal: - Maximize available bitrate&lt;/div&gt;&lt;div&gt;y &amp;gt; x leads to loss&lt;/div&gt;&lt;div&gt;1. x=12.5 Gbps VF0 / VF1,&lt;/div&gt;&lt;div&gt;y=12.5 Gbps Nope&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. x=25 Gbps VF0/ VF1,&lt;/div&gt;&lt;div&gt;y = 12.5 Same problem&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;3. x=25 Gbps VF0/ VF1 PIR,&lt;/div&gt;&lt;div&gt;12.5 EIR&lt;/div&gt;&lt;div&gt;y = 12.5 Same problem&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2826.75" y="264.07" width="203.25" height="185.93" as="geometry" />
         </mxCell>
-        <mxCell id="2L34RuQiXSVP0nFBleoX-80" value="$$\text{No backpressure}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="2L34RuQiXSVP0nFBleoX-80" value="$$\text{No backpressure}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="2513.75" y="260.0000000000001" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="2L34RuQiXSVP0nFBleoX-81" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="2L34RuQiXSVP0nFBleoX-81" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#fad7ac;strokeColor=#C9C9C9;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2643.75" y="279.58000000000004" as="sourcePoint" />
             <mxPoint x="2513.75" y="279.58000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2L34RuQiXSVP0nFBleoX-82" value="" style="endArrow=cross;html=1;rounded=0;startArrow=cross;startFill=0;endFill=0;" edge="1" parent="1">
+        <mxCell id="2L34RuQiXSVP0nFBleoX-82" value="" style="endArrow=cross;html=1;rounded=0;startArrow=cross;startFill=0;endFill=0;strokeColor=#C9C9C9;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2490" y="370" as="sourcePoint" />
             <mxPoint x="2490" y="300" as="targetPoint" />
