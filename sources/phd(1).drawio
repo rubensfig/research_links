@@ -5010,21 +5010,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jf49u9fylR3eIylupGyS" name="x86_hqos">
-    <mxGraphModel dx="1745" dy="1077" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="829" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dxgAne0e8d7NGQ4qm-oy-14" value="$$\text{NIC}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=bottom;opacity=25;" vertex="1" parent="1">
+          <mxGeometry x="3481.25" y="1845.56" width="460" height="144.44" as="geometry" />
+        </mxCell>
+        <mxCell id="dxgAne0e8d7NGQ4qm-oy-39" value="$$\text{NIC Tx Scheduler}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="3669.3700000000003" y="1869.6" width="208.75" height="84.14" as="geometry" />
+        </mxCell>
         <mxCell id="dxgAne0e8d7NGQ4qm-oy-15" value="$$\text{DPDK}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;opacity=25;" vertex="1" parent="1">
-          <mxGeometry x="3481.25" y="1630" width="460" height="207" as="geometry" />
+          <mxGeometry x="3481.25" y="1710" width="460" height="127" as="geometry" />
         </mxCell>
         <mxCell id="dxgAne0e8d7NGQ4qm-oy-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3630" y="1756.01" width="270" height="61.14" as="geometry" />
         </mxCell>
         <mxCell id="dxgAne0e8d7NGQ4qm-oy-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3626.25" y="1762.8899999999999" width="270" height="61.14" as="geometry" />
-        </mxCell>
-        <mxCell id="dxgAne0e8d7NGQ4qm-oy-14" value="$$\text{NIC}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=bottom;opacity=25;" vertex="1" parent="1">
-          <mxGeometry x="3481.25" y="1845.56" width="460" height="154.44" as="geometry" />
         </mxCell>
         <mxCell id="dxgAne0e8d7NGQ4qm-oy-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3620" y="1768.86" width="270" height="61.14" as="geometry" />
@@ -7615,19 +7618,19 @@
           <mxGeometry x="3493" y="1787.15" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dxgAne0e8d7NGQ4qm-oy-8" value="$$r_{pf\_port}$$" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="3755" y="1885.6000000000001" width="49.55" height="26.31" as="geometry" />
+          <mxGeometry x="3816.47" y="1889.1000000000001" width="49.55" height="26.31" as="geometry" />
         </mxCell>
         <mxCell id="dxgAne0e8d7NGQ4qm-oy-9" value="$$r_{leaf}$$" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="3620" y="1880.1200000000001" width="30" height="21.38" as="geometry" />
+          <mxGeometry x="3681.47" y="1883.6200000000001" width="30" height="21.38" as="geometry" />
         </mxCell>
         <mxCell id="dxgAne0e8d7NGQ4qm-oy-10" value="$$r_{inner}$$" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="3671.25" y="1880.1200000000001" width="40" height="17.26" as="geometry" />
+          <mxGeometry x="3732.72" y="1883.6200000000001" width="40" height="17.26" as="geometry" />
         </mxCell>
         <mxCell id="dxgAne0e8d7NGQ4qm-oy-11" value="$$r_{inner}$$" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="3681.25" y="1890.1200000000001" width="40" height="17.26" as="geometry" />
+          <mxGeometry x="3742.72" y="1893.6200000000001" width="40" height="17.26" as="geometry" />
         </mxCell>
         <mxCell id="dxgAne0e8d7NGQ4qm-oy-12" value="$$r_{inner}$$" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="3691.25" y="1900.1200000000001" width="40" height="17.26" as="geometry" />
+          <mxGeometry x="3753.75" y="1902.74" width="40" height="17.26" as="geometry" />
         </mxCell>
         <mxCell id="dxgAne0e8d7NGQ4qm-oy-19" value="$$\text{HW TxQ}1$$" style="rounded=0;whiteSpace=wrap;html=1;glass=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="3500" y="1910" width="70" height="27.5" as="geometry" />
