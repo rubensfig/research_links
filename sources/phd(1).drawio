@@ -7563,19 +7563,19 @@
         <mxCell id="2L34RuQiXSVP0nFBleoX-79" value="&lt;div&gt;Goal: - Maximize available bitrate&lt;/div&gt;&lt;div&gt;y &amp;gt; x leads to loss&lt;/div&gt;&lt;div&gt;1. x=12.5 Gbps VF0 / VF1,&lt;/div&gt;&lt;div&gt;y=12.5 Gbps Nope&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2. x=25 Gbps VF0/ VF1,&lt;/div&gt;&lt;div&gt;y = 12.5 Same problem&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;3. x=25 Gbps VF0/ VF1 PIR,&lt;/div&gt;&lt;div&gt;12.5 EIR&lt;/div&gt;&lt;div&gt;y = 12.5 Same problem&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3086.75" y="88.47999999999998" width="203.25" height="185.93" as="geometry" />
         </mxCell>
-        <mxCell id="2L34RuQiXSVP0nFBleoX-80" value="$$\text{Effect of backpressure?}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="2847.16" y="245.0000000000001" width="160" height="20" as="geometry" />
+        <mxCell id="2L34RuQiXSVP0nFBleoX-80" value="$$\text{Effect of backpressure}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="2880.16" y="232.0000000000001" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="2L34RuQiXSVP0nFBleoX-81" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#fad7ac;strokeColor=#FF0000;startArrow=cross;startFill=0;endFill=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2992.16" y="264.58000000000004" as="sourcePoint" />
+            <mxPoint x="3050" y="265" as="sourcePoint" />
             <mxPoint x="2862.16" y="264.58000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2L34RuQiXSVP0nFBleoX-82" value="" style="endArrow=cross;html=1;rounded=0;startArrow=cross;startFill=0;endFill=0;strokeColor=#C9C9C9;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2838.41" y="355" as="sourcePoint" />
-            <mxPoint x="2838.41" y="285" as="targetPoint" />
+            <mxPoint x="2839.58" y="355" as="sourcePoint" />
+            <mxPoint x="2839.58" y="285" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="2L34RuQiXSVP0nFBleoX-83" value="$$\text{- PIR = 25 Gbps}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
@@ -7667,6 +7667,9 @@
         </mxCell>
         <mxCell id="2L34RuQiXSVP0nFBleoX-77" value="$$\text{No work conservation }$$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="2739.75" y="309.3700000000001" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LSEOKioPn6uNPSJFsl-v-3" value="$$\text{on software schedulers?}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="2881.8799999999997" y="242.0000000000001" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
