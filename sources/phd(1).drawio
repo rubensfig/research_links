@@ -5010,7 +5010,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jf49u9fylR3eIylupGyS" name="x86_hqos">
-    <mxGraphModel dx="1551" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="620" dy="343" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7702,16 +7702,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3DIVCRJUuyhLURZfiUk2-51" value="&lt;div&gt;&amp;nbsp;$$\text{leaf }0$$&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacingBottom=12;" parent="1" vertex="1">
+        <mxCell id="3DIVCRJUuyhLURZfiUk2-51" value="&lt;div&gt;&amp;nbsp;$$\text{TC }0$$&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacingBottom=12;" parent="1" vertex="1">
           <mxGeometry x="1900" y="1000" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3DIVCRJUuyhLURZfiUk2-52" value="&lt;div&gt;&amp;nbsp;$$\text{leaf }1$$&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacingBottom=12;" parent="1" vertex="1">
+        <mxCell id="3DIVCRJUuyhLURZfiUk2-52" value="&lt;div&gt;&amp;nbsp;$$\text{TC }1$$&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacingBottom=12;" parent="1" vertex="1">
           <mxGeometry x="1900" y="1040" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3DIVCRJUuyhLURZfiUk2-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3DIVCRJUuyhLURZfiUk2-56" target="3DIVCRJUuyhLURZfiUk2-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3DIVCRJUuyhLURZfiUk2-56" value="&lt;div&gt;&amp;nbsp;$$\text{leaf}_y$$&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacing=0;spacingBottom=12;" parent="1" vertex="1">
+        <mxCell id="3DIVCRJUuyhLURZfiUk2-56" value="&lt;div&gt;&amp;nbsp;$$\text{TC}_y$$&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacing=0;spacingBottom=12;" parent="1" vertex="1">
           <mxGeometry x="1895" y="1109.63" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3DIVCRJUuyhLURZfiUk2-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3DIVCRJUuyhLURZfiUk2-52" target="3DIVCRJUuyhLURZfiUk2-42" edge="1">
@@ -7755,8 +7755,8 @@
         <mxCell id="N0O7TioRio1Hs-2nEDxt-1" value="$$\text{PIR}_{subport}$$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="2070.88" y="1050" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="N0O7TioRio1Hs-2nEDxt-2" value="$$\text{PIR}_{leaf}$$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="1950" y="996.5" width="110" height="20" as="geometry" />
+        <mxCell id="N0O7TioRio1Hs-2nEDxt-2" value="$$\text{PIR}_{TC}$$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="996.5" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="N0O7TioRio1Hs-2nEDxt-23" value="$$\text{pipe}$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1965" y="1026.73" width="40" height="40" as="geometry" />
@@ -7784,6 +7784,9 @@
         </mxCell>
         <mxCell id="N0O7TioRio1Hs-2nEDxt-26" value="$$\text{Level }3$$" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="2106" y="1146.38" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="N0O7TioRio1Hs-2nEDxt-30" value="$$\text{PIR}_{pipe}$$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1995" y="1016.22" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
