@@ -5010,7 +5010,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jf49u9fylR3eIylupGyS" name="x86_hqos">
-    <mxGraphModel dx="531" dy="337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="954" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7234,8 +7234,8 @@
         <mxCell id="NB3Z0SCuvstun6gQxVoC-24" value="Scheduling Algorithm" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="4600" y="1464.83" width="240" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ueaZAQ5SnZOWU808vWB2-1" value="$$R_{commited}: CIR, \text{root}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
-          <mxGeometry x="2160" y="998.6800000000001" width="160" height="20" as="geometry" />
+        <mxCell id="ueaZAQ5SnZOWU808vWB2-1" value="$$\text{PIR}_{port}$$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
+          <mxGeometry x="2130" y="1100" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ueaZAQ5SnZOWU808vWB2-2" value="$$R_{commited}: CIR, \text{inner}_m$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="2077" y="973.44" width="180" height="20" as="geometry" />
@@ -7668,8 +7668,14 @@
         <mxCell id="2L34RuQiXSVP0nFBleoX-77" value="$$\text{No work conservation }$$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="2739.75" y="309.3700000000001" width="160" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="LSEOKioPn6uNPSJFsl-v-3" value="$$\text{on software schedulers?}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="LSEOKioPn6uNPSJFsl-v-3" value="$$\text{on software schedulers?}$$" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=9;" parent="1" vertex="1">
           <mxGeometry x="2879.72" y="244.0000000000001" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N0O7TioRio1Hs-2nEDxt-1" value="$$\text{PIR}_{inner}$$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="1056.78" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N0O7TioRio1Hs-2nEDxt-2" value="$$\text{PIR}_{leaf}$$" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="996.5" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
