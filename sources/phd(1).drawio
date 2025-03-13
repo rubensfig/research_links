@@ -17890,7 +17890,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lIHFXo4gelx7zuCwtjXz" name="queueing_theory">
-    <mxGraphModel dx="728" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="879" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18280,8 +18280,31 @@
             <mxPoint x="-55" y="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-70" value="&lt;div&gt;1. On packet poll&lt;/div&gt;&lt;div&gt;rte_eth_rx_queue_count() returns the number of received and available Rx descriptors.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="1210" width="540" height="60" as="geometry" />
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-70" value="&lt;div&gt;1. On packet poll&lt;/div&gt;&lt;div&gt;Verbatim from https://doc.dpdk.org/guides/sample_app_ug/l3_forward_power_man.html&lt;/div&gt;&lt;div&gt;rte_eth_rx_queue_count() returns the number of received and available Rx descriptors.&lt;/div&gt;&lt;div&gt;On every poll for new packets, the length of available descriptor on an Rx queue is evaluated,&lt;br&gt;and the algorithm used for frequency hinting is as follows:&lt;/div&gt;&lt;div&gt;The following example refers to a 128 Queue Length&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="1210" width="540" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-81" value="$$&lt;br&gt;\begin{aligned}&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;amp;\text{If } |Q_i| &amp;gt; 96, \text{ then } f_{\text{hint}} = f_{\max}. \\&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;amp;\text{If } |Q_i| &amp;gt; 64, \text{ then } T_{\text{counter}} \mathrel{+}= 100. \\&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;amp;\text{If } |Q_i| &amp;gt; 32, \text{ then } T_{\text{counter}} \mathrel{+}= 1. \\&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;amp;\text{If } T_{\text{counter}} \geq 10000, \text{ then } f_{\text{hint}} \text{ is set to the next higher frequency.}&lt;br&gt;\end{aligned}&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1310" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-83" value="" style="endArrow=baseDash;html=1;rounded=0;startArrow=cross;startFill=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1590" y="1180" as="sourcePoint" />
+            <mxPoint x="1640" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-84" value="$$Q_{i}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="gPWkdx2KlHQ2Dq0DP7ji-83">
+          <mxGeometry x="-0.1711" y="-1" relative="1" as="geometry">
+            <mxPoint x="11" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-85" value="$$Q_{i} = \text{Length of Queue }i$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1710" y="1264" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-86" value="&lt;div&gt;&lt;b&gt;Model 1: Run-To-Completion&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;In this model, each CPU is able to adapt its own C/P states. &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="961" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-87" value="&lt;div&gt;&lt;b&gt;Model 2: Pipeline&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;In this model, each CPU is able to adapt its own C/P states.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Is just reading the length of Q enough?&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Multi-core freq scaling algorithm&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="690" width="210" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
