@@ -18317,7 +18317,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-70" value="&lt;div&gt;1. On packet poll&lt;/div&gt;&lt;div&gt;Verbatim from https://doc.dpdk.org/guides/sample_app_ug/l3_forward_power_man.html&lt;/div&gt;&lt;div&gt;rte_eth_rx_queue_count() returns the number of received and available Rx descriptors.&lt;/div&gt;&lt;div&gt;On every poll for new packets, the length of available descriptor on an Rx queue is evaluated,&lt;br&gt;and the algorithm used for frequency hinting is as follows:&lt;/div&gt;&lt;div&gt;The following example refers to a 128 Queue Length&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=bottom;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="1390" width="540" height="80" as="geometry" />
+          <mxGeometry x="2125" y="1077" width="540" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-81" value="$$&lt;br&gt;\begin{aligned}&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;amp;\text{If } |Q_i| &amp;gt; 96, \text{ then } f_{\text{hint}} = f_{\max}. \\&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;amp;\text{If } |Q_i| &amp;gt; 64, \text{ then } T_{\text{counter}} \mathrel{+}= 100. \\&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;amp;\text{If } |Q_i| &amp;gt; 32, \text{ then } T_{\text{counter}} \mathrel{+}= 1. \\&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;amp;\text{If } T_{\text{counter}} \geq 10000, \text{ then } f_{\text{hint}} \text{ is set to the next higher frequency.}&lt;br&gt;\end{aligned}&lt;br&gt;$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1700" y="1217" width="320" height="60" as="geometry" />
