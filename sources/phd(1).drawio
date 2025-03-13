@@ -17890,7 +17890,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lIHFXo4gelx7zuCwtjXz" name="queueing_theory">
-    <mxGraphModel dx="879" dy="558" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1499" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18336,7 +18336,7 @@
         <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-85" value="$$Q_{i} = \text{Length of Queue }i$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1670" y="1171" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-86" value="&lt;div&gt;&lt;b&gt;Model 1: Run-To-Completion&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;In this model, each CPU is able to adapt its own C/P states. &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-86" value="&lt;div&gt;&lt;b&gt;Model 1: Run-To-Completion&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;In this model, each CPU is able to adapt its own&amp;nbsp;Sleep /Power states. &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1660" y="961" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-87" value="&lt;div&gt;&lt;b&gt;Model 2: Pipeline&lt;/b&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;In this model, each CPU is able to adapt its own Sleep /Power states, but also the others on the pipeline.&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Is just reading the length of Q enough?&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Multi-core freq scaling algorithm&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=default;" vertex="1" parent="1">
