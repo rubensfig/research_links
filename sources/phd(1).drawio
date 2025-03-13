@@ -17890,10 +17890,43 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lIHFXo4gelx7zuCwtjXz" name="queueing_theory">
-    <mxGraphModel dx="749" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="728" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-71" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1570" y="1112" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-72" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;" vertex="1" parent="gPWkdx2KlHQ2Dq0DP7ji-71">
+          <mxGeometry x="51.42857142857143" width="8.57142857142857" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-73" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;" vertex="1" parent="gPWkdx2KlHQ2Dq0DP7ji-71">
+          <mxGeometry x="42.857142857142854" width="8.57142857142857" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-74" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;" vertex="1" parent="gPWkdx2KlHQ2Dq0DP7ji-71">
+          <mxGeometry x="34.28571428571428" width="8.57142857142857" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-75" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;" vertex="1" parent="gPWkdx2KlHQ2Dq0DP7ji-71">
+          <mxGeometry x="25.714285714285715" width="8.57142857142857" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-76" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;" vertex="1" parent="gPWkdx2KlHQ2Dq0DP7ji-71">
+          <mxGeometry x="17.14285714285714" width="8.57142857142857" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-77" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;" vertex="1" parent="gPWkdx2KlHQ2Dq0DP7ji-71">
+          <mxGeometry x="8.57142857142857" width="8.57142857142857" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-78" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gPWkdx2KlHQ2Dq0DP7ji-71" target="gPWkdx2KlHQ2Dq0DP7ji-72">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint as="sourcePoint" />
+            <mxPoint x="42.857142857142854" y="-6.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-79" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gPWkdx2KlHQ2Dq0DP7ji-71">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="49.8875000000001" as="sourcePoint" />
+            <mxPoint x="60" y="49.8875000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XaZEED3tzGfZSVzRgsQn-40" value="Exp 1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="360" y="841" width="470" height="60" as="geometry" />
         </mxCell>
@@ -18087,7 +18120,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-19" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1580" y="1100" width="60" height="50" as="geometry" />
+          <mxGeometry x="1580" y="1108" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-20" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;" vertex="1" parent="gPWkdx2KlHQ2Dq0DP7ji-19">
           <mxGeometry x="51.42857142857143" width="8.57142857142857" height="50" as="geometry" />
@@ -18195,13 +18228,13 @@
           <mxGeometry x="1660" y="1031" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-51" value="$$\text{Rx+Classify}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="1082.5" width="120" height="19" as="geometry" />
+          <mxGeometry x="1670" y="1077" width="120" height="19" as="geometry" />
         </mxCell>
         <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-52" value="$$\text{QoS}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="1111" width="120" height="20" as="geometry" />
+          <mxGeometry x="1670" y="1108" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-53" value="$$\text{Tx}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="1141" width="120" height="20" as="geometry" />
+          <mxGeometry x="1670" y="1138" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-54" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1810" y="1100" width="60" height="50" as="geometry" />
@@ -18235,6 +18268,20 @@
             <mxPoint y="49.8875000000001" as="sourcePoint" />
             <mxPoint x="60" y="49.8875000000001" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-67" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;endWidth=6.436781609195402;endSize=3.085057471264368;" edge="1" parent="1" source="gPWkdx2KlHQ2Dq0DP7ji-51" target="gPWkdx2KlHQ2Dq0DP7ji-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1850" y="1170" as="sourcePoint" />
+            <mxPoint x="1900" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-80" value="$$\textbf{1. On packet poll}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="gPWkdx2KlHQ2Dq0DP7ji-67">
+          <mxGeometry x="-0.3028" y="-2" relative="1" as="geometry">
+            <mxPoint x="-55" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gPWkdx2KlHQ2Dq0DP7ji-70" value="&lt;div&gt;1. On packet poll&lt;/div&gt;&lt;div&gt;rte_eth_rx_queue_count() returns the number of received and available Rx descriptors.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1210" width="540" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
