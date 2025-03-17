@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.0" pages="15">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:136.0) Gecko/20100101 Firefox/136.0" version="26.1.1" pages="15">
   <diagram id="gKPlYtKgeGT5pxEdqDl_" name="user plane">
     <mxGraphModel dx="663" dy="409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -7792,7 +7792,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vj-Xve4CYOf0n5Orkj6_" name="nic details">
-    <mxGraphModel dx="1274" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1442" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12498,11 +12498,11 @@
         <mxCell id="r0W6efcJ7HGs84Hkroqn-54" value="Switchdev mode" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;fontSize=17;fontStyle=1;gradientColor=#ffa500;strokeColor=#d79b00;strokeWidth=4;" parent="1" vertex="1">
           <mxGeometry x="5670" y="2950" width="930" height="745.18" as="geometry" />
         </mxCell>
-        <mxCell id="O39GfUk_KLVeP5b3lqcI-25" value="CPU" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=computer modern;fontStyle=1;fontSize=22;" parent="1" vertex="1">
+        <mxCell id="O39GfUk_KLVeP5b3lqcI-25" value="CPU socket 1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=computer modern;fontStyle=1;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="1260" y="880" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O39GfUk_KLVeP5b3lqcI-26" value="Dirigible" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=computer modern;fontStyle=1;fontSize=19;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1290" y="940" width="240" height="60" as="geometry" />
+          <mxGeometry x="1260" y="940" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O39GfUk_KLVeP5b3lqcI-27" value="29" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=19;verticalAlign=middle;fontStyle=1;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="1260" y="910" width="30" height="30" as="geometry" />
@@ -12513,11 +12513,8 @@
         <mxCell id="O39GfUk_KLVeP5b3lqcI-32" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=19;verticalAlign=middle;fontStyle=1;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="1320" y="910" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="O39GfUk_KLVeP5b3lqcI-35" value="55" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=19;verticalAlign=middle;fontStyle=1;horizontal=1;" parent="1" vertex="1">
+        <mxCell id="O39GfUk_KLVeP5b3lqcI-35" value="111" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=19;verticalAlign=middle;fontStyle=1;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="1500" y="910" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="O39GfUk_KLVeP5b3lqcI-36" value="main" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=computer modern;fontStyle=1;fontSize=19;gradientColor=none;horizontal=0;" parent="1" vertex="1">
-          <mxGeometry x="1260" y="940" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O39GfUk_KLVeP5b3lqcI-37" value="$$\text{VF} 0$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1268.97" y="1056.8700000000001" width="110" height="15" as="geometry" />
