@@ -13802,12 +13802,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vbf_zAyEChC6xrgX4uS5" name="half_time">
-    <mxGraphModel dx="1913" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1594" dy="412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VSJU8qgaIU3zVnT5hlCE-47" value="&lt;div&gt;$$\text{DUT}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacing=-1;spacingTop=-9;" vertex="1" parent="1">
-          <mxGeometry x="2517" y="2360" width="208" height="300" as="geometry" />
+          <mxGeometry x="2517" y="2360" width="283" height="300" as="geometry" />
         </mxCell>
         <mxCell id="zT01hDYGkVhXVH4WOi0e-6" value="$$\text{ASIC}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1290" y="2640" width="120" height="60" as="geometry" />
@@ -15199,6 +15199,33 @@
         </mxCell>
         <mxCell id="VSJU8qgaIU3zVnT5hlCE-63" value="$$\text{RxQ0}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2538" y="2596.0000000000005" width="43" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VSJU8qgaIU3zVnT5hlCE-64" value="$$\text{Tx Scheduler}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-13;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="2387.5" width="80" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="VSJU8qgaIU3zVnT5hlCE-65" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2715.08" y="2414.88" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VSJU8qgaIU3zVnT5hlCE-66" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2715.08" y="2475" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VSJU8qgaIU3zVnT5hlCE-67" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2715.0699999999997" y="2540" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VSJU8qgaIU3zVnT5hlCE-68" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2715.08" y="2606" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VSJU8qgaIU3zVnT5hlCE-69" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="2736" y="2413" width="20" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="VSJU8qgaIU3zVnT5hlCE-71" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="2758.9999999999995" y="2510.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VSJU8qgaIU3zVnT5hlCE-72" value="$$\text{50 Gbps shaper}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="2759" y="2532" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VSJU8qgaIU3zVnT5hlCE-73" value="$$\text{Priority Scheduler}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#B09500;fillColor=#e3c800;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2715.08" y="2390" width="114.92" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
