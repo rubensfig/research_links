@@ -15838,7 +15838,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lnzTbGuY--3rn4mGNI-Y" name="pmdlink">
-    <mxGraphModel dx="-2793" dy="-715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="-2975" dy="-830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16956,34 +16956,48 @@
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-58" value="" style="endArrow=classic;html=1;rounded=0;startArrow=cross;startFill=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5664.93" y="2287" as="sourcePoint" />
-            <mxPoint x="5664.93" y="2252" as="targetPoint" />
+            <mxPoint x="5759.93" y="2291.49" as="sourcePoint" />
+            <mxPoint x="5759.93" y="2256.49" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-59" value="$$\text{Exposes config API}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="GcZA9FmoIL1AfHHrmtfx-58">
           <mxGeometry x="0.2683" y="-2" relative="1" as="geometry">
-            <mxPoint x="57" y="4" as="offset" />
+            <mxPoint x="-57" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-60" value="" style="endArrow=cross;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="5664.93" y="2349.75" as="sourcePoint" />
-            <mxPoint x="5664.93" y="2315" as="targetPoint" />
+            <mxPoint x="5759.93" y="2354.24" as="sourcePoint" />
+            <mxPoint x="5759.93" y="2319.49" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-61" value="$$\text{Configures Hw function}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="GcZA9FmoIL1AfHHrmtfx-60">
           <mxGeometry x="0.2683" y="-2" relative="1" as="geometry">
-            <mxPoint x="65" y="4" as="offset" />
+            <mxPoint x="-67" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-63" value="$$\text{DPDK API}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingBottom=1;" vertex="1" parent="1">
-          <mxGeometry x="5625" y="2290" width="80" height="20" as="geometry" />
+          <mxGeometry x="5720" y="2294.49" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-64" value="$$\text{Host}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingBottom=1;" vertex="1" parent="1">
-          <mxGeometry x="5625" y="2230" width="80" height="20" as="geometry" />
+          <mxGeometry x="5720" y="2234.49" width="80" height="20" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-69" value="$$\text{NIC}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingBottom=1;" vertex="1" parent="1">
-          <mxGeometry x="5625" y="2351.52" width="80" height="20" as="geometry" />
+          <mxGeometry x="5720" y="2356.0099999999998" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GcZA9FmoIL1AfHHrmtfx-70" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="5810" y="2356.0099999999998" as="sourcePoint" />
+            <mxPoint x="5810" y="2250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcZA9FmoIL1AfHHrmtfx-71" value="&lt;div&gt;$$\text{Our contribution}$$&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontColor=default;" vertex="1" connectable="0" parent="GcZA9FmoIL1AfHHrmtfx-70">
+          <mxGeometry x="-0.2638" y="1" relative="1" as="geometry">
+            <mxPoint x="61" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcZA9FmoIL1AfHHrmtfx-72" value="$$\texttt{PMDlink}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingBottom=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="5830" y="2310" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
