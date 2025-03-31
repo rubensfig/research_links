@@ -15838,7 +15838,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lnzTbGuY--3rn4mGNI-Y" name="pmdlink">
-    <mxGraphModel dx="-2869" dy="-763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="-3041" dy="-872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16869,7 +16869,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-16" value="$$\text{Host}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=14;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="5613" y="2331.9999999999995" as="geometry" />
+          <mxGeometry x="5592" y="2331.9999999999995" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-17" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -16879,7 +16879,7 @@
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-18" value="$$\text{NIC}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=14;" vertex="1" connectable="0" parent="GcZA9FmoIL1AfHHrmtfx-17">
           <mxGeometry x="0.8848" relative="1" as="geometry">
-            <mxPoint x="25" y="8" as="offset" />
+            <mxPoint x="4" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-19" value="$$\text{Software VNF}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -16901,7 +16901,7 @@
           <mxGeometry x="5350" y="2290" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-25" value="" style="group;verticalAlign=bottom;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="5320" y="2347.52" width="60" height="90" as="geometry" />
+          <mxGeometry x="5320" y="2345.87" width="60" height="90" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-26" value="$$\text{Packet}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingBottom=-25;" vertex="1" parent="GcZA9FmoIL1AfHHrmtfx-25">
           <mxGeometry width="60" height="80" as="geometry" />
@@ -16910,10 +16910,10 @@
           <mxGeometry y="22.25" width="60" height="56.75" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-28" value="$$\text{Classify}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingBottom=-53;" vertex="1" parent="1">
-          <mxGeometry x="5453.5" y="2347.52" width="60" height="80" as="geometry" />
+          <mxGeometry x="5450" y="2346.12" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-29" value="" style="group;verticalAlign=bottom;spacingBottom=-13;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="5528.5" y="2347.52" width="60" height="93.25" as="geometry" />
+          <mxGeometry x="5515" y="2346" width="60" height="93.25" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-30" value="$$\text{Traffic}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingBottom=-40;" vertex="1" parent="GcZA9FmoIL1AfHHrmtfx-29">
           <mxGeometry width="60" height="80" as="geometry" />
@@ -16931,28 +16931,59 @@
           <mxGeometry x="9.86999999999989" y="16.73" width="40" height="14.75" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-34" value="$$\text{Hash}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5463.5" y="2379.5" width="40" height="14.75" as="geometry" />
+          <mxGeometry x="5460" y="2378.5" width="40" height="14.75" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-35" value="$$\text{ACL}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5463.5" y="2365.25" width="40" height="14.75" as="geometry" />
+          <mxGeometry x="5460" y="2364.25" width="40" height="14.75" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-43" value="$$\text{FDir}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5463.5" y="2350.5" width="40" height="14.75" as="geometry" />
+          <mxGeometry x="5460" y="2349.5" width="40" height="14.75" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-51" value="$$\text{Offloads}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingBottom=-53;" vertex="1" parent="1">
-          <mxGeometry x="5386" y="2347.52" width="60" height="80" as="geometry" />
+          <mxGeometry x="5385" y="2345.87" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-52" value="$$\text{Basic}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingBottom=-53;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="5386" y="2371.5" width="60" height="7.52" as="geometry" />
+          <mxGeometry x="5385" y="2370.5" width="60" height="7.52" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-55" value="$$\text{Chksum}$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="5396" y="2379.75" width="40" height="14.75" as="geometry" />
+          <mxGeometry x="5395" y="2378.75" width="40" height="14.75" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-56" value="$$\text{TSO}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5396" y="2365.5" width="40" height="14.75" as="geometry" />
+          <mxGeometry x="5395" y="2364.5" width="40" height="14.75" as="geometry" />
         </mxCell>
         <mxCell id="GcZA9FmoIL1AfHHrmtfx-57" value="$$\text{VLAN}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5396" y="2350.75" width="40" height="14.75" as="geometry" />
+          <mxGeometry x="5395" y="2349.75" width="40" height="14.75" as="geometry" />
+        </mxCell>
+        <mxCell id="GcZA9FmoIL1AfHHrmtfx-58" value="" style="endArrow=classic;html=1;rounded=0;startArrow=cross;startFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5664.93" y="2287" as="sourcePoint" />
+            <mxPoint x="5664.93" y="2252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcZA9FmoIL1AfHHrmtfx-59" value="$$\text{Exposes config API}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="GcZA9FmoIL1AfHHrmtfx-58">
+          <mxGeometry x="0.2683" y="-2" relative="1" as="geometry">
+            <mxPoint x="57" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcZA9FmoIL1AfHHrmtfx-60" value="" style="endArrow=cross;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="5664.93" y="2349.75" as="sourcePoint" />
+            <mxPoint x="5664.93" y="2315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcZA9FmoIL1AfHHrmtfx-61" value="$$\text{Configures Hw function}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="GcZA9FmoIL1AfHHrmtfx-60">
+          <mxGeometry x="0.2683" y="-2" relative="1" as="geometry">
+            <mxPoint x="65" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GcZA9FmoIL1AfHHrmtfx-63" value="$$\text{DPDK API}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingBottom=1;" vertex="1" parent="1">
+          <mxGeometry x="5625" y="2290" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GcZA9FmoIL1AfHHrmtfx-64" value="$$\text{Host}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingBottom=1;" vertex="1" parent="1">
+          <mxGeometry x="5625" y="2230" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="GcZA9FmoIL1AfHHrmtfx-69" value="$$\text{NIC}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingBottom=1;" vertex="1" parent="1">
+          <mxGeometry x="5625" y="2351.52" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
