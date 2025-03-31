@@ -17205,6 +17205,34 @@
         <mxCell id="u6rng8Dara5o8bCpJpz1-38" value="$$\text{ice kernel Driver (1.)}$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=0;" vertex="1" parent="1">
           <mxGeometry x="6360" y="2721.5" width="170" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="u6rng8Dara5o8bCpJpz1-39" value="$$\text{DPDK}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=-14;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="6580" y="2543" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="u6rng8Dara5o8bCpJpz1-40" value="$$\text{PMD}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="6601.8" y="2643" width="126.4" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u6rng8Dara5o8bCpJpz1-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;fontSize=14;" edge="1" parent="1" source="u6rng8Dara5o8bCpJpz1-43" target="u6rng8Dara5o8bCpJpz1-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u6rng8Dara5o8bCpJpz1-42" value="$$\text{RTE_TM}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=14;" vertex="1" connectable="0" parent="u6rng8Dara5o8bCpJpz1-41">
+          <mxGeometry x="-0.0643" relative="1" as="geometry">
+            <mxPoint x="-38" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6rng8Dara5o8bCpJpz1-43" value="$$\text{APP}$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="6605" y="2579" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="u6rng8Dara5o8bCpJpz1-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.17;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;dashed=1;dashPattern=8 8;fontSize=14;" edge="1" parent="1" source="u6rng8Dara5o8bCpJpz1-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="6665.5" y="2721.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u6rng8Dara5o8bCpJpz1-47" value="$$\texttt{virtchnl}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=#000000;spacingTop=-3;dashed=1;dashPattern=8 8;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="6580" y="2698" width="75" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="u6rng8Dara5o8bCpJpz1-48" value="&lt;div&gt;$$\text{ice kernel Driver}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry x="6580" y="2721.5" width="170" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
