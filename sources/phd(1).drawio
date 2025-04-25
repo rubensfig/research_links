@@ -19005,7 +19005,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="lIHFXo4gelx7zuCwtjXz" name="queueing_theory">
-    <mxGraphModel dx="344" dy="218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="864" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19649,10 +19649,10 @@
             <mxPoint x="50" y="27.21136363636369" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VJM0rDE2sBtydrcbQmEI-39" value="" style="group;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=bottom;align=center;" parent="1" vertex="1" connectable="0">
+        <mxCell id="VJM0rDE2sBtydrcbQmEI-39" value="" style="group;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-11;spacingBottom=4;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1013" y="1587" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VJM0rDE2sBtydrcbQmEI-21" value="&lt;div&gt;$$\text{Software HQoS}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacingBottom=-16;fontSize=14;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-14;" parent="VJM0rDE2sBtydrcbQmEI-39" vertex="1">
+        <mxCell id="VJM0rDE2sBtydrcbQmEI-21" value="&lt;div&gt;$$\text{Software HQoS}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacingBottom=-16;fontSize=14;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-23;" parent="VJM0rDE2sBtydrcbQmEI-39" vertex="1">
           <mxGeometry width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VJM0rDE2sBtydrcbQmEI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" parent="VJM0rDE2sBtydrcbQmEI-39" source="VJM0rDE2sBtydrcbQmEI-25" edge="1">
@@ -19715,10 +19715,10 @@
         <mxCell id="VJM0rDE2sBtydrcbQmEI-41" value="$$\text{Hw TxQ}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1257" y="1660" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="VJM0rDE2sBtydrcbQmEI-42" value="" style="group;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=bottom;align=center;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="1340" y="1587" width="160" height="80" as="geometry" />
+        <mxCell id="VJM0rDE2sBtydrcbQmEI-42" value="" style="group;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-24;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1320" y="1587" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VJM0rDE2sBtydrcbQmEI-43" value="&lt;div&gt;$$\text{Hardware HQoS}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacingBottom=-16;fontSize=14;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-14;" parent="VJM0rDE2sBtydrcbQmEI-42" vertex="1">
+        <mxCell id="VJM0rDE2sBtydrcbQmEI-43" value="&lt;div&gt;$$\text{Hardware HQoS}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacingBottom=-16;fontSize=14;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-23;" parent="VJM0rDE2sBtydrcbQmEI-42" vertex="1">
           <mxGeometry width="160" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VJM0rDE2sBtydrcbQmEI-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=14;" parent="VJM0rDE2sBtydrcbQmEI-42" source="VJM0rDE2sBtydrcbQmEI-46" edge="1">
@@ -20051,7 +20051,7 @@
         <mxCell id="VJM0rDE2sBtydrcbQmEI-165" value="" style="endArrow=cross;html=1;rounded=0;startArrow=cross;startFill=0;endFill=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1290" y="1730" as="sourcePoint" />
-            <mxPoint x="1500" y="1730" as="targetPoint" />
+            <mxPoint x="1480" y="1730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VJM0rDE2sBtydrcbQmEI-167" value="$$\text{NIC}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
