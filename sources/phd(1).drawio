@@ -19008,7 +19008,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HWiPOmRT9FSabUcwg_Ti" name="partial_offload">
-    <mxGraphModel dx="-58" dy="-598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="-187" dy="-680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19565,6 +19565,32 @@
         </mxCell>
         <mxCell id="iQ3mtzlCwEZ-TJe-kvQS-8" value="$$\text{User}$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;align=center;spacing=0;verticalAlign=middle;spacingRight=2;" vertex="1" parent="1">
           <mxGeometry x="1642" y="1980" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ3mtzlCwEZ-TJe-kvQS-15" value="$$\text{Tc }0$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;spacing=0;verticalAlign=middle;spacingRight=2;" vertex="1" parent="1">
+          <mxGeometry x="1538.5" y="2049" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ3mtzlCwEZ-TJe-kvQS-16" value="$$\text{Tc... }$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;spacing=0;verticalAlign=middle;spacingRight=2;strokeColor=default;" vertex="1" parent="1">
+          <mxGeometry x="1607.5" y="2049" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="iQ3mtzlCwEZ-TJe-kvQS-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;spacing=0;verticalAlign=middle;spacingRight=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1593.5" y="2020" as="sourcePoint" />
+            <mxPoint x="1558.5" y="2050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1594" y="2030" />
+              <mxPoint x="1559" y="2030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iQ3mtzlCwEZ-TJe-kvQS-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;spacing=0;verticalAlign=middle;spacingRight=2;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1593.5" y="2020" as="sourcePoint" />
+            <mxPoint x="1627.5" y="2050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1594" y="2030" />
+              <mxPoint x="1628" y="2030" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
