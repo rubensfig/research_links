@@ -19008,7 +19008,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HWiPOmRT9FSabUcwg_Ti" name="partial_offload">
-    <mxGraphModel dx="-171" dy="-670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="-280" dy="-739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19380,6 +19380,14 @@
         <mxCell id="G-3yYuWwdkOShJB6pQZa-64" value="$$\text{To Queue/ RSS}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1456" y="1515.1699999999998" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="H7_E-BqsWKx-_352rUWK-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="H7_E-BqsWKx-_352rUWK-1" target="H7_E-BqsWKx-_352rUWK-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="1820" />
+              <mxPoint x="1450" y="1820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="H7_E-BqsWKx-_352rUWK-1" value="$$\text{BNG}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1360" y="1750" width="120" height="30" as="geometry" />
         </mxCell>
@@ -19394,24 +19402,24 @@
             <mxPoint x="59" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H7_E-BqsWKx-_352rUWK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="1" source="H7_E-BqsWKx-_352rUWK-4" target="H7_E-BqsWKx-_352rUWK-1">
+        <mxCell id="H7_E-BqsWKx-_352rUWK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=1;startArrow=classic;" edge="1" parent="1" source="H7_E-BqsWKx-_352rUWK-4" target="H7_E-BqsWKx-_352rUWK-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H7_E-BqsWKx-_352rUWK-6" value="$$\text{OLT Uplink}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="H7_E-BqsWKx-_352rUWK-5">
           <mxGeometry x="-0.552" y="2" relative="1" as="geometry">
-            <mxPoint x="38" y="2" as="offset" />
+            <mxPoint x="40" y="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H7_E-BqsWKx-_352rUWK-4" value="$$\text{OLT}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1283" y="1870" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="H7_E-BqsWKx-_352rUWK-7" value="$$\text{25 Gbps}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+        <mxCell id="H7_E-BqsWKx-_352rUWK-7" value="$$C_{DS}:25 Gbps$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1506" y="1729.6060606060605" as="geometry">
             <mxPoint x="-23" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H7_E-BqsWKx-_352rUWK-8" value="$$C_{DS}: 10 Gbps$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1402" y="1842.9960606060604" as="geometry">
+          <mxGeometry x="1404" y="1842.9960606060604" as="geometry">
             <mxPoint x="-23" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
@@ -19481,6 +19489,17 @@
         </mxCell>
         <mxCell id="H7_E-BqsWKx-_352rUWK-28" value="$$\text{Splitter}$$" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="1331" y="1970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_E-BqsWKx-_352rUWK-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="H7_E-BqsWKx-_352rUWK-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="1790" as="sourcePoint" />
+            <mxPoint x="1480" y="1880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1460" y="1780" />
+              <mxPoint x="1460" y="1820" />
+              <mxPoint x="1480" y="1820" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
