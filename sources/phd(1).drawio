@@ -19008,7 +19008,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HWiPOmRT9FSabUcwg_Ti" name="partial_offload">
-    <mxGraphModel dx="-280" dy="-739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="-256" dy="-724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19784,18 +19784,18 @@
           <mxGeometry x="1381.5" y="2310" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OBzAsEPQvIvcEWW_Wtiy-3" value="$$\text{HP Tc}$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;spacing=0;verticalAlign=middle;spacingRight=2;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1347" y="2379" width="40" height="40" as="geometry" />
+          <mxGeometry x="1347" y="2370" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OBzAsEPQvIvcEWW_Wtiy-4" value="$$\text{LP Tc}$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;align=center;spacing=0;verticalAlign=middle;spacingRight=2;strokeColor=#000000;fillColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="1416" y="2379" width="40" height="40" as="geometry" />
+          <mxGeometry x="1416" y="2370" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OBzAsEPQvIvcEWW_Wtiy-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;spacing=0;verticalAlign=middle;spacingRight=2;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1402" y="2350" as="sourcePoint" />
             <mxPoint x="1367" y="2380" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1402.5" y="2360" />
-              <mxPoint x="1367.5" y="2360" />
+              <mxPoint x="1402" y="2360" />
+              <mxPoint x="1367" y="2360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -19804,8 +19804,8 @@
             <mxPoint x="1402" y="2350" as="sourcePoint" />
             <mxPoint x="1436" y="2380" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1402.5" y="2360" />
-              <mxPoint x="1436.5" y="2360" />
+              <mxPoint x="1402" y="2360" />
+              <mxPoint x="1436" y="2360" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -19834,6 +19834,22 @@
               <mxPoint x="1472.5" y="2290" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KdjxhAAIHpW5wqlgDg8r-1" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#FF0000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1409" y="2404" as="sourcePoint" />
+            <mxPoint x="1399" y="2404" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1429" y="2404" />
+              <mxPoint x="1409" y="2414" />
+              <mxPoint x="1389" y="2414" />
+              <mxPoint x="1379" y="2404" />
+              <mxPoint x="1392" y="2404" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Il61U4l7ctI4lEgocj_i-1" value="$$\text{Priority Arbitration}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fontColor=#FF0000;labelBackgroundColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1367" y="2410" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
