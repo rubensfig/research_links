@@ -19212,7 +19212,7 @@
         <mxCell id="3sSjr0ARPoRWGA51Nl1R-61" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-12;" parent="1" vertex="1">
           <mxGeometry x="1736" y="1410" width="146" height="28.75" as="geometry" />
         </mxCell>
-        <mxCell id="3sSjr0ARPoRWGA51Nl1R-62" value="&lt;div&gt;$$\text{Priority Propagation} $$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+        <mxCell id="3sSjr0ARPoRWGA51Nl1R-62" value="&lt;div&gt;$$\text{1. Priority Propagation} $$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1779" y="1414.3700000000001" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3sSjr0ARPoRWGA51Nl1R-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.369;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="3sSjr0ARPoRWGA51Nl1R-61" edge="1">
@@ -19220,12 +19220,19 @@
             <mxPoint x="1822.04" y="1476.29" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nIBRAgP7tmKHw3yk8_zs-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;strokeWidth=4;strokeColor=#00FFFF;" edge="1" parent="1" source="G-3yYuWwdkOShJB6pQZa-1" target="qA58Ri5DTi1P7MDqsC0R-46">
+        <mxCell id="nIBRAgP7tmKHw3yk8_zs-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.893;exitY=-0.017;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;strokeWidth=4;strokeColor=#666666;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1900.0049999999999" y="1481.0399999999997" as="sourcePoint" />
+            <mxPoint x="2152.0800000000004" y="1493.5400000000002" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1861" y="1450" />
-              <mxPoint x="2128" y="1450" />
+              <mxPoint x="1900" y="1430" />
+              <mxPoint x="2152" y="1430" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nIBRAgP7tmKHw3yk8_zs-36" value="$$\texttt{2. PMDLink}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;labelBackgroundColor=none;" vertex="1" connectable="0" parent="nIBRAgP7tmKHw3yk8_zs-35">
+          <mxGeometry x="0.2526" y="-2" relative="1" as="geometry">
+            <mxPoint x="-52" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="G-3yYuWwdkOShJB6pQZa-1" value="&lt;div&gt;$$\text{Software HQoS}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacingBottom=-16;fontSize=14;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-19;" parent="1" vertex="1">
