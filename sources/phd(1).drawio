@@ -19008,12 +19008,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HWiPOmRT9FSabUcwg_Ti" name="partial_offload">
-    <mxGraphModel dx="415" dy="-405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="16" dy="-625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="nIBRAgP7tmKHw3yk8_zs-11" value="" style="rounded=0;whiteSpace=wrap;html=1;spacingTop=0;verticalAlign=middle;spacingBottom=-2;" vertex="1" parent="1">
-          <mxGeometry x="1961" y="1589.28" width="70" height="15.67" as="geometry" />
+          <mxGeometry x="1960" y="1588.28" width="70" height="15.67" as="geometry" />
         </mxCell>
         <mxCell id="nIBRAgP7tmKHw3yk8_zs-12" value="" style="rounded=0;whiteSpace=wrap;html=1;spacingTop=0;verticalAlign=middle;spacingBottom=-2;" vertex="1" parent="1">
           <mxGeometry x="1957" y="1585.28" width="70" height="15.67" as="geometry" />
@@ -19209,15 +19209,23 @@
         <mxCell id="3sSjr0ARPoRWGA51Nl1R-60" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#FF0000;strokeWidth=3;dashed=1;" parent="1" source="3sSjr0ARPoRWGA51Nl1R-61" target="3sSjr0ARPoRWGA51Nl1R-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3sSjr0ARPoRWGA51Nl1R-61" value="$$\text{struct rte_mbuf}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-12;" parent="1" vertex="1">
-          <mxGeometry x="1678" y="1392" width="258" height="60" as="geometry" />
+        <mxCell id="3sSjr0ARPoRWGA51Nl1R-61" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-12;" parent="1" vertex="1">
+          <mxGeometry x="1736" y="1410" width="146" height="28.75" as="geometry" />
         </mxCell>
-        <mxCell id="3sSjr0ARPoRWGA51Nl1R-62" value="&lt;div&gt;$$\texttt{struct rte_mbuf_sched.traffic_class} $$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1779" y="1408.75" width="60" height="20" as="geometry" />
+        <mxCell id="3sSjr0ARPoRWGA51Nl1R-62" value="&lt;div&gt;$$\text{Priority Propagation} $$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1779" y="1414.3700000000001" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3sSjr0ARPoRWGA51Nl1R-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.369;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="3sSjr0ARPoRWGA51Nl1R-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1822.04" y="1476.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nIBRAgP7tmKHw3yk8_zs-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;strokeWidth=4;strokeColor=#00FFFF;" edge="1" parent="1" source="G-3yYuWwdkOShJB6pQZa-1" target="qA58Ri5DTi1P7MDqsC0R-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1861" y="1450" />
+              <mxPoint x="2128" y="1450" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="G-3yYuWwdkOShJB6pQZa-1" value="&lt;div&gt;$$\text{Software HQoS}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;spacingBottom=-16;fontSize=14;labelPosition=center;verticalLabelPosition=bottom;align=center;spacingTop=-19;" parent="1" vertex="1">
