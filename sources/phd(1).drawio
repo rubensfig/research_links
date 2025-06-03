@@ -5022,7 +5022,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jf49u9fylR3eIylupGyS" name="x86_hqos">
-    <mxGraphModel dx="2852" dy="1806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="380" dy="241" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8314,6 +8314,21 @@
         </mxCell>
         <mxCell id="1H-s99mUGmTtW0RY27MN-185" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1H-s99mUGmTtW0RY27MN-183">
           <mxGeometry x="8.25" y="8.25" width="5.5" height="5.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZS46bLr_VnTNZeTUr8QU-1" value="$$\texttt{rte_mbuf}$$" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-11;" vertex="1" parent="1">
+          <mxGeometry x="4200" y="2570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZS46bLr_VnTNZeTUr8QU-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="4248" y="2580" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZS46bLr_VnTNZeTUr8QU-3" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="4205" y="2580" width="35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZS46bLr_VnTNZeTUr8QU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZS46bLr_VnTNZeTUr8QU-4" target="ZS46bLr_VnTNZeTUr8QU-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZS46bLr_VnTNZeTUr8QU-4" value="$$\texttt{mbuf struct + metadata}$$" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4242.5" y="2525" width="35" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
