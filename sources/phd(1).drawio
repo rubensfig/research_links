@@ -5022,7 +5022,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jf49u9fylR3eIylupGyS" name="x86_hqos">
-    <mxGraphModel dx="1358" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="548" dy="347" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7875,8 +7875,8 @@
         <mxCell id="1H-s99mUGmTtW0RY27MN-25" value="&lt;div&gt;$$\text{...}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;fontFamily=computer modern;fontStyle=1;fontSize=19;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="5054.91" y="2020" width="55" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1H-s99mUGmTtW0RY27MN-26" value="$$\text{VF} 0$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=bottom;spacingBottom=-13;" vertex="1" parent="1">
-          <mxGeometry x="4640" y="2250" width="30" height="40" as="geometry" />
+        <mxCell id="1H-s99mUGmTtW0RY27MN-26" value="&lt;div&gt;$$\text{VF}0$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;spacingBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="4640" y="2240" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1H-s99mUGmTtW0RY27MN-27" value="$$\text{VF} 1$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=bottom;spacingBottom=-13;" vertex="1" parent="1">
           <mxGeometry x="4964.91" y="2181.1400000000003" width="90" height="30" as="geometry" />
@@ -7920,6 +7920,16 @@
             <mxPoint x="5199.82" y="1990.14" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="1H-s99mUGmTtW0RY27MN-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="1H-s99mUGmTtW0RY27MN-39" target="1H-s99mUGmTtW0RY27MN-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4662" y="2231" />
+              <mxPoint x="4690" y="2231" />
+              <mxPoint x="4690" y="2230" />
+              <mxPoint x="4717" y="2230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="1H-s99mUGmTtW0RY27MN-39" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;$$\text{VPP}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=19;verticalAlign=middle;fontStyle=0;fillColor=#f8cecc;strokeColor=#b85450;horizontal=0;spacingBottom=26;opacity=60;" vertex="1" parent="1">
           <mxGeometry x="4640" y="2110" width="30" height="101.14" as="geometry" />
         </mxCell>
@@ -7929,8 +7939,11 @@
         <mxCell id="1H-s99mUGmTtW0RY27MN-41" value="$$\text{DS}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacingBottom=0;fontSize=19;" vertex="1" parent="1">
           <mxGeometry x="4670" y="2080" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1H-s99mUGmTtW0RY27MN-42" value="$$\text{VF} 1$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=bottom;spacingBottom=-13;" vertex="1" parent="1">
-          <mxGeometry x="4723" y="2250" width="30" height="30" as="geometry" />
+        <mxCell id="1H-s99mUGmTtW0RY27MN-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="1H-s99mUGmTtW0RY27MN-42" target="1H-s99mUGmTtW0RY27MN-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1H-s99mUGmTtW0RY27MN-42" value="&lt;div&gt;$$\text{VF}1$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=middle;spacingBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="4700" y="2240" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1H-s99mUGmTtW0RY27MN-47" value="$$33$$" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=19;verticalAlign=middle;fontStyle=1;horizontal=1;" vertex="1" parent="1">
           <mxGeometry x="4730" y="1990" width="30" height="30" as="geometry" />
@@ -7940,6 +7953,18 @@
         </mxCell>
         <mxCell id="1H-s99mUGmTtW0RY27MN-50" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;$$\text{VPP}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=19;verticalAlign=middle;fontStyle=0;fillColor=#f8cecc;strokeColor=#b85450;horizontal=0;spacingBottom=26;opacity=60;" vertex="1" parent="1">
           <mxGeometry x="4670" y="2110" width="30" height="101.14" as="geometry" />
+        </mxCell>
+        <mxCell id="1H-s99mUGmTtW0RY27MN-51" value="&lt;div&gt;$$\text{Uplink}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;verticalAlign=middle;spacingBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="4640" y="2255" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1H-s99mUGmTtW0RY27MN-52" value="&lt;div&gt;$$\text{Downlink}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;verticalAlign=middle;spacingBottom=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="4710" y="2255" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1H-s99mUGmTtW0RY27MN-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.387;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="1H-s99mUGmTtW0RY27MN-26" target="1H-s99mUGmTtW0RY27MN-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1H-s99mUGmTtW0RY27MN-58" value="&lt;div&gt;$$\text{Uplink}1$$&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="4455" y="2090.57" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
