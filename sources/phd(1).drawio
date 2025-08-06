@@ -20219,7 +20219,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HWiPOmRT9FSabUcwg_Ti" name="partial_offload">
-    <mxGraphModel dx="743" dy="-213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="67" dy="-590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21571,6 +21571,33 @@
         </mxCell>
         <mxCell id="naoBjdSp8kPtLIwMqoyP-52" value="Downstream Pipeline" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=25;verticalAlign=bottom;fontStyle=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1967.5" y="3467.5" width="289.5" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="naoBjdSp8kPtLIwMqoyP-53" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1996.5" y="3397.5" as="sourcePoint" />
+            <mxPoint x="2056.5" y="3397.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="naoBjdSp8kPtLIwMqoyP-54" value="&lt;div&gt;$$\text{Software Packet Flow}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2063.5" y="3367.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="naoBjdSp8kPtLIwMqoyP-55" value="" style="endArrow=none;html=1;rounded=0;dashed=1;dashPattern=12 12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1996.5" y="3417.5" as="sourcePoint" />
+            <mxPoint x="2056.5" y="3417.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="naoBjdSp8kPtLIwMqoyP-56" value="&lt;div&gt;$$\text{Sw/ Hw Packet Flow}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2062" y="3387.5" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="naoBjdSp8kPtLIwMqoyP-65" value="" style="endArrow=none;html=1;rounded=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1996.5" y="3437.5" as="sourcePoint" />
+            <mxPoint x="2056.5" y="3437.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="naoBjdSp8kPtLIwMqoyP-66" value="&lt;div&gt;$$\text{Partial Offload Packet Flow}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2082" y="3407.5" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
