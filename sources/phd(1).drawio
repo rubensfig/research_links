@@ -20219,7 +20219,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HWiPOmRT9FSabUcwg_Ti" name="partial_offload">
-    <mxGraphModel dx="666" dy="-731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="558" dy="-791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20580,12 +20580,12 @@
         <mxCell id="H7_E-BqsWKx-_352rUWK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="H7_E-BqsWKx-_352rUWK-9" target="H7_E-BqsWKx-_352rUWK-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H7_E-BqsWKx-_352rUWK-31" value="$$C_{DS}: 2.5 Gbps/ C_{DS}: 10 Gbps $$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="H7_E-BqsWKx-_352rUWK-16" vertex="1" connectable="0">
+        <mxCell id="H7_E-BqsWKx-_352rUWK-31" value="&lt;div&gt;$$\text{XGSPON}, C_{DS}: 10 Gbps $$&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="H7_E-BqsWKx-_352rUWK-16" vertex="1" connectable="0">
           <mxGeometry x="-0.17" y="-2" relative="1" as="geometry">
-            <mxPoint x="-82" y="-27" as="offset" />
+            <mxPoint x="184" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H7_E-BqsWKx-_352rUWK-9" value="$$\text{GPON/ XGSPON}$$" style="rounded=0;whiteSpace=wrap;html=1;align=right;spacingLeft=-1;spacingRight=19;spacingBottom=17;" parent="1" vertex="1">
+        <mxCell id="H7_E-BqsWKx-_352rUWK-9" value="" style="rounded=0;whiteSpace=wrap;html=1;align=right;spacingLeft=-1;spacingRight=19;spacingBottom=17;" parent="1" vertex="1">
           <mxGeometry x="1200.5" y="1895.87" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="H7_E-BqsWKx-_352rUWK-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" parent="1" source="H7_E-BqsWKx-_352rUWK-10" target="H7_E-BqsWKx-_352rUWK-28" edge="1">
@@ -22724,6 +22724,9 @@
           <mxGeometry x="1120" y="1930" as="geometry">
             <mxPoint x="17" y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lVmRqUavLxNsGFEp8CvJ-2" value="$$\text{GPON},C_{DS}: 2.5 Gbps$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1383.5" y="1916.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
