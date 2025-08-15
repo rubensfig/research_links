@@ -25724,7 +25724,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E5gRBfEO0GSbnoF-DbaZ" name="poster">
-    <mxGraphModel dx="689" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="480" dy="266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26005,10 +26005,10 @@
             <mxPoint x="50" y="13.330789353132156" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iPyctb5PSQCSPHftZIB7-60" value="$$\text{HP SwQs}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="iPyctb5PSQCSPHftZIB7-32">
+        <mxCell id="iPyctb5PSQCSPHftZIB7-60" value="$$\text{HP HwQs}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="iPyctb5PSQCSPHftZIB7-32">
           <mxGeometry x="5" y="4" width="60" height="17.085487555608978" as="geometry" />
         </mxCell>
-        <mxCell id="iPyctb5PSQCSPHftZIB7-61" value="$$\text{LP SwQs}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="iPyctb5PSQCSPHftZIB7-32">
+        <mxCell id="iPyctb5PSQCSPHftZIB7-61" value="$$\text{LP HwQs}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" vertex="1" parent="iPyctb5PSQCSPHftZIB7-32">
           <mxGeometry x="5" y="48.83182036792116" width="60" height="17.085487555608978" as="geometry" />
         </mxCell>
         <mxCell id="iPyctb5PSQCSPHftZIB7-62" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="iPyctb5PSQCSPHftZIB7-14" target="iPyctb5PSQCSPHftZIB7-45">
@@ -26021,6 +26021,27 @@
           <mxGeometry x="0.1745" y="-3" relative="1" as="geometry">
             <mxPoint x="-7" y="15" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KFPW91-Rmb7VC32pukZq-7" value="" style="group;fontSize=8;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="300" y="270" width="70" height="35.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KFPW91-Rmb7VC32pukZq-1" value="$$\text{node}$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;" vertex="1" parent="KFPW91-Rmb7VC32pukZq-7">
+          <mxGeometry y="7.045801526717558" width="28.183206106870234" height="28.183206106870234" as="geometry" />
+        </mxCell>
+        <mxCell id="KFPW91-Rmb7VC32pukZq-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=14;" vertex="1" parent="KFPW91-Rmb7VC32pukZq-7">
+          <mxGeometry x="30.333333333333332" y="2.16793893129771" width="11.666666666666666" height="32.51908396946565" as="geometry" />
+        </mxCell>
+        <mxCell id="KFPW91-Rmb7VC32pukZq-3" value="$$\text{- CIR}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;fontSize=12;" vertex="1" parent="KFPW91-Rmb7VC32pukZq-7">
+          <mxGeometry x="39.666666666666664" width="30.333333333333332" height="13.278625954198475" as="geometry" />
+        </mxCell>
+        <mxCell id="KFPW91-Rmb7VC32pukZq-4" value="$$\text{- PIR}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;fontSize=12;" vertex="1" parent="KFPW91-Rmb7VC32pukZq-7">
+          <mxGeometry x="39.67" y="8.67" width="30.33" height="13.28" as="geometry" />
+        </mxCell>
+        <mxCell id="KFPW91-Rmb7VC32pukZq-5" value="&lt;div&gt;$$\text{- Priority}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;fontSize=12;" vertex="1" parent="KFPW91-Rmb7VC32pukZq-7">
+          <mxGeometry x="39.666666666666664" y="18.34351145038168" width="30.333333333333332" height="13.278625954198475" as="geometry" />
+        </mxCell>
+        <mxCell id="KFPW91-Rmb7VC32pukZq-6" value="&lt;div&gt;$$\text{- Weight}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;align=left;fontSize=12;" vertex="1" parent="KFPW91-Rmb7VC32pukZq-7">
+          <mxGeometry x="39.666666666666664" y="30.619236641221377" width="30.333333333333332" height="8.400763358778626" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
