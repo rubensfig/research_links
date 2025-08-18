@@ -20219,13 +20219,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HWiPOmRT9FSabUcwg_Ti" name="partial_offload">
-    <mxGraphModel dx="1338" dy="-355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1912" dy="-35" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="T-QJc2dVq_DWfJSjL0MU-7" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1287.25" y="1682" width="87" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="lVmRqUavLxNsGFEp8CvJ-3" value="$$\text{Central Office (CO)}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=-16;" parent="1" vertex="1">
           <mxGeometry x="1184.5" y="1732" width="261.5" height="180" as="geometry" />
         </mxCell>
@@ -20553,7 +20550,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="H7_E-BqsWKx-_352rUWK-2" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;entryX=0.269;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="H7_E-BqsWKx-_352rUWK-1" edge="1">
+        <mxCell id="H7_E-BqsWKx-_352rUWK-2" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=none;startFill=0;entryX=0.269;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="H7_E-BqsWKx-_352rUWK-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1331.5" y="1870.87" as="sourcePoint" />
             <mxPoint x="1330.85" y="1721" as="targetPoint" />
@@ -20561,7 +20558,7 @@
         </mxCell>
         <mxCell id="H7_E-BqsWKx-_352rUWK-3" value="$$\text{Core}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="H7_E-BqsWKx-_352rUWK-2" vertex="1" connectable="0">
           <mxGeometry x="0.2949" y="-1" relative="1" as="geometry">
-            <mxPoint x="-1" y="-24" as="offset" />
+            <mxPoint x="-4" y="-33" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="H7_E-BqsWKx-_352rUWK-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;startArrow=none;endFill=0;" parent="1" source="H7_E-BqsWKx-_352rUWK-4" target="H7_E-BqsWKx-_352rUWK-1" edge="1">
@@ -22727,6 +22724,9 @@
           <mxGeometry x="1347" y="1945.87" as="geometry">
             <mxPoint x="19" y="-4" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="T-QJc2dVq_DWfJSjL0MU-7" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1284.5" y="1672.9299999999998" width="87" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lVmRqUavLxNsGFEp8CvJ-2" value="$$\text{GPON},C_{DS}: 2.5 Gbps$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1369" y="1881.87" as="geometry" />
