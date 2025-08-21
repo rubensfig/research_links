@@ -20241,7 +20241,7 @@
         <mxCell id="G-ZzGGg45D5O80d8-CWT-67" value="$$\text{CPU3}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="4586.68" y="2630.56" width="115.37" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="ZxDTg_vBznmRgYwje0XK-2" value="$$\text{E810 NIC}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=bottom;" parent="1" vertex="1">
+        <mxCell id="ZxDTg_vBznmRgYwje0XK-2" value="$$\text{Intel E810 NIC}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=bottom;spacingBottom=-9;" parent="1" vertex="1">
           <mxGeometry x="3463" y="2867" width="540" height="310" as="geometry" />
         </mxCell>
         <mxCell id="9OYmnjLtoaZUdyG1k0tx-43" value="&lt;div&gt;$$\text{From Internet}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;verticalAlign=middle;spacingBottom=0;fontSize=12;" parent="1" vertex="1">
@@ -21995,7 +21995,7 @@
         <mxCell id="ZxDTg_vBznmRgYwje0XK-16" value="Parsing" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3660.0699999999997" y="3105.25" width="152.75" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ZxDTg_vBznmRgYwje0XK-17" value="Switch" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="ZxDTg_vBznmRgYwje0XK-17" value="Switch" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="3660.0699999999997" y="3080.5" width="152.75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZxDTg_vBznmRgYwje0XK-18" value="ACL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -22011,28 +22011,28 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZxDTg_vBznmRgYwje0XK-20" value="Rx Packet Buffer (RPB)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="ZxDTg_vBznmRgYwje0XK-20" value="Rx Packet Buffer (RPB)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3500.26" y="3010.5" width="91.37" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZxDTg_vBznmRgYwje0XK-22" value="Rx MAC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="ZxDTg_vBznmRgYwje0XK-22" value="Rx MAC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3500.26" y="3100.5" width="91.37" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZxDTg_vBznmRgYwje0XK-23" value="Rx Pre-parser" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="ZxDTg_vBznmRgYwje0XK-23" value="Rx Pre-parser" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3500.26" y="3055.5" width="91.37" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZxDTg_vBznmRgYwje0XK-24" value="Packet Modifier" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="ZxDTg_vBznmRgYwje0XK-24" value="Packet Modifier" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3500.26" y="2915.25" width="91.37" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxDTg_vBznmRgYwje0XK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ZxDTg_vBznmRgYwje0XK-26" target="ZxDTg_vBznmRgYwje0XK-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZxDTg_vBznmRgYwje0XK-26" value="Tx Packet Buffer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="ZxDTg_vBznmRgYwje0XK-26" value="Tx Packet Buffer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3875.370000000001" y="3055.5" width="91.37" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZxDTg_vBznmRgYwje0XK-27" value="Tx MAC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="ZxDTg_vBznmRgYwje0XK-27" value="Tx MAC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3875.370000000001" y="3100.5" width="91.37" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ZxDTg_vBznmRgYwje0XK-28" value="Packet Modifier" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="ZxDTg_vBznmRgYwje0XK-28" value="Packet Modifier" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3875.370000000001" y="3010.5" width="91.37" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxDTg_vBznmRgYwje0XK-29" value="Configuration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
@@ -22050,7 +22050,7 @@
             <mxPoint x="3540" y="2830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZxDTg_vBznmRgYwje0XK-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=default;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="ZxDTg_vBznmRgYwje0XK-24" edge="1">
+        <mxCell id="ZxDTg_vBznmRgYwje0XK-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="ZxDTg_vBznmRgYwje0XK-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="3546" y="3010" as="sourcePoint" />
             <mxPoint x="3546.74" y="2951" as="targetPoint" />
@@ -22059,7 +22059,7 @@
         <mxCell id="ZxDTg_vBznmRgYwje0XK-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ZxDTg_vBznmRgYwje0XK-35" target="ZxDTg_vBznmRgYwje0XK-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZxDTg_vBznmRgYwje0XK-35" value="Tx scheduler" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#eeeeee;strokeColor=#36393d;" parent="1" vertex="1">
+        <mxCell id="ZxDTg_vBznmRgYwje0XK-35" value="Tx scheduler" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="3826.879999999999" y="2925.25" width="56.12" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZxDTg_vBznmRgYwje0XK-36" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.885;exitY=0.957;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ZxDTg_vBznmRgYwje0XK-15" target="ZxDTg_vBznmRgYwje0XK-28" edge="1">
@@ -22071,7 +22071,7 @@
         <mxCell id="ZxDTg_vBznmRgYwje0XK-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="ZxDTg_vBznmRgYwje0XK-39" target="ZxDTg_vBznmRgYwje0XK-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZxDTg_vBznmRgYwje0XK-39" value="Filters" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;" parent="1" vertex="1">
+        <mxCell id="ZxDTg_vBznmRgYwje0XK-39" value="Filters" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="3660.51" y="3030.5" width="152.75" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ZxDTg_vBznmRgYwje0XK-40" value="8" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=computer modern;fontSize=19;verticalAlign=middle;fontStyle=1;horizontal=1;" parent="1" vertex="1">
@@ -22684,7 +22684,7 @@
         <mxCell id="G-ZzGGg45D5O80d8-CWT-81" value="$$\text{3. Scheduler offload}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;spacingBottom=-19;spacingTop=-23;fontSize=10;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="4666.68" y="2896.12" width="56.5" height="25.88" as="geometry" />
         </mxCell>
-        <mxCell id="G-ZzGGg45D5O80d8-CWT-85" value="" style="shape=flexArrow;endArrow=none;html=1;rounded=0;fillColor=default;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=block;endFill=0;" parent="1" edge="1">
+        <mxCell id="G-ZzGGg45D5O80d8-CWT-85" value="" style="shape=flexArrow;endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=block;endFill=0;fillColor=default;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="3920.71" y="3192.5" as="sourcePoint" />
             <mxPoint x="3920.71" y="3137.5" as="targetPoint" />
