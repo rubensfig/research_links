@@ -20219,7 +20219,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HWiPOmRT9FSabUcwg_Ti" name="partial_offload">
-    <mxGraphModel dx="643" dy="-742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1141" dy="-378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22725,7 +22725,7 @@
             <mxPoint x="19" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T-QJc2dVq_DWfJSjL0MU-7" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="T-QJc2dVq_DWfJSjL0MU-7" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1284.5" y="1672.9299999999998" width="87" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lVmRqUavLxNsGFEp8CvJ-2" value="$$\text{GPON},C_{DS}: \text{2.5 Gbps}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="1" vertex="1" connectable="0">
@@ -22737,20 +22737,23 @@
         <mxCell id="lVmRqUavLxNsGFEp8CvJ-4" value="$$\text{OLT}$$" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1376" y="1835.87" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="T-QJc2dVq_DWfJSjL0MU-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.phone_voip;" vertex="1" parent="1">
+        <mxCell id="T-QJc2dVq_DWfJSjL0MU-12" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.phone_voip;" parent="1" vertex="1">
           <mxGeometry x="1243.5" y="2040.8" width="28.09" height="25.13" as="geometry" />
         </mxCell>
-        <mxCell id="T-QJc2dVq_DWfJSjL0MU-13" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/IP_TV.svg;" vertex="1" parent="1">
+        <mxCell id="T-QJc2dVq_DWfJSjL0MU-13" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/IP_TV.svg;" parent="1" vertex="1">
           <mxGeometry x="1260.86" y="2065.93" width="25.28" height="25.9" as="geometry" />
         </mxCell>
-        <mxCell id="T-QJc2dVq_DWfJSjL0MU-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Game_asset-2735/controller_game-976.svg" vertex="1" parent="1">
+        <mxCell id="T-QJc2dVq_DWfJSjL0MU-14" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Game_asset-2735/controller_game-976.svg" parent="1" vertex="1">
           <mxGeometry x="1275" y="2034.5" width="24" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="T-QJc2dVq_DWfJSjL0MU-15" value="$$\text{Traffic Class}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;align=center;" vertex="1" parent="1">
+        <mxCell id="T-QJc2dVq_DWfJSjL0MU-15" value="$$\text{Traffic Class}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;align=center;" parent="1" vertex="1">
           <mxGeometry x="1310.5" y="2040.8000000000002" width="130" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="T-QJc2dVq_DWfJSjL0MU-16" value="$$\text{IPTV, VoIP, Cloud gaming, ...}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=8;" vertex="1" parent="1">
+        <mxCell id="T-QJc2dVq_DWfJSjL0MU-16" value="$$\text{IPTV, VoIP, Cloud gaming, ...}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=8;" parent="1" vertex="1">
           <mxGeometry x="1318.5" y="2050.5699999999997" width="120" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="MmXpiA54OI6QGZxwumzZ-1" value="$$\text{tc}$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="3715" y="2655.5" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
