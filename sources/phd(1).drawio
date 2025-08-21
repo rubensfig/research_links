@@ -20219,21 +20219,24 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HWiPOmRT9FSabUcwg_Ti" name="partial_offload">
-    <mxGraphModel dx="1141" dy="-378" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1678" dy="-38" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lVmRqUavLxNsGFEp8CvJ-3" value="$$\text{Central Office (CO)}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=-16;" parent="1" vertex="1">
-          <mxGeometry x="1184.5" y="1732" width="261.5" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="p-i8VNJxi9_2zq6lTER--1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="1672.93" width="370" height="391.57" as="geometry" />
-        </mxCell>
         <mxCell id="G-ZzGGg45D5O80d8-CWT-77" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=22;fillColor=light-dark(#FBFBFB,#EDEDED);strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="4125" y="2794.5" width="595.68" height="16.5" as="geometry" />
         </mxCell>
         <mxCell id="G-ZzGGg45D5O80d8-CWT-76" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=22;fillColor=light-dark(#FBFBFB,#EDEDED);strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="4118" y="2788.5" width="595.68" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="G-ZzGGg45D5O80d8-CWT-66" value="&lt;div&gt;$$\text{vBNG-UP Instance}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=22;fillColor=light-dark(#FBFBFB,#EDEDED);strokeColor=#000000;verticalAlign=top;spacingTop=-11;" parent="1" vertex="1">
+          <mxGeometry x="4111" y="2560" width="598" height="238" as="geometry" />
+        </mxCell>
+        <mxCell id="lVmRqUavLxNsGFEp8CvJ-3" value="$$\text{Central Office (CO)}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=-16;" parent="1" vertex="1">
+          <mxGeometry x="1184.5" y="1732" width="261.5" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="p-i8VNJxi9_2zq6lTER--1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="570" y="1672.93" width="370" height="391.57" as="geometry" />
         </mxCell>
         <mxCell id="G-ZzGGg45D5O80d8-CWT-68" value="$$\text{CPU3}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" parent="1" vertex="1">
           <mxGeometry x="4593.31" y="2634.61" width="115.37" height="108" as="geometry" />
@@ -22629,9 +22632,6 @@
         </mxCell>
         <mxCell id="G-ZzGGg45D5O80d8-CWT-64" value="$$\text{TxQ}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="4467.75" y="2968.5" width="30.5" height="35" as="geometry" />
-        </mxCell>
-        <mxCell id="G-ZzGGg45D5O80d8-CWT-66" value="&lt;div&gt;$$\text{BNG Instance}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=22;fillColor=light-dark(#FBFBFB,#EDEDED);strokeColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="4112" y="2781.5" width="595.68" height="16.5" as="geometry" />
         </mxCell>
         <mxCell id="G-ZzGGg45D5O80d8-CWT-69" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#E6E6E6;strokeColor=default;strokeWidth=2;width=9.047619047619047;endSize=5.223809523809524;fillStyle=solid;entryX=0.079;entryY=0.848;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="G-ZzGGg45D5O80d8-CWT-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
