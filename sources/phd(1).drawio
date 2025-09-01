@@ -26110,12 +26110,15 @@
     </mxGraphModel>
   </diagram>
   <diagram id="E5gRBfEO0GSbnoF-DbaZ" name="poster">
-    <mxGraphModel dx="570" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="679" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zkh8nLDUTETR5cDZsIVZ-2" value="&lt;div&gt;$$\text{NIC}$$&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#d6b656;fillColor=#fff2cc;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.nic;spacingTop=-20;" parent="1" vertex="1">
-          <mxGeometry x="146.5" y="304" width="57" height="38" as="geometry" />
+        <mxCell id="ZIgB9jyit_KuL6aGxobz-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="304" width="120" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="zkh8nLDUTETR5cDZsIVZ-2" value="&lt;div&gt;$$\text{NIC}$$&lt;/div&gt;" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#d6b656;fillColor=#fff2cc;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.nic;spacingTop=-13;" parent="1" vertex="1">
+          <mxGeometry x="146.5" y="304" width="60" height="36" as="geometry" />
         </mxCell>
         <mxCell id="ByrCMzlAImfeKIDGvbpQ-1" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -26263,16 +26266,16 @@
           <mxGeometry x="5" y="48.83182036792116" width="60" height="17.085487555608978" as="geometry" />
         </mxCell>
         <mxCell id="iPyctb5PSQCSPHftZIB7-31" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="100" y="130" width="150" height="50" as="geometry" />
+          <mxGeometry x="120" y="130" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zkh8nLDUTETR5cDZsIVZ-1" value="&lt;div&gt;$$\text{CPUs}$$&lt;/div&gt;" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;spacingTop=-13;" parent="iPyctb5PSQCSPHftZIB7-31" vertex="1">
-          <mxGeometry x="50" width="50" height="50" as="geometry" />
+          <mxGeometry x="40" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HySRYyhcxPoOV985d6g8-1" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;spacingTop=-20;" parent="iPyctb5PSQCSPHftZIB7-31" vertex="1">
-          <mxGeometry width="50" height="50" as="geometry" />
+          <mxGeometry width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HySRYyhcxPoOV985d6g8-2" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;spacingTop=-20;" parent="iPyctb5PSQCSPHftZIB7-31" vertex="1">
-          <mxGeometry x="100" width="50" height="50" as="geometry" />
+          <mxGeometry x="80" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="iPyctb5PSQCSPHftZIB7-32" value="" style="group;spacingBottom=-3;" parent="1" vertex="1" connectable="0">
           <mxGeometry x="70" y="214" width="225" height="71.05" as="geometry" />
@@ -26403,9 +26406,9 @@
             <mxPoint x="350" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iPyctb5PSQCSPHftZIB7-63" value="$$\textbf{Partial Offload}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontStyle=0" parent="iPyctb5PSQCSPHftZIB7-62" vertex="1" connectable="0">
+        <mxCell id="iPyctb5PSQCSPHftZIB7-63" value="$$\textbf{Partial&amp;nbsp; &amp;nbsp; Offload}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontStyle=0;labelBorderColor=none;" parent="iPyctb5PSQCSPHftZIB7-62" vertex="1" connectable="0">
           <mxGeometry x="0.1745" y="-3" relative="1" as="geometry">
-            <mxPoint x="54" y="-30" as="offset" />
+            <mxPoint x="3" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="z2DE_EGpkyJCsCKAibZ5-1" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/buildings/Medium_Business_Building.svg;" parent="1" vertex="1">
