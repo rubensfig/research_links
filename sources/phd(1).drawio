@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.1.1" pages="17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.1.2" pages="17">
   <diagram id="j_hTXZl_YXqAUhBNcgjl" name="general_offload">
     <mxGraphModel dx="332" dy="210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
@@ -20219,7 +20219,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HWiPOmRT9FSabUcwg_Ti" name="partial_offload">
-    <mxGraphModel dx="861" dy="-624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2066" dy="43" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20445,17 +20445,8 @@
         <mxCell id="qA58Ri5DTi1P7MDqsC0R-49" value="$$\text{Switch}$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1361.13" y="1216.5999999999997" width="50" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="3sSjr0ARPoRWGA51Nl1R-1" value="$$\text{Host}$$" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1775" y="1600.28" width="60" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="3sSjr0ARPoRWGA51Nl1R-2" value="$$\text{CPU 2}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-13;" parent="1" vertex="1">
           <mxGeometry x="1680" y="1463.25" width="250" height="116.75" as="geometry" />
-        </mxCell>
-        <mxCell id="3sSjr0ARPoRWGA51Nl1R-35" value="" style="endArrow=cross;html=1;rounded=0;startArrow=cross;startFill=0;endFill=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1587.99" y="1600.28" as="sourcePoint" />
-            <mxPoint x="2017.99" y="1600.28" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="3sSjr0ARPoRWGA51Nl1R-36" value="$$\text{CPU 1}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingTop=0;verticalAlign=middle;spacingBottom=-2;" parent="1" vertex="1">
           <mxGeometry x="1582" y="1566.6299999999999" width="70" height="15.67" as="geometry" />
@@ -23105,6 +23096,25 @@
         </mxCell>
         <mxCell id="HWnxBL-FZix-ebjLBJw--59" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="HWnxBL-FZix-ebjLBJw--56" vertex="1">
           <mxGeometry y="70" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="svoPfOiJ4lVXl8OKbXJ_-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.802;entryY=1.015;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;fillColor=#dae8fc;gradientDirection=east;strokeColor=#6c8ebf;gradientColor=#FFF2CC;" edge="1" parent="1" source="a7jri4Xt9ngFDvo6vbey-2" target="G-3yYuWwdkOShJB6pQZa-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2008" y="1672.93" as="sourcePoint" />
+            <mxPoint x="2058" y="1622.93" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2154" y="1620" />
+              <mxPoint x="1873" y="1620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="svoPfOiJ4lVXl8OKbXJ_-2" value="$$\text{Scheduler state coupling}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1977" y="1607" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="svoPfOiJ4lVXl8OKbXJ_-3" value="$$\text{Maintain subscriber-level fairness}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2003" y="1620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="svoPfOiJ4lVXl8OKbXJ_-4" value="&lt;div&gt;$$\textbf{Future Work:}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1856" y="1606.39" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
