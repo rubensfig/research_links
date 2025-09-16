@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.2.1" pages="18">
   <diagram id="j_hTXZl_YXqAUhBNcgjl" name="general_offload">
-    <mxGraphModel dx="815" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="570" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -281,6 +281,15 @@
         </mxCell>
         <mxCell id="jhkOW2na3KKSRH_1oMRs-7" value="$$\text{TX}$$" style="whiteSpace=wrap;html=1;aspect=fixed;fontFamily=computer modern;fontSize=10;fontStyle=1;fillColor=#fff2cc;strokeColor=#000000;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1557.9559574468085" y="86.91" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jhkOW2na3KKSRH_1oMRs-31" value="$$\text{a) Software}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="270" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jhkOW2na3KKSRH_1oMRs-33" value="$$\text{b) HQoS Offload}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1303" y="270" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jhkOW2na3KKSRH_1oMRs-34" value="$$\text{c) BNG Partial Offload}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="270" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
