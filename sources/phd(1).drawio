@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.2.5" pages="18">
   <diagram id="j_hTXZl_YXqAUhBNcgjl" name="general_offload">
-    <mxGraphModel dx="1141" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="815" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OReQPr2CfW94uZykLVue-7" value="&lt;div&gt;$$\text{NIC/ASIC/FPGA}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;opacity=70;verticalAlign=bottom;spacingBottom=-10;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="OReQPr2CfW94uZykLVue-7" value="&lt;div&gt;$$\text{NIC/ASIC/FPGA}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;opacity=70;verticalAlign=bottom;spacingBottom=-10;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1400" y="216" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jhkOW2na3KKSRH_1oMRs-24" value="&lt;div&gt;$$\text{NIC}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;opacity=70;verticalAlign=bottom;spacingBottom=-10;fontSize=10;" parent="1" vertex="1">
@@ -300,26 +300,83 @@
             <mxPoint x="1359.76" y="185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OReQPr2CfW94uZykLVue-1" value="$$\text{Software}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=-13;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="OReQPr2CfW94uZykLVue-1" value="$$\text{Software}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=-13;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1400" y="180" width="170" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="OReQPr2CfW94uZykLVue-2" value="$$\text{UP}_3$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=70;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="OReQPr2CfW94uZykLVue-2" value="$$\text{UP}_3$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=70;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1470" y="220" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OReQPr2CfW94uZykLVue-3" value="&lt;div&gt;$$\text{UP}_1$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=70;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="OReQPr2CfW94uZykLVue-3" value="&lt;div&gt;$$\text{UP}_1$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=70;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1400" y="220" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OReQPr2CfW94uZykLVue-4" value="$$\text{UP}_2$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=70;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="OReQPr2CfW94uZykLVue-4" value="$$\text{UP}_2$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=70;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1435" y="220" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OReQPr2CfW94uZykLVue-5" value="$$\text{UP}_4$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=70;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="OReQPr2CfW94uZykLVue-5" value="$$\text{UP}_4$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=70;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1505" y="220" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OReQPr2CfW94uZykLVue-6" value="$$\text{UP}_5$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=70;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="OReQPr2CfW94uZykLVue-6" value="$$\text{UP}_5$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=70;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1540" y="220" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OReQPr2CfW94uZykLVue-8" value="$$\text{b) Full Hardware Offload}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="OReQPr2CfW94uZykLVue-8" value="$$\text{b) Full Hardware Offload}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1423.92" y="267" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_NRdFMzABG1SNIhAIl-l-1" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1158.12" y="990" as="sourcePoint" />
+            <mxPoint x="1158" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NRdFMzABG1SNIhAIl-l-4" value="$$\text{Performance }$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="_NRdFMzABG1SNIhAIl-l-1">
+          <mxGeometry x="0.609" y="-2" relative="1" as="geometry">
+            <mxPoint x="30" y="-47" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NRdFMzABG1SNIhAIl-l-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1150.44" y="980" as="sourcePoint" />
+            <mxPoint x="1420" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NRdFMzABG1SNIhAIl-l-6" value="$$\text{Number of Users}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="_NRdFMzABG1SNIhAIl-l-2">
+          <mxGeometry x="0.2803" y="3" relative="1" as="geometry">
+            <mxPoint x="53" y="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NRdFMzABG1SNIhAIl-l-8" value="$$\text{Offered Load}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1376.59" y="1005" as="geometry" />
+        </mxCell>
+        <mxCell id="_NRdFMzABG1SNIhAIl-l-9" value="" style="curved=1;endArrow=none;html=1;rounded=0;endFill=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1174.02" y="970" as="sourcePoint" />
+            <mxPoint x="1404.02" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1204.02" y="910" />
+              <mxPoint x="1274.02" y="890" />
+              <mxPoint x="1334.02" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NRdFMzABG1SNIhAIl-l-10" value="" style="curved=1;endArrow=none;html=1;rounded=0;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1174.02" y="910" as="sourcePoint" />
+            <mxPoint x="1404.02" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1204.02" y="850" />
+              <mxPoint x="1274.02" y="830" />
+              <mxPoint x="1334.02" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NRdFMzABG1SNIhAIl-l-11" value="$$\text{Software}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1433" y="892" as="geometry">
+            <mxPoint x="2" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_NRdFMzABG1SNIhAIl-l-12" value="$$\text{Partial Offload}$$" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1450" y="835" as="geometry">
+            <mxPoint x="2" y="-6" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
