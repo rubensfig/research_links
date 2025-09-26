@@ -27135,7 +27135,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="j_hTXZl_YXqAUhBNcgjl" name="general_offload">
-    <mxGraphModel dx="983" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="570" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28022,6 +28022,21 @@
         </mxCell>
         <mxCell id="M_bnvTNPAEQ-BJ8qmzqB-164" value="$$\text{Inner}$$" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="1960" y="1374" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M_bnvTNPAEQ-BJ8qmzqB-173" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M_bnvTNPAEQ-BJ8qmzqB-170" target="M_bnvTNPAEQ-BJ8qmzqB-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M_bnvTNPAEQ-BJ8qmzqB-174" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="M_bnvTNPAEQ-BJ8qmzqB-170" target="M_bnvTNPAEQ-BJ8qmzqB-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M_bnvTNPAEQ-BJ8qmzqB-170" value="$$\text{A}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=12 12;opacity=20;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="1310" width="30" height="31.34" as="geometry" />
+        </mxCell>
+        <mxCell id="M_bnvTNPAEQ-BJ8qmzqB-171" value="$$\text{B}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2520" y="1364.74" width="30" height="31.34" as="geometry" />
+        </mxCell>
+        <mxCell id="M_bnvTNPAEQ-BJ8qmzqB-172" value="$$\text{C}$$" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="2560" y="1364.74" width="30" height="31.34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
