@@ -525,11 +525,14 @@
         <mxCell id="INabtYTCNpwqdJM_DS7A-7" value="$$\texttt{devlink rate}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-9" y="400" width="100" height="35.96" as="geometry" />
         </mxCell>
-        <mxCell id="INabtYTCNpwqdJM_DS7A-8" value="$$\texttt{RTE_FLOW}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="INabtYTCNpwqdJM_DS7A-8" value="$$\texttt{RTE_FLOW*}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-171" y="400" width="66" height="35.96" as="geometry" />
         </mxCell>
-        <mxCell id="INabtYTCNpwqdJM_DS7A-9" value="$$\texttt{PMDLink}$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="INabtYTCNpwqdJM_DS7A-9" value="$$\texttt{PMDLink}*$$" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-81.5" y="400" width="66" height="35.96" as="geometry" />
+        </mxCell>
+        <mxCell id="INabtYTCNpwqdJM_DS7A-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;* -&lt;/font&gt; Pods control RTE_FLOW and PMDLink directly" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="468.18" y="60" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
