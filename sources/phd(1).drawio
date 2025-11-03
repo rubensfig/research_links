@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0" version="28.2.7" pages="18">
   <diagram id="uadiICClCjOntjS5jPv3" name="control_plane">
-    <mxGraphModel dx="1714" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2090" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -797,6 +797,18 @@
           <mxGeometry x="80" width="80" height="20" as="geometry">
             <mxRectangle width="80" height="20" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="altirTRLaQPkj-JZKcKd-138" value="$$\text{switchdev NIC}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-11;fillColor=#fff2cc;strokeColor=#d6b656;spacingTop=-14;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1170" width="732.94" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="altirTRLaQPkj-JZKcKd-140" value="$$\text{Host}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-11;fillColor=#fff2cc;strokeColor=#d6b656;spacingTop=-14;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1030" width="732.94" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="altirTRLaQPkj-JZKcKd-141" value="$$\text{Offload Manager}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-11;fillColor=#fff2cc;strokeColor=#d6b656;spacingTop=-14;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1030" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="altirTRLaQPkj-JZKcKd-142" value="$$\text{Software Dataplane}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-11;fillColor=#fff2cc;strokeColor=#d6b656;spacingTop=-14;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1030" width="510" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
