@@ -1587,23 +1587,26 @@
         <mxCell id="altirTRLaQPkj-JZKcKd-402" value="&lt;div&gt;&amp;nbsp;$$\text{TxQ}1$$&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacingBottom=11;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1277.826208057543" y="1224.548" width="29.453589033460492" height="29.453589033460492" as="geometry" />
         </mxCell>
-        <mxCell id="altirTRLaQPkj-JZKcKd-404" value="&lt;div&gt;&amp;nbsp;$$\text{TxQ}_n$$&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;spacing=0;spacingBottom=11;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1278.046208057543" y="1256.998" width="29.453589033460492" height="29.453589033460492" as="geometry" />
-        </mxCell>
         <mxCell id="altirTRLaQPkj-JZKcKd-406" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classicThin;endFill=1;fontSize=14;" edge="1" parent="1" source="altirTRLaQPkj-JZKcKd-407" target="altirTRLaQPkj-JZKcKd-402">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="altirTRLaQPkj-JZKcKd-407" value="&lt;div&gt;&lt;font&gt;$$\text{VF}_m$$&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1331.8" y="1203.02" width="28.27" height="28.27" as="geometry" />
+        <mxCell id="altirTRLaQPkj-JZKcKd-407" value="&lt;div&gt;&lt;font&gt;$$\text{VF}0$$&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1321.8" y="1192.55" width="28.27" height="28.27" as="geometry" />
         </mxCell>
         <mxCell id="altirTRLaQPkj-JZKcKd-408" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="altirTRLaQPkj-JZKcKd-410" target="altirTRLaQPkj-JZKcKd-407">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="altirTRLaQPkj-JZKcKd-409" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=14;" edge="1" parent="1" source="altirTRLaQPkj-JZKcKd-410" target="altirTRLaQPkj-JZKcKd-404">
+        <mxCell id="altirTRLaQPkj-JZKcKd-464" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="altirTRLaQPkj-JZKcKd-410" target="altirTRLaQPkj-JZKcKd-463">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="altirTRLaQPkj-JZKcKd-410" value="$$\text{PF}$$" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=9;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1370.0422638405325" y="1221.998" width="29.453589033460492" height="29.453589033460492" as="geometry" />
+        </mxCell>
+        <mxCell id="altirTRLaQPkj-JZKcKd-463" value="&lt;div&gt;&lt;font&gt;$$\text{VF}1$$&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1321.7999999999997" y="1222.59" width="28.27" height="28.27" as="geometry" />
+        </mxCell>
+        <mxCell id="altirTRLaQPkj-JZKcKd-465" value="&lt;div&gt;&lt;font&gt;$$\text{VF}_m$$&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=9;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1321.7999999999997" y="1256.9999999999998" width="28.27" height="28.27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
