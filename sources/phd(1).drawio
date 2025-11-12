@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="altirTRLaQPkj-JZKcKd-138" value="$$\text{switchdev NIC}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-11;spacingTop=-14;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="693.81" y="1207" width="650.19" height="260" as="geometry" />
+          <mxGeometry x="680" y="1207" width="690" height="260" as="geometry" />
         </mxCell>
         <mxCell id="altirTRLaQPkj-JZKcKd-220" value="$$\text{Flow Director}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-10;" parent="1" vertex="1">
           <mxGeometry x="893.81" y="1217" width="107" height="220" as="geometry" />
@@ -467,8 +467,8 @@
         </mxCell>
         <mxCell id="_l7vSEDu79z-qEjgqH-b-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="664" y="1323" as="sourcePoint" />
-            <mxPoint x="697.18" y="1323" as="targetPoint" />
+            <mxPoint x="645.87" y="1323.9" as="sourcePoint" />
+            <mxPoint x="679.05" y="1323.9" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_l7vSEDu79z-qEjgqH-b-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
@@ -488,8 +488,8 @@
         </mxCell>
         <mxCell id="URmj_f8q8mgC_LSfdp98-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1349.9999999999998" y="1326.7099999999998" as="sourcePoint" />
-            <mxPoint x="1380" y="1326.8" as="targetPoint" />
+            <mxPoint x="1369.9999999999998" y="1331.9999999999998" as="sourcePoint" />
+            <mxPoint x="1400" y="1332.09" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="INabtYTCNpwqdJM_DS7A-2" value="Exposes resources to kubernetes and beyond" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -1555,7 +1555,7 @@
             <mxPoint x="20" y="19.95500000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EjjbZiIhRGCqfWltPbAV-45" value="$$\text{Control Plane}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="EjjbZiIhRGCqfWltPbAV-45" value="$$\text{Control Plane}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="680" y="850" width="690" height="32" as="geometry" />
         </mxCell>
         <mxCell id="EjjbZiIhRGCqfWltPbAV-46" value="&lt;div&gt;$$\text{DPDK}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=0;verticalAlign=bottom;spacingBottom=-14;" parent="1" vertex="1">
@@ -1588,10 +1588,10 @@
         <mxCell id="6tGI7v_BqJ3kd7fQwBw8-8" value="$$\texttt{VF1}$$" style="rounded=0;whiteSpace=wrap;html=1;spacingTop=-3;" parent="1" vertex="1">
           <mxGeometry x="1268.3" y="1045" width="76.7" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="6tGI7v_BqJ3kd7fQwBw8-9" value="$$\text{}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-11;spacingTop=-14;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="6tGI7v_BqJ3kd7fQwBw8-9" value="$$\text{}$$" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;spacingBottom=-11;spacingTop=-14;fontSize=14;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="881" y="920" width="50" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="6tGI7v_BqJ3kd7fQwBw8-10" value="$$\texttt{CPVF}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="6tGI7v_BqJ3kd7fQwBw8-10" value="$$\texttt{CPVF}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="885.315" y="1029.49" width="41.37" height="35.96" as="geometry" />
         </mxCell>
         <mxCell id="6tGI7v_BqJ3kd7fQwBw8-13" value="$$\text{Rx}$$" style="rounded=0;whiteSpace=wrap;html=1;fontSize=9;" parent="1" vertex="1">
