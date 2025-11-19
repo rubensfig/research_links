@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:144.0) Gecko/20100101 Firefox/144.0" version="29.0.3" pages="18">
   <diagram id="uadiICClCjOntjS5jPv3" name="control_plane">
-    <mxGraphModel dx="1174" dy="205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1513" dy="420" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2064,10 +2064,10 @@
           <mxGeometry x="2297.18" y="1214.15" width="312.82" height="74.75" as="geometry" />
         </mxCell>
         <mxCell id="kKc5IHOd1i2TC8d1ztl2-3" value="&lt;div&gt;$$\text{&quot;Generic Offloading Points&quot;}$$&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=0;verticalAlign=middle;spacingBottom=0;fillColor=none;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="2338.82" y="1130" width="230.5" height="27.12" as="geometry" />
+          <mxGeometry x="2350" y="1150.5" width="230.5" height="27.12" as="geometry" />
         </mxCell>
         <mxCell id="kKc5IHOd1i2TC8d1ztl2-4" value="$$\text{NIC}$$" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#006AA7;opacity=80;verticalAlign=bottom;spacingBottom=-12;" vertex="1" parent="1">
-          <mxGeometry x="2289" y="1349" width="331" height="136" as="geometry" />
+          <mxGeometry x="2289" y="1349" width="331" height="111" as="geometry" />
         </mxCell>
         <mxCell id="kKc5IHOd1i2TC8d1ztl2-5" value="$$\text{Offload Engine 1}$$" style="shape=table;startSize=20;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;spacingTop=-5;fontSize=9;fillColor=#e1d5e7;strokeColor=default;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="2307.31" y="1357" width="80" height="80" as="geometry">
@@ -2228,8 +2228,8 @@
         </mxCell>
         <mxCell id="kKc5IHOd1i2TC8d1ztl2-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;shape=flexArrow;fillColor=#006AA7;gradientColor=#FECC02;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2350" y="1113.82" as="sourcePoint" />
-            <mxPoint x="2350" y="1176.1899999999998" as="targetPoint" />
+            <mxPoint x="2350" y="1140" as="sourcePoint" />
+            <mxPoint x="2350" y="1188.5599999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kKc5IHOd1i2TC8d1ztl2-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;fillColor=#006AA7;strokeColor=#000000;fillStyle=dashed;gradientColor=#FECC02;startArrow=classic;startFill=1;startWidth=11.428571428571429;startSize=4.080952380952381;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
