@@ -30436,10 +30436,10 @@
         <mxCell id="ocIwokwV97FFhkSK9-w7-240" value="P0" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="2420" y="556.23" width="28" height="76.05" as="geometry" />
         </mxCell>
-        <mxCell id="ocIwokwV97FFhkSK9-w7-242" value="&lt;div&gt;QoS0&lt;/div&gt;&lt;div&gt;Receving 10 Gbps&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ocIwokwV97FFhkSK9-w7-242" value="&lt;div&gt;QoS0&lt;/div&gt;&lt;div&gt;Receving 10 Gbps&lt;/div&gt;&lt;div&gt;Need to notify of congestion at the port level, due to shared capacity&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1939.67" y="490" width="510.33" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="ocIwokwV97FFhkSK9-w7-243" value="&lt;div&gt;QoS1&lt;/div&gt;Receiving 20 Gbps" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ocIwokwV97FFhkSK9-w7-243" value="&lt;div&gt;QoS1&lt;/div&gt;&lt;div&gt;Receiving 20 Gbps&lt;/div&gt;Need to notify of congestion at the port level, due to shared capacity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1935.2" y="681.34" width="510.33" height="43" as="geometry" />
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-244" value="25Gbps" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -30736,7 +30736,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-313" value="" style="group;fontSize=18;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2500.2" y="924.9400000000006" width="20" height="20" as="geometry" />
+          <mxGeometry x="2410.2" y="900.0000000000006" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-314" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontSize=18;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="ocIwokwV97FFhkSK9-w7-313">
           <mxGeometry x="17.142857142857142" width="2.8571428571428568" height="20" as="geometry" />
@@ -30757,7 +30757,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-318" value="" style="group;fontSize=18;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2500.2" y="949.9400000000006" width="20" height="20" as="geometry" />
+          <mxGeometry x="2410.2" y="925.0000000000006" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-319" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;fontSize=18;" vertex="1" parent="ocIwokwV97FFhkSK9-w7-318">
           <mxGeometry x="17.142857142857142" width="2.8571428571428568" height="20" as="geometry" />
@@ -30790,7 +30790,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-327" value="" style="group;fontSize=18;" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2500.2" y="974.9400000000006" width="20" height="20" as="geometry" />
+          <mxGeometry x="2410.2" y="950.0000000000006" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-328" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#666666;fontSize=18;" vertex="1" parent="ocIwokwV97FFhkSK9-w7-327">
           <mxGeometry x="17.142857142857142" width="2.8571428571428568" height="20" as="geometry" />
@@ -30823,18 +30823,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-338" value="&lt;div&gt;NIC&lt;/div&gt;&lt;div&gt;Enqueue&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2484.2" y="934.9399999999999" as="geometry">
+          <mxGeometry x="2394.2" y="909.9999999999999" as="geometry">
             <mxPoint x="-58" y="25" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-340" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#f5f5f5;strokeColor=#666666;fontSize=18;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2450" y="958.14" as="sourcePoint" />
-            <mxPoint x="2496.2" y="957.67" as="targetPoint" />
+            <mxPoint x="2360" y="933.1999999999999" as="sourcePoint" />
+            <mxPoint x="2406.2" y="932.7299999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-349" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2078" y="930" width="180.73" height="70" as="geometry" />
+          <mxGeometry x="1988" y="905.06" width="180.73" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-350" value="&lt;div&gt;Software HQoS&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=bottom;spacingBottom=0;fontSize=18;labelPosition=center;verticalLabelPosition=middle;align=right;spacingTop=0;" vertex="1" parent="ocIwokwV97FFhkSK9-w7-349">
           <mxGeometry width="180.73" height="69.99999999999996" as="geometry" />
@@ -30952,8 +30952,8 @@
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-377" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2040" y="964" as="sourcePoint" />
-            <mxPoint x="2070" y="963.52" as="targetPoint" />
+            <mxPoint x="1950" y="939.06" as="sourcePoint" />
+            <mxPoint x="1980" y="938.5799999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-378" value="&lt;div&gt;HQoS&lt;/div&gt;&lt;div&gt;enq&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;labelBackgroundColor=none;" vertex="1" connectable="0" parent="ocIwokwV97FFhkSK9-w7-377">
@@ -30963,8 +30963,8 @@
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-379" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2319" y="964.96" as="sourcePoint" />
-            <mxPoint x="2360" y="965" as="targetPoint" />
+            <mxPoint x="2229" y="940.02" as="sourcePoint" />
+            <mxPoint x="2270" y="940.06" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-380" value="HQoS&lt;br&gt;deq" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ocIwokwV97FFhkSK9-w7-379">
@@ -30973,23 +30973,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-381" value="25Gbps" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="2261" y="946.92" width="48.15" height="32.1" as="geometry" />
+          <mxGeometry x="2171" y="921.9799999999999" width="48.15" height="32.1" as="geometry" />
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-382" value="Tx" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="2369.2" y="924.9399999999999" width="28" height="76.05" as="geometry" />
+          <mxGeometry x="2279.2" y="899.9999999999999" width="28" height="76.05" as="geometry" />
         </mxCell>
         <mxCell id="ocIwokwV97FFhkSK9-w7-383" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2474" y="979.02" as="sourcePoint" />
-            <mxPoint x="2340" y="970" as="targetPoint" />
+            <mxPoint x="2384" y="954.0799999999999" as="sourcePoint" />
+            <mxPoint x="2250" y="945.06" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2474" y="1040" />
-              <mxPoint x="2340" y="1040" />
+              <mxPoint x="2384" y="1015.06" />
+              <mxPoint x="2250" y="1015.06" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ocIwokwV97FFhkSK9-w7-384" value="&lt;div&gt;Proposed Backpressure mechanism:&lt;/div&gt;&lt;div&gt;If NIC Enqueue Fails:&lt;/div&gt;&lt;div&gt;- Halt HQoS Dequeue, keep all in software&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="2281.5" y="1050" width="238.5" height="50" as="geometry" />
+        <mxCell id="ocIwokwV97FFhkSK9-w7-384" value="&lt;div&gt;Proposed Backpressure mechanism:&lt;/div&gt;&lt;div&gt;If NIC Enqueue Fails || if other heuristic:&lt;/div&gt;&lt;div&gt;- Halt HQoS Dequeue, keep packets in rte_sched&amp;nbsp;&lt;/div&gt;&lt;div&gt;ISSUE:&amp;nbsp;&lt;/div&gt;&lt;div&gt;- This mechanism keeps packets in software&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="2141.5" y="1030" width="268.5" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
