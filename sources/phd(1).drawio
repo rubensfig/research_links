@@ -682,7 +682,7 @@
         <mxCell id="zh0q3_UXh66_AbDFq1ah-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FECC02;verticalAlign=top;spacingTop=-18;" value="$$\text{Host}$$" vertex="1">
           <mxGeometry height="106.64" width="330" x="1351" y="793.3599999999999" as="geometry" />
         </mxCell>
-        <mxCell id="zh0q3_UXh66_AbDFq1ah-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;direction=south;spacingBottom=0;spacingTop=-17;" value="$$\text{&quot;OA&quot; Pipeline}$$" vertex="1">
+        <mxCell id="zh0q3_UXh66_AbDFq1ah-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;direction=south;spacingBottom=0;spacingTop=-17;" value="$$\text{Offload Aware Pipeline}$$" vertex="1">
           <mxGeometry height="65.85" width="312.82" x="1358.1799999999998" y="814.1500000000001" as="geometry" />
         </mxCell>
         <mxCell id="zh0q3_UXh66_AbDFq1ah-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;spacingLeft=0;verticalAlign=middle;spacingBottom=0;fillColor=none;strokeColor=none;" value="&lt;div&gt;$$\text{&quot;Generic Offloading Points&quot;}$$&lt;/div&gt;" vertex="1">
@@ -767,7 +767,7 @@
             <mxRectangle height="20" width="37" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zh0q3_UXh66_AbDFq1ah-23" parent="zh0q3_UXh66_AbDFq1ah-21" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=center;spacingLeft=0;overflow=hidden;whiteSpace=wrap;html=1;verticalAlign=middle;spacingTop=-6;fontSize=9;fillColor=none;" value="$$\text{VNF0}$$" vertex="1">
+        <mxCell id="zh0q3_UXh66_AbDFq1ah-23" parent="zh0q3_UXh66_AbDFq1ah-21" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=center;spacingLeft=0;overflow=hidden;whiteSpace=wrap;html=1;verticalAlign=middle;spacingTop=-6;fontSize=9;fillColor=none;" value="$$\text{Mark}$$" vertex="1">
           <mxGeometry height="20" width="42.690000000000055" x="37" as="geometry">
             <mxRectangle height="20" width="42.690000000000055" as="alternateBounds" />
           </mxGeometry>
@@ -780,7 +780,7 @@
             <mxRectangle height="20" width="37" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zh0q3_UXh66_AbDFq1ah-26" parent="zh0q3_UXh66_AbDFq1ah-24" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=center;spacingLeft=0;overflow=hidden;whiteSpace=wrap;html=1;spacingTop=-9;fontSize=9;fillColor=none;" value="$$\text{VNF1}$$" vertex="1">
+        <mxCell id="zh0q3_UXh66_AbDFq1ah-26" parent="zh0q3_UXh66_AbDFq1ah-24" style="shape=partialRectangle;connectable=0;top=0;left=0;bottom=0;right=0;align=center;spacingLeft=0;overflow=hidden;whiteSpace=wrap;html=1;spacingTop=-9;fontSize=9;fillColor=none;" value="$$\text{Count}$$" vertex="1">
           <mxGeometry height="20" width="42.690000000000055" x="37" as="geometry">
             <mxRectangle height="20" width="42.690000000000055" as="alternateBounds" />
           </mxGeometry>
@@ -958,8 +958,8 @@
         <mxCell id="zh0q3_UXh66_AbDFq1ah-83" parent="1" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=-1;align=left;fillColor=none;strokeColor=none;fontColor=default;fontSize=9;" value="" vertex="1">
           <mxGeometry height="12.46" width="10" x="1589.11" y="567.3" as="geometry" />
         </mxCell>
-        <mxCell id="zh0q3_UXh66_AbDFq1ah-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=6;strokeColor=#36393d;dashed=1;dashPattern=8 4 1 4;" value="" vertex="1">
-          <mxGeometry height="230" width="100" x="1569" y="820" as="geometry" />
+        <mxCell id="zh0q3_UXh66_AbDFq1ah-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=4;strokeColor=#36393d;dashed=1;dashPattern=12 12;perimeterSpacing=4;portConstraintRotation=0;" value="" vertex="1">
+          <mxGeometry height="210" width="100" x="1569" y="830" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
