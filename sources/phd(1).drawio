@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.7" pages="18">
   <diagram id="TDnNvj8syDdvEHuQ1WFI" name="bp">
-    <mxGraphModel dx="1573" dy="1489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2001" dy="1720" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5440,7 +5440,7 @@
             <mxPoint x="178.73000000000025" y="54.50999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ftFbFcHchXwrZOW8KyPJ-228" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=none;spacingBottom=-10;strokeColor=none;" value="$$\text{A) Freerunning Schedulers}$$" vertex="1">
+        <mxCell id="ftFbFcHchXwrZOW8KyPJ-228" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=none;spacingBottom=-10;strokeColor=none;" value="$$\text{A) Uncoordinated Schedulers}$$" vertex="1">
           <mxGeometry height="130.98" width="247.26" x="2092.12" y="376.06" as="geometry" />
         </mxCell>
         <mxCell id="ftFbFcHchXwrZOW8KyPJ-229" connectable="0" parent="1" style="group" value="" vertex="1">
@@ -5488,7 +5488,7 @@
         <mxCell id="ftFbFcHchXwrZOW8KyPJ-138" parent="ftFbFcHchXwrZOW8KyPJ-229" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=-4;" value="$$\text{ Dequeue}$$" vertex="1">
           <mxGeometry height="22.05943840579709" width="47.3209761877015" y="0.9897450828157344" as="geometry" />
         </mxCell>
-        <mxCell id="ftFbFcHchXwrZOW8KyPJ-230" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=none;spacingBottom=-10;strokeColor=none;" value="$$\text{B) Freerun Priority}$$" vertex="1">
+        <mxCell id="ftFbFcHchXwrZOW8KyPJ-230" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=none;spacingBottom=-10;strokeColor=none;" value="$$\text{B) Uncoordinated + Priority}$$" vertex="1">
           <mxGeometry height="130.98" width="247.26" x="2344.38" y="376.06" as="geometry" />
         </mxCell>
         <mxCell id="ftFbFcHchXwrZOW8KyPJ-232" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fillColor=none;spacingBottom=2;dashed=1;strokeWidth=2;dashPattern=1 2;shadow=0;" value="$$\text{Partial Offload}$$" vertex="1">
