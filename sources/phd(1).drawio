@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0" version="29.6.1" pages="20">
   <diagram id="krhVCGsNLUCdXiFq9kYS" name="thesis :)">
-    <mxGraphModel dx="2742" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2196" dy="320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -634,19 +634,30 @@
             <mxPoint x="91.17" y="1332.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9hkSe-VIcjxt2wDH14WX-83" connectable="0" parent="9hkSe-VIcjxt2wDH14WX-77" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="$$\text{1. Low and high-level APIs}$$" vertex="1">
+          <mxGeometry relative="1" x="-0.668" y="-5" as="geometry">
+            <mxPoint x="84" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9hkSe-VIcjxt2wDH14WX-78" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=none;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;startFill=0;dashed=1;dashPattern=12 12;" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
             <mxPoint x="20" y="1550" as="sourcePoint" />
             <mxPoint x="290" y="1550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9hkSe-VIcjxt2wDH14WX-84" connectable="0" parent="9hkSe-VIcjxt2wDH14WX-78" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="$$\text{2. Performance Benchmarking}$$" vertex="1">
+          <mxGeometry relative="1" x="0.8726" y="-2" as="geometry">
+            <mxPoint x="105" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9hkSe-VIcjxt2wDH14WX-81" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;opacity=70;verticalAlign=bottom;spacingBottom=-10;" value="$$\text{Application}$$" vertex="1">
           <mxGeometry height="22.5" width="150" x="67.5" y="1310" as="geometry" />
         </mxCell>
-        <mxCell id="9hkSe-VIcjxt2wDH14WX-82" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;" value="">
-          <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="50" y="1523.75" as="sourcePoint" />
-            <mxPoint x="50.5" y="1451.25" as="targetPoint" />
+        <mxCell id="9hkSe-VIcjxt2wDH14WX-82" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#6a00ff;strokeColor=#3700CC;labelBackgroundColor=none;" value="&lt;span&gt;$$\text{3. Data plane partial offload coupling}$$&lt;/span&gt;">
+          <mxGeometry height="100" relative="1" width="100" x="1" y="-32" as="geometry">
+            <mxPoint x="-12" y="-25" as="offset" />
+            <mxPoint x="50" y="1517.5" as="sourcePoint" />
+            <mxPoint x="50.5" y="1445" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
