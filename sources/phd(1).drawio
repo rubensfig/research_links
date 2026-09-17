@@ -835,7 +835,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="le0_pKvQAOeobgPup_2P" name="qipi">
-    <mxGraphModel dx="728" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1081" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6412,6 +6412,18 @@
         </mxCell>
         <mxCell id="0wLFPtR3Fnf-RBAqYdZm-143" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=14;" value="$$\text{Occupancy}$$" vertex="1">
           <mxGeometry height="40" width="90" x="3314.79" y="2742.22" as="geometry" />
+        </mxCell>
+        <mxCell id="0wLFPtR3Fnf-RBAqYdZm-144" edge="1" parent="1" source="0wLFPtR3Fnf-RBAqYdZm-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="0wLFPtR3Fnf-RBAqYdZm-87">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3613.31" y="2705" />
+            </Array>
+            <mxPoint x="3610" y="2732" as="sourcePoint" />
+            <mxPoint x="3744" y="2772" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0wLFPtR3Fnf-RBAqYdZm-145" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$C\text{ (Completed Packets)}$$" vertex="1">
+          <mxGeometry height="30" width="60" x="3545.6700000000005" y="2680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
