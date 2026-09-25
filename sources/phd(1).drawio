@@ -835,7 +835,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="le0_pKvQAOeobgPup_2P" name="qipi">
-    <mxGraphModel dx="746" dy="411" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1081" dy="596" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5993,10 +5993,10 @@
             <mxPoint x="3558.57" y="2341.45" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="31wvTPDiBEuP3T4j-Rc9-206" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$B_{trans}$$" vertex="1">
+        <mxCell id="31wvTPDiBEuP3T4j-Rc9-206" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$B_{sub}$$" vertex="1">
           <mxGeometry height="30" width="60" x="3505.1400000000003" y="2311.45" as="geometry" />
         </mxCell>
-        <mxCell id="31wvTPDiBEuP3T4j-Rc9-207" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$B_{trans} = min(B_{req}, B_{cap})$$" vertex="1">
+        <mxCell id="31wvTPDiBEuP3T4j-Rc9-207" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$B_{sub} = min(B_{req}, B_{cap})$$" vertex="1">
           <mxGeometry height="30" width="60" x="3352.0400000000004" y="2306.08" as="geometry" />
         </mxCell>
         <mxCell id="31wvTPDiBEuP3T4j-Rc9-208" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$\text{NIC Occupancy Probe}$$" vertex="1">
