@@ -835,7 +835,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="le0_pKvQAOeobgPup_2P" name="qipi">
-    <mxGraphModel dx="746" dy="411" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="2612" dy="1440" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6393,10 +6393,10 @@
             <mxPoint x="1626.57" y="2774.45" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0wLFPtR3Fnf-RBAqYdZm-127" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$iii)B_{trans}$$" vertex="1">
+        <mxCell id="0wLFPtR3Fnf-RBAqYdZm-127" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$iii)B_{tx}$$" vertex="1">
           <mxGeometry height="30" width="60" x="1584.68" y="2748.96" as="geometry" />
         </mxCell>
-        <mxCell id="0wLFPtR3Fnf-RBAqYdZm-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$B_{trans} = min(B_{req}, B_{cap})$$" vertex="1">
+        <mxCell id="0wLFPtR3Fnf-RBAqYdZm-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$B_{tx} = min(B_{req}, B_{cap})$$" vertex="1">
           <mxGeometry height="30" width="60" x="1420.0400000000002" y="2739.08" as="geometry" />
         </mxCell>
         <mxCell id="0wLFPtR3Fnf-RBAqYdZm-129" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=default;fontSize=13;" value="$$iv)\text{ Backpressure}$$" vertex="1">
@@ -6588,10 +6588,10 @@
             <mxPoint x="2246.98" y="2799.01" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0wLFPtR3Fnf-RBAqYdZm-189" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$iii)B_{trans}$$" vertex="1">
+        <mxCell id="0wLFPtR3Fnf-RBAqYdZm-189" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$iii)B_{tx}$$" vertex="1">
           <mxGeometry height="30" width="60" x="2203.27" y="2773.52" as="geometry" />
         </mxCell>
-        <mxCell id="0wLFPtR3Fnf-RBAqYdZm-190" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$B_{trans} = min(B_{req}, B_{cap})$$" vertex="1">
+        <mxCell id="0wLFPtR3Fnf-RBAqYdZm-190" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$B_{tx} = min(B_{req}, B_{cap})$$" vertex="1">
           <mxGeometry height="30" width="60" x="2040.450000000001" y="2763.6400000000003" as="geometry" />
         </mxCell>
         <mxCell id="0wLFPtR3Fnf-RBAqYdZm-192" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=14;strokeWidth=1.5;fillColor=#f5f5f5;strokeColor=#666666;" value="">
@@ -6621,7 +6621,7 @@
         <mxCell id="0wLFPtR3Fnf-RBAqYdZm-202" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="$$&lt;code&gt;&lt;span&gt;B_{rm adm}&lt;/span&gt;&lt;/code&gt;$$" vertex="1">
           <mxGeometry height="40.73" width="169.57" x="4050" y="2340" as="geometry" />
         </mxCell>
-        <mxCell id="0wLFPtR3Fnf-RBAqYdZm-203" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="$$B\_{cap}=\begin{cases}0, &amp;amp; U\ge H\\\max(1,B_{req}/r), &amp;amp; 0 &amp;lt; H-U\le\Delta\\B_{req}, &amp;amp; otherwise \end{cases}$$" vertex="1">
+        <mxCell id="0wLFPtR3Fnf-RBAqYdZm-203" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="$$B\_{cap}=\begin{cases}0, &amp;amp; U\ge H\\H-U, &amp;amp; 0 &amp;lt; H-U\le\Delta\\B_{req}, &amp;amp; otherwise \end{cases}$$" vertex="1">
           <mxGeometry height="30" width="169.57" x="1949.9999999999998" y="2682.67" as="geometry" />
         </mxCell>
         <mxCell id="0wLFPtR3Fnf-RBAqYdZm-208" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=default;fontSize=13;" value="$$iv)\text{ Backpressure}$$" vertex="1">
