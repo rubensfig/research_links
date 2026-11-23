@@ -7018,7 +7018,7 @@
         <mxCell id="-oRmAwiWZfvDlrLfveMY-51" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="$$B_{tx} = min(B_{req}, B_{cap})$$" vertex="1">
           <mxGeometry height="30" width="60" x="3648.67" y="2816.1699999999996" as="geometry" />
         </mxCell>
-        <mxCell id="-oRmAwiWZfvDlrLfveMY-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=default;fontSize=13;" value="$$\text{ Same TxQ \\ drain rate}$$" vertex="1">
+        <mxCell id="-oRmAwiWZfvDlrLfveMY-52" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=default;fontSize=13;" value="$$\text{ Follow TxQ \\ drain rate}$$" vertex="1">
           <mxGeometry height="27.86" width="60" x="3803.31" y="2747.83" as="geometry" />
         </mxCell>
         <mxCell id="-oRmAwiWZfvDlrLfveMY-53" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=14;strokeWidth=1.5;fillColor=#f5f5f5;strokeColor=#666666;" value="">
@@ -7049,7 +7049,7 @@
           <mxGeometry height="30" width="60" x="3554.5099999999998" y="2696.5099999999998" as="geometry" />
         </mxCell>
         <mxCell id="-oRmAwiWZfvDlrLfveMY-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=-4;fontSize=14;fillColor=none;strokeColor=none;dashed=1;dashPattern=8 4 1 4;" value="$$I = Q - C \text{ (Backlog)}$$" vertex="1">
-          <mxGeometry height="16" width="77.52" x="3609.68" y="2736.5199999999995" as="geometry" />
+          <mxGeometry height="16" width="77.52" x="3607.97" y="2736.5199999999995" as="geometry" />
         </mxCell>
         <mxCell id="-oRmAwiWZfvDlrLfveMY-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=14;" value="$$\text{PAB Retry-based controller}$$" vertex="1">
           <mxGeometry height="30" width="60" x="2934.46" y="2696.51" as="geometry" />
